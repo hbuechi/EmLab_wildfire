@@ -1,0 +1,73 @@
+Year,Incident_number,County,Fire_name,Start,Contained,DPA,DPA2,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2012,MMU-7830,Mariposa,River,5/18/2012,5/22/2012,Cal Fire,NA,320,NA,G,Undetermined,0,0,0,0
+2012,MVU-005400,San Diego,Banner 4,5/24/2012,5/29/2012,Cal Fire,NA,5320,NA,G,Undetermined,0,0,0,0
+2012,MMU-008599,Merced,Billy,5/31/2012,5/31/2012,Cal Fire,NA,434,NA,G,Electrical,0,0,0,0
+2012,LAC-134232,Los Angeles,5 Mile,6/8/2012,6/9/2012,Cal Fire,NA,525,NA,GB,Equipment,0,0,0,0
+2012,MMU-009308,Mariposa,Gaines,6/12/2012,6/14/2012,Cal Fire,NA,1700,NA,G,Electrical,0,0,0,0
+2012,FKU-7091,Fresno,Lassen,6/12/2012,6/13/2012,Cal Fire,NA,418,NA,G,Undetermined,0,0,0,0
+2012,RRU-059216,Riverside,Highland,6/16/2012,6/18/2012,Cal Fire,NA,2171,NA,BG,Undetermined,0,0,0,0
+2012,RRU-059775,Riverside,View,6/17/2012,6/18/2012,Cal Fire,NA,375,NA,B,Electrical,0,0,0,0
+2012,MVU-6329,San Diego,Old 2,6/17/2012,6/20/2012,Cal Fire,NA,995,NA,B,Undetermined,2,0,0,0
+2012,SHU-005135,Shasta,Dale,7/5/2012,7/7/2012,Cal Fire,NA,1083,NA,GB,Undetermined,2,5,0,0
+2012,BDU-7678,Inyo,Fish,7/7/2012,7/9/2012,Cal Fire,NA,1103,NA,B,Undetermined,0,0,0,0
+2012,LNU-5038,Colusa,Sites,7/8/2012,7/9/2012,Cal Fire,NA,365,NA,G,Undetermined,0,0,0,0
+2012,LNU-5039,Colusa,Grapevine,7/8/2012,7/12/2012,Cal Fire,NA,1870,NA,B,Undetermined,0,0,0,0
+2012,LNU-5056,Colusa,Rail,7/9/2012,7/12/2012,Cal Fire,NA,1870,NA,B,Undetermined,0,0,0,0
+2012,BEU-3109,Monterey,Turkey,7/9/2012,7/10/2012,Cal Fire,NA,2529,NA,TG,Equipment,0,0,0,0
+2012,TCU-6227,Tuolumne,Seven,7/10/2012,7/11/2012,Cal Fire,NA,840,NA,B,Undetermined,1,0,0,0
+2012,NEU-15060,Placer,Robbers,7/11/2012,7/21/2012,Cal Fire,NA,2650,NA,BT,Arson,8,0,0,0
+2012,SLU-5716,San Luis Obispo,Calf,7/16/2012,7/18/2012,Cal Fire,NA,640,NA,B,Equipment,0,0,0,0
+2012,KRN-22306,Kern,Sand,7/17/2012,7/19/2012,Cal Fire,NA,1428,NA,GB,Equipment,1,0,0,0
+2012,LNU-5495,Yolo,Forest,7/21/2012,7/24/2012,Cal Fire,NA,520,NA,G,Equipment,0,0,0,0
+2012,TGU-5964,Tehama,Paskenta,7/25/2012,7/25/2012,Cal Fire,NA,300,NA,GB,Vehicle,0,0,0,0
+2012,KRN-22306,Kern,Grape,7/28/2012,7/29/2012,Cal Fire,NA,370,NA,G,Undetermined,0,0,0,0
+2012,MEU-5115,Mendocino,North,7/25/2012,7/30/2012,Cal Fire,NA,383,NA,B,Undetermined,0,0,0,0
+2012,RRU-7075254,Riverside,Volcano,8/1/2012,8/5/2012,Cal Fire,NA,356,NA,GB,Equipment,1,0,0,0
+2012,RRU-76402,Riverside,Rushmore,8/4/2012,8/4/2012,Cal Fire,NA,1000,NA,G,Undetermined,0,0,0,0
+2012,MVU-8547,San Diego,Chihuahua 2,8/9/2012,8/12/2012,Cal Fire,NA,2006,NA,B,Lightning,0,0,0,0
+2012,LNU-6335,Lake/Colusa,Wye,8/12/2012,8/18/2012,Cal Fire,NA,2934,NA,B,Undetermined,3,2,0,0
+2012,LNU-6334,Lake/Colusa,Walker,8/12/2012,8/14/2012,Cal Fire,NA,5000,NA,G,Undetermined,0,0,0,0
+2012,MVU-8747,San Diego,Vallecito Lightning Complex,8/13/2012,8/20/2012,Cal Fire,NA,22829,NA,B,Lightning,0,0,0,0
+2012,BTU-8116,Tehama,Mill,8/13/2012,8/23/2012,Cal Fire,NA,1641,NA,TG,Arson,0,0,0,0
+2012,RRU-080142,Riverside,Buck,8/14/2012,8/18/2012,Cal Fire,NA,2681,NA,GB,Lightning,4,0,0,0
+2012,TGU-6696,Tehama/Shasta,Ponderosa,8/18/2012,9/2/2012,Cal Fire,NA,27676,NA,TG,Lightning,133,6,0,0
+2012,RRU-82306,Riverside,Vista,8/20/2012,8/21/2012,Cal Fire,NA,500,NA,G,Equipment,0,0,0,0
+2012,LNU-7072,Colusa,Sixteen Complex,9/4/2012,9/11/2012,Cal Fire,NA,19000,NA,TGB,Undetermined,0,0,0,0
+2012,MEU-6376,Lake,Scotts,9/7/2012,9/14/2012,Cal Fire,NA,4517,NA,B,Campfire,0,0,0,0
+2012,MVU-010383,San Diego,Shockey,9/23/2012,9/27/2012,Cal Fire,NA,2555,NA,B,Undetermined,39,2,0,0
+2012,RRU-96791,Riverside,Range,9/29/2012,10/1/9012,Cal Fire,NA,351,NA,GB,Misc,3,0,0,0
+2012,LNU-008431,Lake,Twenty Nine,10/18/2012,10/21/2012,Cal Fire,NA,300,NA,BT,Electrical,8,0,0,0
+2012,SQF-1384,Tulare,George,6/1/2012,6/15/2012,USFS,NA,NA,1707,TB,UI,0,0,0,0
+2012,LPE-1439,Ventura,Ozena,6/16/2012,6/17/2012,USFS,NA,NA,361,B,UI,0,0,0,0
+2012,SQF-001644,Kern,Gulch,6/19/2012,6/21/2012,USFS,NA,NA,385,BG,Human,1,0,0,0
+2012,LPF-1505,Ventura,Hill,6/23/2012,6/27/2012,USFS,NA,NA,689,B,UL,0,0,0,0
+2012,SHF-2290,Trinity,Flat,7/11/2012,7/17/2012,USFS,NA,NA,1688,TG,UI,0,0,0,0
+2012,MNF-1109,Colusa,Mill,7/7/2012,7/18/2012,USFS,NA,NA,29502,TB,UI,5,0,0,0
+2012,NOD-3016,Lassen,Spanish,7/18/2012,7/21/2012,USFS,NA,NA,1169,GB,N/A,0,0,0,0
+2012,KNP-0072,Fresno,Woods Creek,7/15/2012,7/21/2012,USFS,NA,NA,325,T,Lightning,0,0,0,0
+2012,PNF-00998,Plumas,Peak,7/29/2012,8/2/2012,USFS,NA,NA,800,TB,UI,0,0,0,0
+2012,SHF-2521,Shasta,Salt Creek,8/1/2012,8/4/2012,USFS,NA,NA,980,TBG,UI,1,0,0,0
+2012,KNF-5426,Siskiyou,Dillon,8/3/2012,8/7/2012,USFS,NA,NA,318,T,Human,0,0,0,0
+2012,MDF-0429,Modoc,Lake Complex,8/5/2012,8/9/2012,USFS,NA,NA,1668,TGB,Lightning,0,0,0,0
+2012,SQF-2476,Kern,Piute Complex,8/4/2012,8/11/2012,USFS,NA,NA,1783,TGB,Lightning,0,0,0,0
+2012,SNF-1940,Fresno,Bear,8/5/2012,8/12/2012,USFS,NA,NA,835,TB,Lightning,0,0,0,0
+2012,OVD-942,Mono,Indian,8/8/2012,8/15/2012,USFS,NA,NA,12574,TGB,LIghtning,0,0,0,0
+2012,LNP-3115,Shasta,Reading,7/23/2012,8/21/2012,NPS,NA,NA,28079,T,Lightning,0,0,0,0
+2012,NOD-3596,Modoc,Nelson (W-1),8/17/2012,8/21/2012,NPS,BLM,NA,3661,GB,Lightning,0,0,0,0
+2012,SHF-2735,Shasta,Bagley Complex,8/18/2012,8/22/2012,NPS,NA,NA,1000,T,Lightning,0,0,0,0
+2012,CDD-11542,Kern,Jawbone Complex,8/10/2012,8/22/2012,NPS,BLM,NA,1218,TB,Lightning,19,9,0,0
+2012,MDF-521,Modoc,Antelope,8/21/2012,8/25/2012,NPS,NA,NA,650,TG,Lightning,0,0,0,0
+2012,FWF-120680,Modoc,Barrypoint (CA land),8/6/2012,8/28/2012,USFS,NA,NA,38394,T,Lightning,3,0,0,0
+2012,NOD-3490,Lassen,Rush,8/12/2012,8/31/2012,NPS,BLM,NA,271911,GB,Lightning,0,1,0,0
+2012,STF-2954,Calaveras,Ramsey,8/11/2012,8/31/2012,USFS,NA,NA,1137,T,Campfire,0,0,0,0
+2012,PNF-1001,Plumas/Lassen,Chips,7/29/2012,8/31/2012,USFS,NA,NA,75217,TBG,UI,9,0,0,0
+2012,KNF-5659,Siskiyou,Fort Complex,8/5/2012,9/10/2012,USFS,NA,NA,23653,TB,LIghtning,0,0,0,0
+2012,ANF-4803,Los Angeles,Williams,9/2/2012,9/11/2012,USFS,NA,NA,4192,B,UI,0,0,0,0
+2012,SHF-2894,Trinity,Stafford,9/5/2012,9/13/2012,USFS,NA,NA,4407,T,UI,0,0,0,0
+2012,SHF-2922,Shasta,Ward,9/11/2012,9/14/2012,USFS,NA,NA,550,T,UI,0,0,0,0
+2012,SHF-2744,Shasta,Bagley,8/18/2012,9/15/2012,USFS,NA,NA,46011,T,Lightning,0,0,0,0
+2012,MNF-1446,Mendocino,North Pass,8/18/2012,9/16/2012,USFS,NA,NA,41983,T,Lightning,26,4,0,0
+2012,NOD-3916,Lassen,Likely,9/5/2012,9/14/2012,USFS,NA,NA,9838,GTB,Human,0,0,0,0
+2012,DVP-11569,Inyo,South Complex,8/10/2012,10/16/2012,USFS,NA,NA,453,B,Lightning,0,0,0,0
+2012,BDF-16430,San Bernardino,Devore,11/5/2012,11/6/2012,USFS,NA,NA,335,GB,UI,1,0,0,0
+2012,YNP-1473,Mariposa,Cascade,6/16/2012,11/26/2012,NPS,NA,NA,1705,T,Lightning,0,0,0,0

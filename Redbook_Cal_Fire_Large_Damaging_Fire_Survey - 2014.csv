@@ -1,0 +1,53 @@
+Year,Incident_number,County,Fire_name,Start,Contained,DPA,Other_acres_burned,CDF_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2014,HUU-81,Humboldt,Red,1/4/2014,1/12/2014,Cal Fire,NA,333,TB,Debris Burning,0,0,0,0
+2014,RRU-27677,Riverside,Pierce,3/15/2014,3/16/2014,Local,350,NA,BG,Arson,0,0,0,0
+2014,MVU-10055,San Diego,Bernardo,5/13/2014,5/21/2014,Local,1548,NA,BG,Equipment Use,0,0,0,0
+2014,MVU-10242,San Diego,San Diego Complex,5/14/2014,5/22/2014,Cal Fire,NA,2438,B,Undetermined,48,5,0,0
+2014,MMU-8974,Mariposa,Hunter,5/26/2014,6/4/2014,Cal Fire,NA,677,B,Undetermined,3,0,0,0
+2014,TCU-4987,Tuolumne,59,6/4/2014,6/9/2014,Cal Fire,NA,402,G,Vehicle,0,0,0,0
+2014,MMU-10597,Merced,Gun Club,6/19/2014,6/19/2014,Cal Fire,NA,400,G,Debris Burning,0,0,0,0
+2014,LNU-5333,Napa,Butts,7/1/2014,7/10/2014,Cal Fire,NA,4300,G,Equipment Use,9,0,0,0
+2014,LNU-5465,Yolo,Monticello,7/4/2014,7/13/2014,Cal Fire,NA,6488,G,Human,0,0,0,0
+2014,SHU-6248,Shasta,Bully,7/11/2014,7/23/2014,Cal Fire,NA,12661,G,Vehicle,18,1,0,1
+2014,MMU-12965,Merced,Gun Club,7/24/2014,8/2/2014,Cal Fire,NA,422,G,Human,0,0,0,0
+2014,AEU-18237,El Dorado,Sand,7/25/2014,8/3/2014,Cal Fire,NA,4240,TB,Vehicle,47,0,0,0
+2014,MMU-13131,Merced,Kelley,7/26/2014,7/26/2014,Cal Fire,NA,1000,GW,Undetermined,0,0,0,0
+2014,BTU-10700,Butte,Web,7/29/2014,8/27/2014,Cal Fire,NA,378,TB,Equipment Use,0,0,0,0
+2014,LMU-3472,Modoc,Day,7/30/2014,8/13/2014,Cal Fire,NA,13153,TB,Lightning,10,0,0,0
+2014,MEU-7202,Mendocino,Lodge Complex,7/30/2014,9/21/2014,Cal Fire,NA,12535,TB,Lightning,0,0,0,0
+2014,LNU-6737,Yolo,Thirty One 2,8/9/2014,8/9/2014,Cal Fire,NA,370,G,Vehicle,0,0,0,0
+2014,MMU-14633,Madera,Junction,8/18/2014,8/25/2014,Cal Fire,NA,612,B,Undetermined,47,6,0,0
+2014,SHU-7763,Trinity,Oregon,8/24/2014,8/30/2014,Cal Fire,NA,461,BG,Vehicle,1,0,0,0
+2014,SHU-8322,Shasta,Gulch,9/10/2014,9/15/2014,Cal Fire,NA,1300,B,Vehicle,4,0,0,0
+2014,MEU-8882,Mendocino,Black,9/13/2014,9/17/2014,Cal Fire,NA,403,B,Equipment Use,11,0,0,0
+2014,MMU-16429,Madera,Courtney,9/14/2014,9/22/2014,Cal Fire,NA,320,B,Undetermined,49,7,0,0
+2014,BTU-13428,Butte,Nelson,9/18/2014,9/21/2014,Cal Fire,NA,500,G,Electrical Power,0,0,0,0
+2014,NEU-23454,Placer,Applegate,10/8/2014,10/22/2014,Cal Fire,NA,459,TB,Undetermined,10,0,0,0
+2014,LNF-27,Tehama,Campbell,1/2/2014,1/10/2014,USFS,865,NA,TB,Human,0,0,0,0
+2014,SQF-120,Tulare,Soda,1/14/2014,4/19/2014,USFS,1612,NA,TB,Undetermined,0,0,0,0
+2014,ANF-231,Los Angeles,Colby,1/16/2014,1/24/2014,USFS,1952,NA,BG,Undetermined,15,8,0,0
+2014,BDF-6646,San Bernardino,Etiwanda,4/30/2014,5/1/2014,USFS,2200,NA,BG,Human,0,0,0,0
+2014,SBC-5573,Santa Barbara,Miguelito,5/13/2014,5/16/2014,Local,632,NA,B,Undetermined,0,0,0,0
+2014,CBD-3777,San Diego,Poinsettia,5/14/2014,5/17/2014,Local,600,NA,B,Undetermined,28,0,0,0
+2014,MCP-1363,San Diego,Basilone Complex,5/17/2014,5/19/2014,MIL,21240,NA,BG,Undetermined,0,1,0,0
+2014,SQF-1850,Kern,Shirley,6/13/2014,6/21/2014,USFS,2545,NA,TG,Undetermined,4,0,0,0
+2014,FHL-1693,Monterey,Stony,6/19/2014,6/22/2014,MIL,4840,NA,TG,Human,0,0,0,0
+2014,FHL-1818,Monterey,Loop,6/30/2014,6/30/2014,MIL,500,NA,BG,Undetermined,0,0,0,0
+2014,MDF-344,Modoc,Modoc July Complex,7/1/2014,7/7/2014,USFS,2566,NA,B,Lightning,0,0,0,0
+2014,SQF-2381,Kern,Nicolls,7/11/2014,7/19/2014,USFS,1680,NA,T,Undetermined,0,0,0,0
+2014,YNP-57,Mariposa,Dark Hole,7/16/2014,8/20/2014,NPS,1077,NA,TB,Lightning,0,0,0,0
+2014,YNP-83,Mariposa,El Portal,7/26/2014,8/4/2014,NPS,4689,NA,B,Undetermined,2,2,0,0
+2014,SNF-1619,Madera,French,7/28/2014,8/18/2014,USFS,13838,NA,TB,Human,0,0,0,0
+2014,LNF-3479,Shasta,Bald,7/30/2014,8/16/2014,USFS,39736,NA,B,Lightning,0,0,0,0
+2014,SHF-2423,Trinity,Coffee Complex,7/30/2014,8/31/2014,USFS,6258,NA,TB,Lightning,0,0,0,0
+2014,KNF-5497,Siskiyou,KNF Beaver,7/30/2014,8/30/2014,USFS,32469,NA,T,Lightning,6,0,0,0
+2014,KNF-5575,Siskiyou,Little Deer,7/31/2014,8/11/2014,USFS,5503,NA,TB,Lightning,1,0,0,0
+2014,LNF-3502,Shasta,Eiler,7/31/2014,8/24/2014,USFS,32416,NA,TB,Undetermined,21,0,0,0
+2014,KNF-5564,Siskiyou,July Complex,8/3/2014,9/25/2014,USFS,50042,NA,T,Lightning,2,0,0,0
+2014,KNF-5956,Siskiyou,Happy Camp Complex,8/14/2014,10/31/2014,USFS,134056,NA,T,Lightning,6,2,0,0
+2014,YNP-101,Mariposa,Meadow,8/15/2014,9/29/2014,NPS,4772,NA,TB,Undetermined,0,0,0,0
+2014,CND-3148,Kern,Way,8/18/2014,8/28/2014,USFS,4045,NA,TB,Undetermined,12,4,0,0
+2014,CNF-2873,Orange,Silverado,9/12/2014,9/20/2014,USFS,985,NA,B,Undetermined,0,0,0,0
+2014,ENF-23461,El Dorado,King,9/13/2014,10/9/2014,USFS,97717,NA,TB,Human,80,1,0,0
+2014,SWR-1266,Glenn,Tract 17,9/17/2014,9/19/2014,FWS,395,NA,G,Human,0,0,0,0
+2014,YNP-124,Mariposa,Dog Rock,10/7/2014,10/12/2014,NPS,311,NA,B,Undetermined,0,0,0,0

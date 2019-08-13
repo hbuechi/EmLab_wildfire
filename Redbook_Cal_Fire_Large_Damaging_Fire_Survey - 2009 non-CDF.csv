@@ -1,0 +1,25 @@
+Year,Incident_number,County,County2,Fire_name,Start,Contained,DPA,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2009,LPF-1479,Santa Barbara,NA,Jesusita,5/5/2009,5/20/2009,USFS,8733,B,Equipment Use,160,17,0,0
+2009,JTP-7519,Riverside,NA,Lost Horse,5/24/2009,6/2/2009,NPS,450,G,Miscellaneous Human,0,0,0,0
+2009,YNP-1510,Mariposa,NA,Grouse,5/30/2009,8/12/2009,NPS,3007,T,Lightning,0,0,0,0
+2009,YNP-1659,Tuolumne,NA,Harden,6/8/2009,8/9/2009,NPS,1654,T,Lightning,0,0,0,0
+2009,SQF-2025,Tulare,NA,Shotgun,6/17/2009,7/11/2009,USFS,900,T,Lightning,0,0,0,0
+2009,KRN-18041,Kern,NA,Parkway,6/22/2009,6/22/2009,CC,690,G,Equipment Use,0,0,0,0
+2009,SQF-2139,Tulare,NA,Lion,6/30/2009,8/21/2009,USFS,2577,TB,Lightning,0,0,0,0
+2009,SQF-2139,Tulare,NA,Granite,6/30/2009,8/21/2009,USFS,1417,TB,Lightning,0,0,0,0
+2009,SRF-1131,Trinity,Humboldt,Redspot,7/1/2009,7/24/2009,USFS,1120,T,Lightning,0,0,0,0
+2009,SRF-1131,Trinity,Humboldt,Backbone,7/7/2009,7/24/2009,USFS,5065,T,Lightning,0,0,1,0
+2009,MCP-091662,San Diego,NA,Yankee,7/11/2009,7/14/2009,MIL,2200,BG,Unidentified,0,0,0,0
+2009,LPF-2787,Ventura,NA,Sulphur,7/11/2009,7/13/2009,USFS,343,BG,Miscellaneous,0,0,0,0
+2009,ANF-2787,Los Angeles,NA,Osito,7/13/2009,7/15/2009,USFS,304,B,Equipment Use,0,0,0,0
+2009,INF-885,Inyo,NA,Fork,7/18/2009,7/27/2009,USFS,3268,T,Lightning,0,0,0,0
+2009,KNF-4692,Siskiyou,NA,Tennant,7/19/2009,7/27/2009,USFS,3226,TB,Equipment Use,3,0,0,0
+2009,STF-2207,Tuolumne,NA,Knight,7/26/2009,8/11/2009,USFS,6130,TB,Miscellaneous,0,0,0,0
+2009,YNP-2968,Tuolumne,NA,Wildcat,7/29/2009,8/31/2009,NPS,1255,T,Lightning,0,0,0,0
+2009,NOD-3741,Lassen,NA,Dodge Complex (Six Fires),8/1/2009,8/3/2009,BLM,1600,BG,Lightning,0,0,0,0
+2009,LPF-2536,Monterey,NA,Ponderosa,8/1/2009,8/7/2009,USFS,458,B,Miscellaneous,0,0,0,0
+2009,LNF-3923,Shasta,NA,Sugar Loaf,8/1/2009,8/12/2009,USFS,9356,T,Lightning,0,0,0,0
+2009,LNF-3874,Shasta,NA,Brown (H-31),8/2/2009,8/12/2009,USFS,1865,T,Lightning,0,0,0,0
+2009,LNP-3883,Shasta,NA,Fairfield,8/3/2009,9/30/2009,NPS,1664,T,Lightning,0,0,0,0
+2009,LPF-2631,Santa Barbara,NA,La Brea,8/8/2009,8/23/2009,USFS,91622,T,Campfire,2,0,0,0
+2009,PNF-782,Plumas,NA,Elephant,8/16/2009,8/31/2009,USFS,445,T,Miscellaneous,0,0,0,0

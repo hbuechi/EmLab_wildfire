@@ -1,0 +1,55 @@
+Year,Incident_number,County,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2013,LNU-477,Lake,Becks,1/22/2013,1/23/2013,Cal Fire,335,NA,B,Debris Burning,0,0,0,0
+2013,BDU-2372,Inyo,River,2/24/2013,2/28/2013,Cal Fire,407,NA,BG,Vehicle,0,0,0,0
+2013,RRU-22083,Riverside,Jurupa,2/28/2013,3/2/2013,Cal Fire,300,NA,T,Undetermined,0,2,0,0
+2013,BTU-5648,Tehama,Panther,5/1/2013,5/9/2013,Cal Fire,6896,NA,TB,Human,0,0,0,0
+2013,RRU-44298,Riverside,Summit,5/1/2013,5/4/2013,Cal Fire,2956,NA,BG,Undetermined,2,0,0,0
+2013,VNC-12193,Ventura,Springs,5/2/2013,5/9/2013,CC,NA,24251,BG,UI,10,12,0,0
+2013,BEU-2109,San Benito,Tres Pinos,5/3/2013,5/4/2013,Cal Fire,354,NA,G,Equipment,0,0,0,0
+2013,MEU-3381,Mendocino,Foster,5/3/2013,5/5/2013,Cal Fire,300,NA,T,Debris Burning,0,0,0,0
+2013,RRU-45459,Riverside,Gorgonio,5/4/2013,5/4/2013,Cal Fire,650,NA,BG,Undetermined,0,0,0,0
+2013,LAC-118144,Los Angeles,Lake,5/17/2013,5/20/2013,CC,NA,712,BG,Human,0,0,0,0
+2013,MVU-10345,San Diego,Felipe,5/23/2013,5/29/2013,Cal Fire,2650,NA,BG,Human,0,0,0,0
+2013,MMU-8520,Merced,River,5/26/2013,5/27/2013,Cal Fire,450,NA,BG,Human,0,0,0,0
+2013,MVU-11025,San Diego,General,5/26/2013,5/31/2013,Cal Fire,2500,NA,B,Human,0,0,0,0
+2013,TCU-4607,San Joaquin,Shelton,5/30/2013,5/30/2013,Cal Fire,303,NA,G,Equipment,0,0,0,0
+2013,MMU-9861,Madera,Rolling,6/16/2013,6/15/2013,Cal Fire,480,NA,G,Vehicle,1,0,0,0
+2013,BDU-7912,San Bernardino,Mill,6/28/2013,7/2/2013,Cal Fire,534,NA,BG,Human,0,3,0,0
+2013,SCU-3899,Contra Costa,Kirker,7/1/2013,7/2/2013,Cal Fire,492,NA,TG,Electrical Power,2,0,0,0
+2013,LMU-2700,Modoc,Fox,7/3/2013,7/7/2013,Cal Fire,502,NA,G,Lightning,0,0,0,0
+2013,MVU-14084,San Diego,Chariot,7/6/2013,7/15/2013,Cal Fire,7055,NA,TB,Undetermined,149,9,0,0
+2013,RRU-71832,Riverside,Mountain,7/15/2013,7/31/2013,Cal Fire,27531,NA,TB,Electrical Power,23,1,0,0
+2013,KRN-1323633,Kern,Rancho,7/19/2013,7/22/2013,CC,NA,500,BG,Undetermined,0,0,0,0
+2013,KRN-1324091,Kern,Water,7/23/2013,7/25/2013,CC,NA,612,W,Human,0,0,0,0
+2013,RRU-79781,Riverside,Silver,8/7/2013,8/15/2013,Cal Fire,20292,NA,B,Undetermined,48,8,0,0
+2013,BTU-10969,Butte,Swedes,8/16/2013,8/22/2013,Cal Fire,2264,NA,BG,Equipment,8,0,0,0
+2013,TGU-6768,Tehama,Deer,8/23/2013,8/26/2013,Cal Fire,11429,NA,BG,Electrical Power,0,0,0,0
+2013,SCU-5452,Contra Costa,Morgan,9/8/2013,9/14/2013,Cal Fire,3100,NA,G,Human,0,0,0,0
+2013,SHU-8265,Shasta,Clover,9/9/2013,9/15/2013,Cal Fire,8073,NA,B,Undetermined,196,15,0,1
+2013,LNU-8566,Napa,Putah,10/3/2013,10/4/2013,Cal Fire,376,NA,G,Undetermined,0,0,0,0
+2013,BTU-13464,Butte,Summit,10/4/2013,10/5/2013,Cal Fire,305,NA,BG,Miscellaneous,54,6,0,0
+2013,LNU-10188,Sonoma,McCabe,11/22/2013,11/28/2013,Cal Fire,3505,NA,G,Electrical Power,1,0,0,0
+2013,LPF-1281,Kern,Grand,5/15/2013,5/22/2013,USFS,NA,4346,BT,UI,0,0,0,0
+2013,LPF-1473,Santa Barbara,White,5/27/2013,6/5/2013,USFS,NA,1984,BG,Human,0,1,0,0
+2013,ANF-2297,Los Angeles,Powerhouse,5/30/2013,6/10/2013,USFS,NA,30274,BT,UI,58,4,0,0
+2013,LPF-1535,San Luis Obispo,Branch,6/1/2013,6/4/2013,USFS,NA,486,BG,UI,0,0,0,0
+2013,BDF-8526,Riverside,Hathaway,6/9/2013,10/15/2013,USFS,NA,3870,B,UI,1,0,0,0
+2013,SNF-1216,Mariposa,Carstens,6/16/2013,6/26/2013,USFS,NA,1708,T,Human,0,0,0,0
+2013,ENF-16230,El Dorado,Kyburz,7/8/2013,7/11/2013,USFS,NA,572,TB,Human,2,0,0,0
+2013,SNF-1732,Fresno,Aspen,7/22/2013,9/8/2013,USFS,NA,22992,TB,Lightning,0,0,0,0
+2013,SRF-1373,Humboldt,Dance,7/29/2013,8/2/2013,USFS,NA,577,TB,UI,3,0,0,0
+2013,KNF-5949,Siskiyou,Forks Complex,7/31/2013,10/1/2013,USFS,NA,37246,TB,Human,0,0,0,0
+2013,CNF-2512,Riverside,Falls,8/5/2013,8/9/2013,USFS,NA,1383,BG,UI,0,2,0,0
+2013,STF-2613,Tuolumne,Power,8/5/2013,8/13/2013,USFS,NA,1070,B,UI,0,0,0,0
+2013,SRF-1486,Humboldt,Corral Complex,8/10/2013,10/2/2013,USFS,NA,12503,TB,Lightning,0,0,0,0
+2013,TNF-1562,Placer,American,8/11/2013,8/29/2013,USFS,NA,27440,T,UI,5,2,0,0
+2013,STF-2857,Tuolumne,Rim,8/17/2013,10/27/2013,USFS,NA,257314,TB,UI,112,7,0,0
+2013,SQF-3229,Kern,Shirley Complex,8/18/2013,8/22/2013,USFS,NA,794,T,Lightning,0,0,0,0
+2013,PNF-1324,Plumas,Hough Complex,8/18/2013,8/24/2013,USFS,NA,513,TB,Lightning,0,0,0,0
+2013,BDF-11417,San Bernardino,Gobblers,8/20/2013,8/30/2013,USFS,NA,413,TG,Lightning,0,0,0,0
+2013,FHL-2679,Monterey,Mission,8/22/2013,8/25/2013,USFS,NA,4500,BG,Human,0,0,0,0
+2013,SQF-3295,Tulare,Fish,8/23/2013,9/5/2013,USFS,NA,2060,T,Lightning,0,0,0,0
+2013,KNP-113,Fresno,Windy Peak,8/23/2013,10/20/2013,USFS,NA,681,TB,Lightning,0,0,0,0
+2013,MCP-3197,San Diego,Deluz,10/5/2013,10/9/2013,MIL,NA,2236,BG,UI,0,0,0,0
+2013,MNF-1729,Lake,Highglade,11/23/2013,11/23/2013,USFS,NA,305,B,UI,0,0,0,0
+2013,LPF-3810,Monterey,Pfeiffer,12/16/2013,12/16/2013,USFS,NA,917,B,UI,38,0,0,0

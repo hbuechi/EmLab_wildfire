@@ -1,0 +1,262 @@
+---
+title: "Cleaning Redbook data"
+author: "Hanna Buechi"
+date: "8/6/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+See Google document for notes and more details.
+
+Plan:
+
+1) Standardize column names by hand via in Google Drive
+3) Upload each csv to github folder
+2) Write for loop to add new columns (https://stackoverflow.com/questions/45857787/adding-column-if-it-does-not-exist)
+4) Bind all csv's together into a single dataframe (https://stackoverflow.com/questions/2851327/convert-a-list-of-data-frames-into-one-data-frame)
+
+Wrangling single large dataframe:
+
+1) Change "Cal Fire" to "CDF" with recode()
+2) Standardize Veg_type
+3) Standardize Cause
+      Tabulate "Cause" possibilities --> little table function (ESM 244 HW on my laptop) OR count(dataframe, "column heading")
+4)** Add column indicating (1) for Destroyed_structures may include damaged structures (ex. 2007, 2008a) - if/then by year
+5)** Add column indicating (1) for Firefighter_fatalities includes all known fatalities (only 1987)
+
+
+```{r data_packages, message=FALSE}
+
+library(tidyverse)
+library(tibble)
+library(plyr) # for rbind.fill()
+library(readr)
+library(lubridate)
+
+redbook_1984 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1984.csv")
+redbook_1985 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1985.csv")
+redbook_1986 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1986.csv")
+redbook_1987 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1987.csv")
+redbook_1988 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1988.csv")
+redbook_1989 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1989.csv")
+redbook_1990 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1990.csv")
+redbook_1991 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1991.csv")
+redbook_1992 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1992.csv")
+redbook_1993 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1993.csv")
+redbook_1994 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1994.csv")
+redbook_1995 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1995.csv")
+redbook_1996 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1996.csv")
+redbook_1997 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1997.csv")
+redbook_1998 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1998.csv")
+redbook_1999 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 1999.csv")
+redbook_2000 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2000.csv")
+redbook_2001 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2001.csv")
+redbook_2002 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2002.csv")
+redbook_2003 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2003.csv")
+redbook_2004 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2004.csv")
+redbook_2005 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2005.csv")
+redbook_2006 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2006.csv")
+redbook_2007 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2007.csv")
+redbook_2008a <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2008.csv")
+redbook_2008b <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2008 non-CDF.csv")
+redbook_2009a <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2009.csv")
+redbook_2009b <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2009 non-CDF.csv")
+redbook_2010 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2010.csv")
+redbook_2011 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2011.csv")
+redbook_2012 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2012.csv")
+redbook_2013 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2013.csv")
+redbook_2014 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2014.csv")
+redbook_2015 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2015.csv")
+redbook_2016 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2016.csv")
+redbook_2017 <- read_csv("Redbook_Cal_Fire_Large_Damaging_Fire_Survey - 2017.csv")
+
+cdf_fire_perimeters <- read_csv("CDF_fire_perimeters_atttable.csv")
+
+```
+
+```{r add_column_loop}
+
+# I need to add columns to most, if not all, of the Cal Fire dataframes so that they can be bound together into a single dataframe
+
+list <- list(redbook_1984, redbook_1985, redbook_1986, redbook_1987, redbook_1988, redbook_1989, redbook_1990, redbook_1991, redbook_1992, redbook_1993, redbook_1994, redbook_1995, redbook_1996, redbook_1997, redbook_1998, redbook_1999, redbook_2000, redbook_2001, redbook_2002, redbook_2003, redbook_2004, redbook_2005, redbook_2006, redbook_2007, redbook_2008a, redbook_2008b, redbook_2009a, redbook_2009b, redbook_2010, redbook_2011, redbook_2012, redbook_2013, redbook_2014, redbook_2015, redbook_2016, redbook_2017) # list of dfs for the for loop
+
+cols <- c(Incident_number = NA_real_, Region = NA_real_, Ranger_unit = NA_real_, Ranger_unit2 = NA_real_, National_forest = NA_character_, County = NA_real_, County2 = NA_real_, County3 = NA_real_, Fire_name2 = NA_real_, DPA = NA_real_, DPA2 = NA_real_, CDF_acres_burned = NA_real_, Other_acres_burned = NA_real_, Veg_type = NA_real_, Cause = NA_real_, Destroyed_structures = NA_real_, Damaged_structures = NA_real_, Firefighter_fatalities = NA_real_, Civilian_fatalities = NA_real_) # vector of column headings to be populated with NAs if they are being added
+
+for (i in 1:length(list)){
+ list[[i]] <- add_column(list[[i]], !!!cols[!names(cols) %in% names(list[[i]])])
+}
+
+calfire_data <- rbind.fill(list) # binds the list of dataframes together
+
+#write_csv(calfire_data, path = "calfire_data.csv") # check to make sure it looks good in Excel (easier to scroll quickly)
+
+```
+
+```{r classes}
+
+#lapply(calfire_data, class) # check the class of each column in the dataframe and change as needed
+
+calfire_data$Cause <- as.character(calfire_data$Cause) # this vector was logical...
+calfire_data$CDF_acres_burned <- as.numeric(calfire_data$CDF_acres_burned)
+calfire_data$Other_acres_burned <- as.numeric(calfire_data$Other_acres_burned)
+calfire_data$Destroyed_structures <- as.numeric(calfire_data$Destroyed_structures)
+calfire_data$Damaged_structures <- as.numeric(calfire_data$Damaged_structures)
+calfire_data$Firefighter_fatalities <- as.numeric(calfire_data$Firefighter_fatalities)
+calfire_data$Civilian_fatalities <- as.numeric(calfire_data$Civilian_fatalities)
+calfire_data$Start <- as.Date(calfire_data$Start)
+calfire_data$Contained <- as.Date(calfire_data$Contained)
+
+```
+
+
+
+```{r standardize_veg_CDF}
+
+# check out all of the values for Veg_type and DPA, standardize as needed. I'm sure this could be made into shorter code, but I didn't now how. See Google Drive for metadata.
+
+#unique(calfire_data$Veg_type)
+#unique(calfire_data$DPA2)
+
+calfire_data <- calfire_data %>% 
+  mutate(DPA=recode(DPA, "Cal Fire"="CDF", "CalFire"="CDF")) %>% 
+  mutate(Veg_type=recode(Veg_type, "CONIFERS"="C")) %>%
+  mutate(Veg_type=recode(Veg_type, "G/AGPROD"="GA")) %>%
+  mutate(Veg_type=recode(Veg_type, "Timber"="T")) %>%
+  mutate(Veg_type=recode(Veg_type, "Brush"="B")) %>%
+  mutate(Veg_type=recode(Veg_type, "Grass, Brush"="GB")) %>%
+  mutate(Veg_type=recode(Veg_type, "Brush, Grass"="BG")) %>%
+  mutate(Veg_type=recode(Veg_type, "Woodland"="W")) %>%
+  mutate(Veg_type=recode(Veg_type, "Brush, Grass, Timber"="BGT")) %>%
+  mutate(Veg_type=recode(Veg_type, "Grass"="G")) %>%
+  mutate(Veg_type=recode(Veg_type, "Timber, Grass"="TG")) %>%
+  mutate(Veg_type=recode(Veg_type, "Timber, Brush, Grass"="TBG")) %>%
+  mutate(Veg_type=recode(Veg_type, "Unknown"="U")) %>%
+  mutate(Veg_type=recode(Veg_type, "Timber, Woodland"="TW")) %>%
+  mutate(Veg_type=recode(Veg_type, "Timber, Brush"="TB")) %>%
+  mutate(Veg_type=recode(Veg_type, "Brush, Timber"="BT")) %>%
+  mutate(Veg_type=recode(Veg_type, "Timer, Brush"="TB")) %>% 
+  mutate(Veg_type=recode(Veg_type, "BGAP"="BGA")) %>%
+  mutate(Veg_type=recode(Veg_type, "WBGAP"="WBGA")) %>%
+  mutate(Veg_type=recode(Veg_type, "WAP"="WA")) %>%
+  mutate(Veg_type=recode(Veg_type, "TWAP"="TWA")) %>%
+  mutate(Veg_type=recode(Veg_type, "BAP"="BA")) %>%
+  mutate(Veg_type=recode(Veg_type, "TGWAPB"="TGWAB")) %>%
+  mutate(Veg_type=recode(Veg_type, "GAPB"="GAB"))
+
+# Figure out a way to do this by "connecting" two dfs
+
+```
+
+```{r standardize_cause}
+
+# same notes as above, but there are some causes that I haven't standardized yet. See list at the bottom of this chunk.
+
+#unique(calfire_data$Cause)
+
+calfire_data <- calfire_data %>% 
+  mutate(Cause=recode(Cause, "Equip. Use"="Equipment use")) %>% 
+  mutate(Cause=recode(Cause, "N/A"="NA")) %>%   
+  mutate(Cause=recode(Cause, "Cmpr."="Campfire")) %>%
+  mutate(Cause=recode(Cause, "Smkr."="Smoking")) %>% 
+  mutate(Cause=recode(Cause, "Misc."="Misc")) %>% 
+  mutate(Cause=recode(Cause, "Elec. Power"="Electrical power")) %>% 
+  mutate(Cause=recode(Cause, "P/W/F"="Playing with fire")) %>% 
+  mutate(Cause=recode(Cause, "Ltng."="Lightning")) %>% 
+  mutate(Cause=recode(Cause, "Smkg."="Smoking")) %>% 
+  mutate(Cause=recode(Cause, "Play./W/Fire"="Playing with fire")) %>% 
+  mutate(Cause=recode(Cause, "Playing/W Fire"="Playing with fire")) %>% 
+  mutate(Cause=recode(Cause, "Miscellaneous"="Misc")) %>% 
+  mutate(Cause=recode(Cause, "Equip."="Equipment use")) %>% 
+  mutate(Cause=recode(Cause, "Play w/fire"="Playing with fire")) %>% 
+  mutate(Cause=recode(Cause, "Power"="Electrical power")) %>%
+  mutate(Cause=recode(Cause, "Undet."="Undetermined")) %>%
+  mutate(Cause=recode(Cause, "Smoker"="Smoking")) %>%
+  mutate(Cause=recode(Cause, "Play/W/Fire"="Playing with fire")) %>%
+  mutate(Cause=recode(Cause, "Arcing Pwerline"="Powerlines")) %>%
+  mutate(Cause=recode(Cause, "Powerline"="Powerlines")) %>%
+  mutate(Cause=recode(Cause, "Electrical Pwr"="Electrical power")) %>%
+  mutate(Cause=recode(Cause, "Exposure Fire"="Exposure")) %>%
+  mutate(Cause=recode(Cause, "Equipment"="Equipment use")) %>%
+  mutate(Cause=recode(Cause, "Elec. Pow."="Electrical power")) %>%
+  mutate(Cause=recode(Cause, "Munition"="Shooting")) %>%
+  mutate(Cause=recode(Cause, "PWF"="Playing with fire")) %>%
+  mutate(Cause=recode(Cause, "Elect. Power"="Electrical power")) %>%
+  mutate(Cause=recode(Cause, "Under Inv."="Under investigation")) %>%
+  mutate(Cause=recode(Cause, "Lawn Mower"="Equipment use")) %>%
+  mutate(Cause=recode(Cause, "Under Invest."="Under investigation")) %>%
+  mutate(Cause=recode(Cause, "Shooter"="Shooting")) %>%
+  mutate(Cause=recode(Cause, "Welding"="Equipment use")) %>%
+  mutate(Cause=recode(Cause, "P-W-F"="Playing with fire")) %>%
+  mutate(Cause=recode(Cause, "Inidentified"="Unidentified")) %>%
+  mutate(Cause=recode(Cause, "Miscellaneous Human"="Misc")) %>%
+  mutate(Cause=recode(Cause, "Other Cause"="Other")) %>%
+  mutate(Cause=recode(Cause, "Electrical"="Electrical power")) %>%
+  mutate(Cause=recode(Cause, "UI"="Unidentified")) %>%
+  mutate(Cause=recode(Cause, "LIghtning"="Lightning")) %>%
+  mutate(Cause=recode(Cause, "Electrical Power"="Electrical power")) %>%
+  mutate(Cause=recode(Cause, "Playing with Fire"="Playing with fire"))
+
+# Rekindle debris? Equip. RR? Exposure? VMP Burn? UL? Rekindle? Control Burn? Hostile Fire? Escape Control? Debris Burning? Human? Structure? Debris, veg burn? Incediary? Open Outdoors? Miscellaneous Human? Misuse of Fire?
+  
+# Figure out a way to do this by "connecting" two dfs
+
+```
+
+```{r fire_names}
+
+# Check out the common fires.
+
+cdf_fire_perimeters_1984 <- cdf_fire_perimeters %>% # attribute table from USGS Historic Fires shapefiles
+  filter(YEAR_ >= 1984) %>% # filtered to make it more similar to my Cal Fire dataset
+  filter(GIS_ACRES >= 30)
+
+cdf_fire_names <- calfire_data$Fire_name # 1764 obs
+cdf_perim_fire_names <- cdf_fire_perimeters_1984$FIRE_NAME # 6101 obs
+
+cdf_perim_fire_names <- toupper(usgs_fire_names) # make both upper case in order to do joins and comparisons
+cdf_fire_names <- toupper(cdf_fire_names)
+
+# print list of differences by comparing each dataset to the other separately
+
+cdf_fire_diff <- setdiff(cdf_fire_names, cdf_perim_fire_names) # 551 in CDF that are not in USGS (20%: 551/1764)
+cdf_perim_fire_diff <- setdiff(cdf_perim_fire_names, cdf_fire_names) # 2782 in USGS that are not in CDF (45%: 2782/6101)
+
+cdf_fire_diff <- as.data.frame(cdf_fire_diff) # make the vectors into dataframes so that I can write to csv
+cdf_perim_fire_diff <- as.data.frame(cdf_perim_fire_diff)
+
+write_csv(cdf_fire_diff, path = "cdf_fire_diff.csv")
+write_csv(cdf_perim_fire_diff, path = "cdf_perim_fire_diff.csv")
+
+# don't worry about matching more fires right now...
+
+# git stuff: https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
+
+```
+
+```{r prep_join}
+
+# upper case fire name to do join in Arc
+
+calfire_data$Fire_name <- toupper(calfire_data$Fire_name)
+calfire_data <- dplyr::rename(calfire_data, FIRE_NAME = Fire_name) # this didn't stay capitalized once I imported it to Arc, so I manually changed and saved it in Excel... Weird.
+
+write_csv(calfire_data, path = "calfire_data.csv")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
