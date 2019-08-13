@@ -1,0 +1,57 @@
+Year,Region,Ranger_unit,Ranger_unit2,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures
+1985,I,Lake-Napa,,Hidden Valley,7/9/1985,7/11/1985,CDF,1250,,WB,Misc.,20
+1985,I,Lake-Napa,,Magic,7/10/1985,7/11/1985,CDF,357,,WBG,Equip. Use,
+1985,I,Lake-Napa,,Miller,8/31/1985,9/2/1985,CDF,2080,,WG,Arson,
+1985,I,Lake-Napa,,Bald Mt.,10/8/1985,10/9/1985,CDF,5280,,WG,Elec. Power,2
+1985,I,Mendocino,,Iron Peak,7/9/1985,7/10/1985,CDF,529,,TW,Railroad,
+1985,II,Butte,,Rock Creek,6/11/1985,6/12/1985,CDF,1650,,B,Smkg.,
+1985,II,Lassen-Modoc,,Murrer,7/8/1985,7/10/1985,CDF,1055,,T,Smkg.,
+1985,II,Lassen-Modoc,,Bass,8/7/1985,8/7/1985,CDF,2445,,B,Equip. Use,
+1985,II,Shasta-Trinity,,USFS #20,7/18/1985,7/21/1985,USFS,,1620,CONIFERS,Cmpr.,
+1985,II,Shasta-Trinity,,USFS #29,7/26/1985,8/4/1985,USFS,,3900,TB,Ltng.,
+1985,II,Shasta-Trinity,,Bluenose,7/27/1985,7/29/1985,CDF,312,,T,Ltng.,
+1985,II,Shasta-Trinity,,USFS #33,7/28/1985,8/1/1985,USFS,,1202,TB,Ltng.,
+1985,IV,Amador-El Dorado,,Amador,7/9/1985,7/9/1985,CDF,652,,BG,Equip. Use,
+1985,IV,Amador-El Dorado,,8 Mile,8/9/1985,8/9/1985,CDF,462,,W,Misc.,
+1985,IV,Fresno-Kings,,Panoche,6/9/1985,6/10/1985,CDF,5580,,G,Equip. Use,
+1985,IV,Fresno-Kings,,Backbone,6/10/1985,7/13/1985,CDF,425,,BG,Arson,
+1985,IV,Fresno-Kings,,Los Gatos Series,7/6/1985,7/17/1985,CDF,27562,,WBG,Ltng.,
+1985,IV,Fresno-Kings,,Sycamore,7/15/1985,8/8/1985,CDF,415,997,WBG,Arson,
+1985,IV,Madera-Mariposa,,Stan. #7,8/2/1985,8/12/1985,USFS,,1019,BG,Misc.,
+1985,IV,Madera-Mariposa,,Falls #2,8/12/1985,6/30/1985,CDF,3000,,G,Arson,
+1985,IV,Tulare,,USFS #5,6/28/1985,7/4/1985,USFS,,8100,BG,Equip. Use,
+1985,IV,Tuolumne-Calaveras,,Grizzly,7/3/1985,7/4/1985,CDF,530,,WBG,Arson,
+1985,IV,Tuolumne-Calaveras,,Gann,7/4/1985,7/4/1985,CDF,915,,WBG,Equip. Use,
+1985,V,San Benito-Monterey,,Lowes,7/2/1985,7/4/1985,CDF,2670,,WBGAP,Equip. Use,
+1985,V,San Benito-Monterey,,Seco,7/2/1985,7/5/1985,CDF,875,1070,WBG,Arson,3
+1985,V,San Benito-Monterey,,Lightning Series,7/6/1985,7/9/1985,CDF,9534,,WBG,Ltng.,
+1985,V,San Benito-Monterey,,Gorda-Rat,7/6/1985,7/19/1985,USFS,,55889,BG,Ltng.,8
+1985,V,San Benito-Monterey,,Cherry,7/8/1985,7/15/1985,CDF,31041,9190,WBG,Arson,17
+1985,V,San Luis Obispo,,Las Pilitas,7/1/1985,7/10/1985,CDF,49375,25265,WBG,Equip. Use,41
+1985,V,San Luis Obispo,,Hwy 58 #2,7/22/1985,7/22/1985,CDF,700,,BG,Debris,
+1985,V,Santa Clara,,Lexington,7/9/1985,7/13/1985,CDF,13800,,TBG,Arson,2
+1985,V,Santa Clara,,Finley,7/8/1985,7/10/1985,CDF,2250,,WBG,Arson,
+1985,VI,Owens Valley,,Onion,7/6/1985,7/9/1985,BLM,300,9500,B,Ltng.,
+1985,VI,Owens Valley,,Owens,8/8/1985,8/10/1985,USFS,160,3580,BG,NA,
+1985,VI,Riverside,,Cabazon,6/27/1985,7/7/1985,CDF,3111,17269,BG,Misc.,
+1985,VI,Riverside,,Gavalin,7/2/1985,7/2/1985,CDF,473,,B,Equip. Use,
+1985,VI,Riverside,,Orco Assist,7/2/1985,7/3/1985,CC,750,,B,Misc.,
+1985,VI,Riverside,,Skinner,8/8/1985,8/10/1985,CDF,978,,G,Equip. Use,
+1985,VI,Riverside,,Shell,8/11/1985,8/13/1985,CC,,1440,BG,NA,
+1985,VI,Riverside,,Pala,9/14/1985,9/14/1985,CDF,325,,B,Arson,3
+1985,VI,Ventura County,,South Mountain,6/30/1985,7/3/1985,CC,,600,B,NA,
+1985,VI,Ventura County,Los Padres,Wheeler,7/1/1985,7/14/1985,CC,,120000,B,Arson,26
+1985,VI,San Bernardino,,Parsons,7/3/1985,7/4/1985,CDF,1170,,B,Debris,
+1985,VI,Ventura County,,Black Mountain,7/3/1985,7/5/1985,CC,,1200,,NA,
+1985,VI,San Bernardino,,Archibald,10/5/1985,10/7/1985,CDF,500,,B,Equip. Use,
+1985,VI,Ventura County,,Pioneer,10/14/1985,10/16/1985,CC,,1200,B,Arson,
+1985,VI,Ventura County,,Ferndale,10/14/1985,10/20/1985,CC,,33890,B,NA,
+1985,VI,Los Angeles County,,Decker,10/14/1985,10/17/1985,CC,,11000,B,Arson,
+1985,VI,Ventura County,,Hummingbird,10/14/1985,10/16/1985,CC,,1600,B,NA,
+1985,VI,Angeles NF,,Gleason,10/14/1985,10/16/1985,USFS,,1200,B,Cmpr.,
+1985,VI,San Diego,,Miller,6/30/1985,7/1/1985,CDF,8000,,B,Debris,3
+1985,VI,San Diego,,Gopher,7/1/1985,7/3/1985,CDF,1200,,B,Misc.,1
+1985,VI,San Diego,,Roblar,7/1/1985,7/5/1985,MILITARY,1225,7200,BGAP,Weapons,2
+1985,VI,San Diego,,Deer,7/2/1985,7/2/1985,CDF,380,140,B,Arson,8
+1985,VI,San Diego,,Sycamore,7/27/1985,7/27/1985,CDF,1060,,B,Misc.,
+1985,VI,San Diego,,Assist #38,10/5/1985,10/6/1985,MILITARY,,1200,B,Misc.,

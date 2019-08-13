@@ -1,0 +1,125 @@
+Year,Incident_number,County,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2017,FKU-5281,Fresno,Jayne,4/20/2017,4/21/2017,Cal Fire,4532,NA,G,Equipment Use,0,0,0,0
+2017,FKU-5669,Fresno,El Dorado,4/28/2017,4/28/2017,Cal Fire,750,NA,G,Undetermined,0,0,0,0
+2017,RRU-53193,Riverside,Opera,4/30/2017,5/2/2017,Cal Fire,1350,NA,BG,Vehicle,0,0,0,0
+2017,MMU-9464,Merced,Wright,5/12/2017,5/13/2017,Cal Fire,1733,NA,G,Undetermined,0,0,0,0
+2017,FKU-6727,Fresno,Elm 2,5/18/2017,5/21/2017,Cal Fire,10000,NA,BG,Electrical Power,0,0,0,0
+2017,KRN-18713,Kern,Ming,5/20/2017,5/22/2017,CC,NA,506,G,Undetermined,0,0,0,0
+2017,MVU-12098,San Diego,Gate,5/20/2017,5/22/2017,Cal Fire,2056,NA,BG,Undetermined,0,0,0,0
+2017,TUU-286,Tulare,Dinely,6/7/2017,6/10/2017,Cal Fire,339,NA,BG,Equipment Use,0,0,0,0
+2017,MMU-11650,Madera,Oakwood,6/10/2017,6/13/2017,Cal Fire,1417,NA,BG,Shooting,0,0,0,0
+2017,FKU-8044,Fresno,Monterey,6/11/2017,6/11/2017,Cal Fire,450,NA,G,Shooting,0,0,0,0
+2017,LAC-178275,Los Angeles,Lake,6/17/2017,6/23/2017,CC,NA,850,BG,Undetermined,0,0,0,0
+2017,FKU-8759,Fresno,Creek,6/23/2017,6/27/2017,Cal Fire,357,NA,BG,Debris Burning,0,0,0,0
+2017,LAC-187296,Los Angeles,Placerita,6/25/2017,6/28/2017,CC,NA,760,BG,Debris Burning,0,0,0,0
+2017,RRU-78840,Riverside,Manzanita,6/26/2017,6/30/2017,Cal Fire,6309,NA,BG,Vehicle,0,0,0,0
+2017,SLU-7101,San Luis Obispo,Hill,6/26/2017,6/28/2017,Cal Fire,1626,NA,BG,Vehicle,0,0,0,0
+2017,MMU-13022,Mariposa,Ben,6/28/2017,7/6/2017,Cal Fire,558,NA,BG,Vehicle,0,0,0,0
+2017,KRN-24894,Kern,Tarina,6/30/2017,7/1/2017,CC,NA,1200,G,Undetermined,0,0,0,0
+2017,FKU-9289,Fresno,Derrick,7/2/2017,7/5/2017,Cal Fire,1562,NA,BG,Undetermined,0,0,0,0
+2017,SKU-4779,Siskiyou,Fay,7/5/2017,7/31/2017,Cal Fire,496,NA,BGT,Miscellaneous,0,0,0,0
+2017,LNU-6262,Yolo,Winter,7/6/2017,7/14/2017,Cal Fire,1700,NA,BT,Vehicle,0,0,0,0
+2017,SLU-7624,San Luis Obispo,Alamo,7/6/2017,7/18/2017,Cal Fire,28687,NA,BG,Undetermined,0,0,0,0
+2017,BTU-10975,Butte,Wall,7/7/2017,8/3/2017,Cal Fire,6033,NA,BG,Electrical Power,0,0,0,0
+2017,BEU-3551,Monterey,Parkfield,7/8/2017,7/8/2017,Cal Fire,1816,NA,BG,Electrical Power,0,0,0,0
+2017,FKU-9755,Kings,Garza,7/9/2017,7/25/2017,Cal Fire,48660,NA,BG,Equipment Use,0,0,0,0
+2017,SLU-7792,San Luis Obispo,Stone,7/9/2017,7/11/2017,Cal Fire,340,NA,BG,Equipment Use,0,0,0,0
+2017,MVU-16909,San Diego,Jennings 2,7/11/2017,7/14/2017,Cal Fire,400,NA,BG,Vehicle,0,0,0,0
+2017,BDU-9854,San Bernardino,Bridge 2,7/14/2017,7/18/2017,Cal Fire,460,NA,BG,Undetermined,0,0,0,0
+2017,MEU-8307,Mendocino,Grade,7/16/2017,7/18/2017,Cal Fire,900,NA,BG,Vehicle,1,0,0,0
+2017,MMU-14474,Mariposa,Detwiler,7/16/2017,8/31/2017,Cal Fire,81826,NA,BG,Shooting,134,21,0,0
+2017,FKU-10248,Fresno,Park,7/17/2017,7/30/2017,Cal Fire,1649,NA,BG,Equipment Use,0,0,0,0
+2017,TUU-420,Tulare,Elephant 2,7/20/2017,7/21/2017,Cal Fire,416,NA,B,Arson,0,0,0,0
+2017,AEU-21652,Sacramento,Latrobe,7/26/2017,7/28/2017,Cal Fire,1268,NA,B,Debris Burning,0,0,0,0
+2017,TCU-9024,Tuolumne,Jacksonville,7/29/2017,8/4/2017,Cal Fire,675,NA,BG,Undetermined,1,0,0,0
+2017,TUU-441,Tulare,Roadrunner,7/30/2017,7/31/2017,Cal Fire,2289,NA,B,Arson,0,0,0,0
+2017,BDU-10918,San Bernardino,Bryant,8/3/2017,8/14/2017,Cal Fire,325,NA,BG,Undetermined,1,0,0,0
+2017,RRU-99747,Riverside,Blaine,8/13/2017,8/16/2017,Cal Fire,1500,NA,BG,Undetermined,0,46,0,0
+2017,RRU-100591,Riverside,Mias,8/14/2017,8/18/2017,Cal Fire,600,NA,BG,Electrical Power,0,0,0,0
+2017,BTU-13737,Butte,Ponderosa,8/29/2017,10/28/2017,Cal Fire,4016,NA,BT,Campfire,55,0,0,0
+2017,NEU-22877,Nevada,Pleasant,8/30/2017,9/6/2017,Cal Fire,392,NA,BT,Undetermined,1,1,0,0
+2017,RRU-108660,Riverside,Palmer,9/2/2017,9/9/2017,Cal Fire,3800,NA,BG,Playing with Fire,0,1,0,0
+2017,MMU-18115,Madera,Mission,9/3/2017,9/13/2017,Cal Fire,1037,NA,BT,Electrical Power,7,4,0,0
+2017,MMU-18116,Madera,Peak,9/3/2017,9/9/2017,Cal Fire,680,NA,BT,Vehicle,0,0,0,0
+2017,SHU-9460,Shasta,Berry,9/12/2017,10/4/2017,Cal Fire,900,NA,B,Lightning,0,0,0,0
+2017,MMU-19222,Madera,Eastman,9/18/2017,9/19/2017,Cal Fire,483,NA,G,Electrical Power,0,0,0,0
+2017,SBC-12621,Santa Barbara,Rucker,9/29/2017,10/4/2017,CC,NA,444,BG,Miscellaneous,0,0,0,0
+2017,ORC-1478,Orange,Canyon,9/25/2017,10/3/2017,CC,NA,2662,BG,Miscellaneous,0,7,0,0
+2017,BTU-15933,Butte,Cherokee,10/8/2017,11/5/2017,Cal Fire,8500,NA,BG,Electrical Power,6,1,0,0
+2017,NEU-26269,Yuba,Cascade (NEU Wind Complex),10/8/2017,10/19/2017,Cal Fire,9989,NA,BT,Electrical Power,264,10,0,4
+2017,NEU-26279,Nevada,McCourtney (NEU Wind Complex),10/8/2017,10/21/2017,Cal Fire,76,NA,BT,Electrical Power,13,2,0,0
+2017,NEU-26275,Nevada,Lobo (NEU Wind Complex),10/8/2017,10/22/2017,Cal Fire,821,NA,BT,Electrical Power,47,2,0,0
+2017,LNU-10045,Napa,Tubbs (Central LNU Complex),10/8/2017,10/31/2017,Cal Fire,36807,NA,BGT,Electrical Power,5636,317,1,21
+2017,LNU-10049,Sonoma,Nuns (Central LNU Complex),10/9/2017,10/31/2017,Cal Fire,44573,NA,BGT,Electrical Power,1355,172,0,3
+2017,LNU-10050,Sonoma,Adobe (Central LNU Complex - Nuns),10/8/2017,10/31/2017,Cal Fire,3700,NA,BGT,Electrical Power,0,0,0,0
+2017,LNU-10051,Napa,Partrick (Central LNU Complex - Nuns),10/8/2017,10/31/2017,Cal Fire,8283,NA,BGT,Electrical Power,0,0,0,0
+2017,MEU-12169,Mendocino,Redwood Valley (Mendocino Lake Complex),10/8/2017,10/26/2017,Cal Fire,36523,NA,GT,Electrical Power,543,41,0,9
+2017,MRN-2957,Marin,Thirty Seven,10/9/2017,10/12/2017,CC,NA,1660,BG,Electrical Power,3,1,0,0
+2017,BTU-15954,Butte,La Porte (NEU Wind Complex),10/9/2017,10/20/2017,Cal Fire,6151,NA,BT,Electrical Power,74,2,0,0
+2017,ORC-110494,Orange,Canyon 2,10/9/2017,10/17/2017,CC,NA,9217,BG,Miscellaneous,25,55,0,0
+2017,LNU-10046,Napa,Atlas (Southern LNU Complex),10/9/2017,10/28/2017,Cal Fire,51624,NA,BGT,Electrical Power,783,120,0,6
+2017,LNU-10055,Lake,Sulphur (Mendocino Lake Complex),10/9/2017,10/26/2017,Cal Fire,2207,NA,GT,Electrical Power,162,8,0,0
+2017,LNU-10057,Sonoma,Pocket 2 (Central LNU Complex),10/9/2017,10/31/2017,Cal Fire,17357,NA,BGT,Electrical Power,6,2,0,0
+2017,CZU-7822,Santa Cruz,Bear,10/16/2017,10/29/2017,Cal Fire,391,NA,T,Arson,6,0,0,0
+2017,VNC-43244,Ventura/Santa Barbara,Thomas,12/4/2017,1/12/18,CC,NA,281893,BG,Undetermined,1060,274,1,1
+2017,LAC-362189,Los Angeles,Creek,12/5/2017,12/29/2017,CC,NA,15619,B,Undetermined,123,81,0,0
+2017,LAC-362441,Los Angeles,Rye,12/5/2017,12/15/2017,CC,NA,6046,BG,Undetermined,6,3,0,0
+2017,MVU-24612,San Diego,Lilac 5,12/7/2017,12/16/2017,Cal Fire,4088,NA,BG,Undetermined,157,64,0,0
+2017,NOD-1810,Modoc,West,4/1/2017,4/1/2017,BLM,NA,401,BG,Miscellaneous,0,0,0,0
+2017,MCP-1494,San Diego,Deluz,5/19/2017,5/22/2017,DOD,NA,486,BG,Miscellaneous,0,0,0,0
+2017,FHL-1267,Monterey,Range,6/4/2017,6/11/2017,DOD,NA,1972,G,Miscellaneous,0,0,0,0
+2017,SQF-1223,Kern,Highway,6/21/2017,6/25/2017,USFS,NA,1522,G,Undetermined,0,0,0,0
+2017,BDF-9443,San Bernardino,Holcomb,6/21/2017,6/29/2017,USFS,NA,1503,BGT,Undetermined,0,0,0,0
+2017,SQF-1317,Tulare,Schaeffer,6/24/2017,8/5/2017,USFS,NA,16031,BGT,Lightning,0,0,0,0
+2017,BDF-9802,San Bernardino,Mart,6/27/2017,7/1/2017,USFS,NA,670,BG,Undetermined,0,0,0,0
+2017,MDF-415,Modoc,Battle,6/28/2017,7/1/2017,USFS,NA,640,BG,Undetermined,0,0,0,0
+2017,MCP-172047,San Diego,Cristianitos,6/28/2017,7/1/2017,DOD,NA,761,BG,Undetermined,0,0,0,0
+2017,KRN-26708,Kern,Quail Complex,7/6/2017,7/6/2017,CC,NA,1626,BG,Undetermined,0,0,0,0
+2017,LPF-1770,Santa Barbara,Whittier,7/8/2017,10/5/2017,USFS,NA,18430,B,Undetermined,40,7,0,0
+2017,HTF-30363,Nevada,Farad,7/10/2017,7/16/2017,USFS,NA,747,BGT,Undetermined,0,0,0,0
+2017,NOD-30366,Lassen,Long Valley,7/11/2017,7/25/2017,BLM,NA,83733,BG,Undetermined,8,3,0,0
+2017,MDF-541,Modoc,Dobe,7/13/2017,7/31/2017,USFS,NA,410,BGT,Miscellaneous,0,0,0,0
+2017,KRN-27936,Kern,Hudson,7/18/2017,7/18/2017,LOCAL,NA,1083,G,Undetermined,0,0,0,0
+2017,SRF-703,Siskiyou,Marble,7/19/2017,7/28/2017,USFS,NA,319,T,Undetermined,0,0,0,0
+2017,MDF-671,Modoc,Modoc July Complex,7/24/2017,8/13/2017,USFS,NA,83120,BGT,Undetermined,0,0,0,0
+2017,SRF-741,Siskiyou,Orleans Complex,7/25/2017,10/12/2017,USFS,NA,27276,BGT,Lightning,0,0,0,0
+2017,NOD-4279,Washoe,R-21,7/26/2017,7/27/2017,BLM,NA,589,BG,Lightning,0,0,0,0
+2017,PNF-1043,Plumas,Minerva 5,7/29/2017,8/16/2017,USFS,NA,4310,T,Undetermined,0,0,0,0
+2017,SQF-1989,Kern,Garden,7/30/2017,8/9/2017,USFS,NA,450,B,Miscellaneous,0,0,0,0
+2017,INF-1235,Mono,Grant,7/31/2017,8/3/2017,USFS,NA,400,BT,Lightning,0,0,0,0
+2017,STF-2452,Tuolumne,Summit Complex,7/31/2017,11/30/2017,USFS,NA,5248,BT,Undetermined,0,0,0,0
+2017,YNP-84,Mariposa,Empire,8/1/2017,10/31/2017,NPS,NA,6370,BT,Lightning,0,0,0,0
+2017,LPF-2123,San Luis Obispo,Redwood Valley (Mendocino Lake Complex),8/2/2017,8/3/2017,USFS,NA,450,BG,Undetermined,0,0,0,0
+2017,MDF-862,Modoc,Parker 2,8/3/2017,8/14/2017,USFS,NA,7697,BT,Lightning,1,0,0,0
+2017,INF-1264,Tulare,Indian,8/3/2017,8/29/2017,USFS,NA,2295,BT,Lightning,0,0,0,0
+2017,TNF-992,Plumas,Chilcoot,8/6/2017,8/8/2017,USFS,NA,1021,BG,Lightning,0,0,0,0
+2017,PNF-1145,Lassen,Poslin,8/6/2017,8/9/2017,USFS,NA,860,BG,Lightning,0,0,0,0
+2017,SNF-1476,Madera,Butte,8/7/2017,8/17/2017,USFS,NA,635,BT,Lightning,0,0,0,0
+2017,SRF-863,Del Norte,Young,8/7/2017,10/15/2017,USFS,NA,21377,BT,Undetermined,0,0,0,0
+2017,SRF-897,Trinity,Ruth Complex,8/9/2017,8/25/2017,USFS,NA,4736,BGT,Lightning,0,0,0,0
+2017,KRN-31474,Kern,Rose,8/10/2017,8/10/2017,CC,NA,338,G,Miscellaneous,0,0,0,0
+2017,KNF-6081,Siskiyou,Salmon August Complex,8/13/2017,10/20/2017,USFS,NA,65889,BT,Undetermined,1,0,0,0
+2017,YNP-108,Mariposa,South Fork,8/13/2017,11/30/2017,NPS,NA,7000,BT,Undetermined,0,0,0,0
+2017,RSF-647,Jackson (OR),Miller Complex,8/14/2017,11/30/2017,USFS,NA,39716,T,Undetermined,0,0,0,0
+2017,KNF-6098,Siskiyou,Eclipse Complex,8/15/2017,10/10/2017,USFS,NA,78698,BT,Lightning,0,0,0,0
+2017,NEU-21927,Yuba,Beale,8/20/2017,8/20/2017,DOD,NA,950,G,Undetermined,0,0,0,0
+2017,MDF-1101,Modoc,Jones,8/23/2017,8/27/2017,USFS,NA,375,BGT,Lightning,0,0,0,0
+2017,MDF-1102,Modoc,Boles,8/23/2017,9/4/2017,USFS,NA,371,GT,Lightning,0,0,0,0
+2017,NOD-5152,Lassen,Mud,8/29/2017,9/1/2017,BLM,NA,6042,G,Lightning,0,0,0,0
+2017,SNF-1743,Madera,Railroad,8/29/2017,9/15/2017,USFS,NA,12407,BT,Undetermined,8,1,1,0
+2017,OVD-1478,Mono,Slinkard,8/29/2017,9/11/2017,BLM,NA,8925,BGT,Lightning,0,0,0,0
+2017,SQF-2385,Tulare,Pier,8/29/2017,9/24/2017,USFS,NA,36556,BT,Miscellaneous,2,0,0,0
+2017,NOD-5180,Washoe (NV),R-4,8/30/2017,9/18/2017,BLM,NA,18618,G,Lightning,0,0,0,0
+2017,SHF-1770,Trinity,Helena,8/30/2017,10/19/2017,USFS,NA,21446,BT,Miscellaneous,131,0,0,0
+2017,SQF-2435,Kern,Caldwell,9/1/2017,9/6/2017,USFS,NA,1319,BG,Lightning,0,0,0,0
+2017,LFD-965,Los Angeles,La Tuna,9/1/2017,9/8/2017,LOCAL,NA,7194,BG,Undetermined,5,0,0,0
+2017,STF-2590,Tuolumne,Creek,9/3/2017,11/20/2017,USFS,NA,1749,BT,Lightning,0,0,0,0
+2017,PNF-1488,Plumas,Eureka,9/5/2017,10/31/2017,USFS,NA,437,BT,Lightning,0,0,0,0
+2017,ENF-26677,El Dorado,Table,9/8/2017,10/17/2017,USFS,NA,426,T,Undetermined,0,0,0,0
+2017,SHF-1850,Trinity,Buck,9/12/2017,11/5/2017,USFS,NA,13434,BGT,Lightning,0,0,0,0
+2017,SQF-2753,Tulare,Lion,9/24/2017,11/27/2017,USFS,NA,19215,BGT,Lightning,0,0,0,0
+2017,MCP,San Diego,Buffalo,10/17/2017,10/19/2017,DOD,NA,1088,B,Undetermined,0,0,0,0
+2017,CNF-3839,Riverside,Wildomar,10/26/2017,11/1/2017,USFS,NA,866,BG,Vehicle,0,0,0,0
+2017,HTF-30870,Mono,Chris,11/13/2017,11/16/2017,USFS,NA,370,T,Undetermined,0,0,0,0
+2017,LFD-30179,Los Angeles,Skirball,12/6/2017,12/17/2017,LOCAL,NA,422,BG,Campfire,9,13,0,0
+2017,RRU-151090,Riverside,Liberty,12/7/2017,12/9/2017,LOCAL,NA,300,BG,Electrical Power,3,1,0,0

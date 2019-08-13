@@ -1,0 +1,26 @@
+Year,Region,County,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Firefighter_fatalities,Civilian_fatalities
+2007,San Luis Obispo,,Diablo /T7 T8/COM4 T1,1/14/2007,1/16/2007,NA,332,0,Timber,Misc.,1,0,0
+2007,Fresno-Kings,,Little 5,3/22/2007,3/23/2007,NA,300,0,,Misc.,,0,0
+2007,Riverside,,River Day Asstmt RVCTAC1,4/28/2007,4/29/2007,NA,0,448,Brush,Unidentified,0,0,0
+2007,Riverside,,Dawson-RRU2TAC22,5/8/2007,5/9/2007,NA,990,0,"Grass, Brush",Equip. Use,,0,0
+2007,Shasta-Trinity,,Brokeoff,5/21/2007,5/21/2007,NA,100,0,Timber,Unidentified,0,0,0
+2007,Butte,,Honey IC TAC 9,5/22/2007,5/28/2007,NA,726,0,Timber,Misc.,0,0,0
+2007,Tulare,,F#88 Shannon Inc,6/3/2007,6/4/2007,NA,2140,0,"Grass, Brush",Equip. Use,,0,0
+2007,San Diego,,Inkopah,6/5/2007,6/6/2007,NA,1500,0,Brush,Unidentified,,0,0
+2007,Lassen-Modoc,,Pine,6/23/2007,6/23/2007,NA,314,0,"Brush, Grass",Debris Burning,3,0,0
+2007,San Bernardino,,Meridian AV Lucerne_Vall,7/5/2007,7/6/2007,NA,467,0,Brush,Lightning,0,0,0
+2007,Shasta-Trinity,,Power,7/10/2007,7/12/2007,NA,776,0,Brush,Inidentified,0,0,0
+2007,Fresno-Kings,,Tar,8/10/2007,8/19/2007,NA,5644,0,Woodland,Arson,0,0,0
+2007,Tuolumne-Calaveras,,Golden,8/16/2007,8/17/2007,NA,66,0,Timber,Vehicle,0,0,0
+2007,Nevada-Yuba-Placer,,80,8/22/2007,8/24/2007,NA,88,0,Timber,Misc.,0,0,0
+2007,Madera-Mariposa,,Avenue 26/Road 19 5,8/23/2007,8/23/2007,NA,0,50,Timber,Unidentified,0,0,0
+2007,Santa Clara,,Lick,9/3/2007,9/15/2007,NA,47760,0,Brush,Debris Burning,24,0,0
+2007,Riverside,,Colina Sup6,9/10/2007,9/11/2007,NA,388,0,Brush,Equip. Use,0,0,0
+2007,San Diego,,Angel 3,9/15/2007,9/21/2007,NA,837,0,Brush,Campfire,24,0,0
+2007,Shasta-Trinity,,Whitmore 3,10/9/2007,10/9/2007,NA,44,0,Timber,Equip. Use,0,0,0
+2007,San Diego,,Harris 2,10/21/2007,11/9/2007,NA,90440,0,Brush,Human,729,0,1
+2007,San Diego,,Witch,10/21/2007,10/31/2007,NA,197990,0,"Brush, Grass, Timber",Equip. Use,1735,0,0
+2007,San Diego,,Rice,10/22/2007,11/5/2007,NA,9472,0,Grass,Misc.,493,0,0
+2007,San Diego,,Poomacha,10/23/2007,11/11/2007,NA,49410,0,Brush,Structure,229,0,0
+2007,San Luis Obispo,,Grade,12/3/2007,12/6/2007,NA,0,97,Timber,Misc.,0,0,0
+2007,,Santa Barbara,Zaca,7/4/2007,NA,NA,240207,0,NA,Human,1,0,0

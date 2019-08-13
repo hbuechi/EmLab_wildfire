@@ -1,0 +1,26 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+1998,Coast,Lake-Napa,Middle,8/29/1998,9/2/1998,CDF,6600,,BGW,Undet.,0,0,0,0
+1998,Coast,Tehama-Glenn,Manton,8/1/1998,8/2/1998,CDF,2100,,W,Vehicle,0,0,0,0
+1998,Coast,Tehama-Glenn,Powerhouse,8/1/1998,8/1/1998,CDF,982,,B,Vehicle,0,0,0,0
+1998,Coast,Tehama-Glenn,Manton #3,8/1/1998,8/1/1998,CDF,352,,B,Vehicle,0,0,0,0
+1998,Coast,San Bernardino,Covington,6/23/1998,6/26/1998,CDF,807,,BG,Smoking,0,0,0,0
+1998,Coast,San Diego,Chariot,7/1/1998,7/2/1998,CDF,2100,,BG,Escape,0,0,0,0
+1998,Coast,San Diego,Summitt,7/17/1998,7/18/1998,CDF,856,,B,Undet.,0,0,0,0
+1998,Coast,San Luis Obispo,Bitterwater,7/20/1998,7/20/1998,CDF,420,,G,Vehicle,5,0,0,0
+1998,Coast,San Diego,Featherstone,8/21/1998,8/22/1998,CDF,400,,B,Undet.,0,0,0,0
+1998,Coast,Inyo National Forest,Assist,8/29/1998,9/1/1998,USFS,,3410,,,0,0,0,0
+1998,Coast,San Diego,Wildcat,8/31/1998,9/3/1998,CDF,3200,,BG,Lightning,0,0,0,0
+1998,Coast,Riverside (Orange County),Santiago,8/31/1998,9/4/1998,CC,,8900,BG,Lightning,0,0,0,0
+1998,Coast,Riverside,Juniper,8/31/1998,9/3/1998,CDF,6000,,BG,Lightning,89,1,0,0
+1998,Coast,Riverside,Weirick,8/31/1998,9/1/1998,CDF,5000,,GB,Lightning,0,0,0,0
+1998,Coast,Riverside,Cajalco Fire,8/31/1998,8/31/1998,CDF,2000,,T,Lightning,0,0,0,0
+1998,Coast,San Diego (Camp Pendleton),Deluz,8/31/1998,9/2/1998,CDF,1830,,,Weapons,0,0,0,0
+1998,Coast,Riverside,Edna (State 1596),10/5/1998,10/7/1998,CDF,28164,,GB,Arson,5,1,2,0
+1998,Coast,Riverside,Taylor,10/5/1998,10/8/1998,CDF,2160,,G,Under Invest.,5,2,1,0
+1998,Coast,San Luis Obispo,Piru,10/18/1998,10/23/1998,CC,,6500,BG,,0,0,0,0
+1998,Coast,San Diego,Emery,11/4/1998,11/5/1998,CDF,350,,BG,Debris,0,0,0,0
+1998,Sierra,Madera-Mariposa-Merced,Mercy,7/10/1998,7/11/1998,CDF,4800,,G,Misc.,0,0,0,0
+1998,Sierra,Madera-Mariposa-Merced,Worden,7/11/1998,7/11/1998,LOCAL,,300,T,Escape,0,0,0,0
+1998,Sierra,San Benito-Monterey,Stonewall,8/3/1998,8/7/1998,CDF/NPS,930,1870,B,Powerline,0,0,0,0
+1998,Sierra,Madera-Mariposa-Merced,Swift,8/6/1998,8/6/1998,LOCAL,,350,B,Undet.,0,0,0,0
+1998,Sierra,Madera-Mariposa-Merced,PG&E 39,10/9/1998,10/9/1998,LOCAL,,1500,G,Elec. Power,0,0,0,0

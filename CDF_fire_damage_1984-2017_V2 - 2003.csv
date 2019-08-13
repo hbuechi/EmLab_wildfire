@@ -1,0 +1,31 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2003,Coast,Humboldt-Del Norte,Canoe,9/3/2003,9/25/2003,CDF,11036,,T,Lightning,NA,NA,NA,NA
+2003,Coast,Humboldt-Del Norte,Lightning Honeydew,9/3/2003,9/3/2003,CDF,13846,,W,Lightning,NA,NA,NA,NA
+2003,Coast,Santa Clara,Del Puerto Canyon,5/29/2003,5/29/2003,CDF,597,,B,Debris Burning,NA,NA,NA,NA
+2003,Coast,Santa Clara,Bird,6/1/2003,6/1/2003,CDF,6804,,GB,Equip. Use,NA,NA,NA,NA
+2003,Coast,Santa Clara,Del Puerto,7/20/2003,7/25/2003,CDF,5170,,GB,Equip. Use,NA,NA,NA,NA
+2003,Coast,Santa Clara,Hoover,8/4/2003,8/4/2003,CDF,2000,,W,Undet.,NA,NA,NA,NA
+2003,Coast,Santa Clara,Santa Clara Complex,8/25/2003,9/2/2003,CDF,30170,,GWB,Lightning,NA,NA,NA,NA
+2003,Coast,Sonoma-Lake-Napa,Fourty,7/1/2003,7/1/2003,CDF,300,,B,Equip. Use,NA,NA,NA,NA
+2003,Coast,Sonoma-Lake-Napa,40,9/3/2003,9/3/2003,CDF,1400,,B,Arson,NA,NA,NA,NA
+2003,Coast,Sonoma-Lake-Napa,MNF 964 Assist,9/3/2003,9/10/2003,OTHER,,3500,W,Lightning,NA,NA,NA,NA
+2003,Cascade,Butte,HWY 70,6/24/2003,6/24/2003,LOC,,368,G,Vehicle,10,NA,NA,NA
+2003,Cascade,Lassen-Modoc,A3,7/2/2003,7/2/2003,CDF,1100,,G,Equip. Use,12,NA,NA,NA
+2003,Cascade,Shasta-Trinity,Whitmore,10/27/2003,10/30/2003,OTHER,,1200,T,Campfire,NA,NA,NA,NA
+2003,South,Riverside,Local,2/23/2003,2/23/2003,LOC,,12000,A,Debris Burning,NA,NA,NA,NA
+2003,South,Riverside,Stage,7/4/2003,7/4/2003,CDF,1700,,B,Equip. Use,NA,NA,NA,NA
+2003,South,Riverside,Local,7/22/2003,7/22/2003,LOC,,2020,G,Undet.,NA,NA,NA,NA
+2003,South,Riverside,Canyon,7/25/2003,7/27/2003,OTHER,,4336,B,Arson,1,NA,NA,NA
+2003,South,Riverside,Locust,8/18/2003,8/20/2003,CDF,1898,,G,Equip. Use,1,2,NA,NA
+2003,South,Riverside,Pass,10/21/2003,10/23/2003,CDF,2189,208,B,Arson,3,4,NA,NA
+2003,South,Riverside,Mountain,10/26/2003,10/29/2003,CDF,10000,,GB,Equip. Use,44,NA,NA,NA
+2003,South,San Bernardino,Grand Prix,10/21/2003,10/21/2003,OTHER,,12289,B,Equip. Use,136,71,NA,NA
+2003,South,San Diego,Coyote,7/16/2003,7/26/2003,CDF,18705,,GTWB,Lightning,2,NA,NA,NA
+2003,South,San Diego,Cedar,10/25/2003,11/4/2003,CDF,143734,,GTWAB,Misc.,4847,NA,1,13
+2003,South,San Diego,Mine,10/26/2003,10/28/2003,CDF,46000,,B,Undet.,NA,NA,NA,
+2003,South,San Diego,Paradise,10/26/2003,11/6/2003,BIA,,56700,B,Equip. Use,223,10,,2
+2003,South,San Luis Obispo,Parkhill,7/20/2003,7/22/2003,CDF,1200,,GAB,Vehicle,18,NA,NA,NA
+2003,South,San Luis Obispo,Chimney Incident,8/10/2003,8/11/2003,OTHER,,1500,B,Equip. Use,NA,NA,NA,NA
+2003,Sierra,Fresno-Kings,F.K.U. 7076,6/19/2003,6/19/2003,LOC,,15000,A,Misc.,NA,NA,NA,NA
+2003,Sierra,Madera-Mariposa,152,6/15/2003,6/16/2003,CDF,1558,,G,Equip. Use,NA,NA,NA,NA
+2003,Sierra,Madera-Mariposa,Hunter #9,7/3/2003,7/4/2003,CDF,641,,GB,Equip. Use,NA,NA,NA,NA

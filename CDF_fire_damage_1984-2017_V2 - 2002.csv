@@ -1,0 +1,43 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2002,Coast,Mendocino,Burns,9/19/2002,9/20/2002,CDF,485,,GTW,Equip. Use,0,0,0,0
+2002,Coast,Mendocino,Pine,11/26/2002,11/28/2002,CDF,1200,,GB,Debris Burning,7,0,0,0
+2002,Coast,Santa Clara,Croy,9/23/2002,9/28/2002,CDF,3127,,B,Equip. Use,34,4,0,0
+2002,Coast,Sonoma-Lake-Napa,Pope,8/9/2002,8/10/2002,CDF,800,,B,Equip. Use,0,0,0,0
+2002,Coast,Sonoma-Lake-Napa,Sixteen,10/1/2002,10/2/2002,CDF,1500,,GB,Equip. Use,0,0,0,0
+2002,Cascade,Butte,Skyway,6/8/2002,6/9/2002,CDF,2000,,G,Undet.,0,0,0,0
+2002,Cascade,Lassen-Modoc,BLM D596,7/13/2002,7/13/2002,OTHER,4500,,G,Lightning,NA,NA,NA,NA
+2002,Cascade,Lassen-Modoc,Horse Complex,7/13/2002,7/15/2002,BLM,,1580,NA,NA,NA,NA,NA,NA
+2002,Cascade,Lassen-Modoc,Cone,9/26/2002,9/26/2002,USFS,,2006,NA,NA,NA,NA,NA,NA
+2002,Cascade,Nevada-Yuba-Placer,Rocklin Assist,9/18/2002,9/18/2002,LOCAL,,594,NA,NA,21,NA,NA,NA
+2002,Cascade,Shasta-Trinity,Squirrel,9/3/2002,9/3/2002,CDF,625,,GT,Smoking,1,0,0,0
+2002,Cascade,Siskiyou,Mussolini,7/13/2002,7/16/2002,CDF,3260,,GT,Equip. Use,0,0,0,0
+2002,Cascade,Siskiyou,KNF Assist #15,7/25/2002,7/26/2002,USFS,,2880,NA,NA,NA,NA,NA,NA
+2002,South,Riverside,Cajalco Fire,3/17/2002,3/17/2002,CDF,575,,B,Equip. Use,0,0,0,0
+2002,South,Riverside,Evening,4/21/2002,4/23/2002,OTHER,657,,B,P-W-F,0,0,0,0
+2002,South,Riverside,State 925 Antonio,5/13/2002,5/15/2002,OTHER,338,1134,B,Undet.,NA,NA,NA,NA
+2002,South,San Bernardino,Airport,3/22/2002,3/24/2002,CDF,846,,GWB,Misc.,0,0,0,0
+2002,South,San Bernardino,Bouquet,5/11/2002,5/13/2002,USFS,,4977,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Arrowhead,5/31/2002,6/5/2002,USFS,,2688,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Copper,6/5/2002,6/12/2002,CC,,23407,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Bluecut,6/16/2002,6/22/2002,USFS,,6864,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Louisiana,6/26/2002,6/30/2002,USFS,,6574,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Inyo Complex,7/15/2002,7/16/2002,USFS,,6550,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Assist,9/1/2002,9/5/2002,USFS,,20857,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Leona,9/3/2002,9/8/2002,CC,,5124,NA,NA,NA,NA,NA,NA
+2002,South,San Bernardino,Williams,9/22/2002,9/22/2002,USFS,,38094,NA,NA,NA,NA,NA,NA
+2002,South,San Diego,Gavilan,2/10/2002,2/15/2002,CDF,5763,,B,Debris Burning,43,13,0,0
+2002,South,San Diego,Aliso,3/21/2002,3/21/2002,MILITARY,,2400,NA,NA,NA,NA,NA,NA
+2002,South,San Diego,Troy,6/19/2002,6/22/2002,BIA,1180,,GWB,Equip. Use,3,1,NA,NA
+2002,South,San Diego,Garnet,7/13/2002,7/16/2002,CDF,789,,B,Undet.,0,0,0,0
+2002,South,San Diego,Pines,7/29/2002,8/16/2002,CDF,61690,,GTWB,Equip. Use,160,4,0,0
+2002,South,San Diego,Assist #73,8/24/2002,8/25/2002,OTHER,850,,B,Undet.,NA,NA,NA,NA
+2002,South,San Luis Obispo,Davis,6/9/2002,6/9/2002,CDF,2118,,GA,Equip. Use,0,0,0,0
+2002,South,San Luis Obispo,Sudden Incident,6/15/2002,6/19/2002,CC,,7782,NA,NA,1,NA,NA,NA
+2002,South,San Luis Obispo,HWY 58,7/18/2002,7/19/2002,CDF,1380,,B,Arson,0,0,0,0
+2002,Sierra,Amador-El Dorado,Pony,6/9/2002,6/9/2002,CDF,720,,GWB,Elec. Power,0,0,0,0
+2002,Sierra,Amador-El Dorado,Hickock,8/31/2002,8/31/2002,CDF,775,,B,Misc.,1,1,0,0
+2002,Sierra,Amador-El Dorado,Plum,11/25/2002,11/25/2002,USFS,,1765,NA,NA,NA,NA,NA,NA
+2002,Sierra,Madera-Mariposa-Merced,Nicholas,3/16/2002,3/16/2002,LOCAL,,12000,A,Debris Burning,0,0,0,0
+2002,Sierra,Tuolumne-Calaveras,SPI #3 Sourgrass,11/25/2002,11/30/2002,CDF,635,,TB,Debris Burning,0,0,0,0
+2002,Sierra,Tulare,Borel,6/15/2002,6/17/2002,USFS,,3430,NA,NA,NA,NA,NA,NA
+2002,Sierra,Tulare,McNally,7/21/2002,7/21/2002,USFS,,150696,NA,NA,NA,NA,NA,NA

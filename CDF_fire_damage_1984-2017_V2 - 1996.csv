@@ -1,0 +1,79 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+1996,Coast,Sonoma (Exp 001),PG&E #8 (Cavendale),7/13/1996,8/3/1996,CDF,2100,,BWA,Powerline,5,5,0,0
+1996,Coast,Lake-Napa,MNF-334 Assist (Fork),8/11/1996,8/25/1996,USFS,7200,75780,W,Undet.,40,0,0,0
+1996,Coast,Humboldt-Del Norte,SRF Assist #15 (Panther),9/26/1996,9/29/1996,USFS,,350,BT,Undet.,NA,NA,0,0
+1996,Coast,Lake-Napa (Solano Co.),Gates,10/9/1996,10/11/1996,CDF,1500,,GWB,Arson,0,0,0,0
+1996,Cascade,Lassen,Byers,7/2/1996,7/3/1996,CDF,1000,,B,Vehicle,0,0,0,0
+1996,Cascade,Out of State (Nevada),Belli Ranch,8/5/1996,8/8/1996,NEVADA,,6724,NA,NA,NA,NA,0,0
+1996,Cascade,Lassen-Modoc,Lightning #83 (Dixie),8/16/1996,8/20/1996,CDF/USFS,700,600,TW,Lightning,0,0,0,0
+1996,Cascade,Shasta-Trinity NF (SHU),USFS Assist #33 (Rock Fire),8/15/1996,8/31/1996,USFS,,2523,NA,Lightning,NA,NA,NA,NA
+1996,Cascade,Modoc NF (LMU),Modoc NF 707 (Ambrose),8/26/1996,8/28/1996,USFS,,20412,NA,Lightning,NA,NA,NA,NA
+1996,South,Riverside,State (IDA),1/3/1996,1/3/1996,CDF,380,,B,Equipment Use,0,0,0,0
+1996,South,San Diego,Honey,1/10/1996,1/11/1996,CDF,3500,,B,Undet.,2,0,0,0
+1996,South,San Diego,Otay #28,4/15/1996,4/15/1996,CDF,1402,,GB,Campfire,0,0,0,0
+1996,South,San Diego,Borrego,4/21/1996,4/25/1996,CDF,1325,,B,Undet.,0,0,0,0
+1996,South,San Luis Obispo,Assist #16,4/28/1996,5/3/1996,CC,,7115,GB,Elect. Power,0,0,0,0
+1996,South,San Diego,Otay #121,4/29/1996,5/3/1996,CDF,1220,,B,Campfire,1,0,0,0
+1996,South,Riverside,Mack,5/5/1996,5/6/1996,CDF,350,,B,Equipment Use,0,0,0,0
+1996,South,Riverside,Pony-State,5/13/1996,5/13/1996,CDF/BLM,1038,150,WB,Arson,1,1,0,0
+1996,South,San Diego,Pala,5/17/1996,5/17/1996,CDF,357,,B,Elect. Power,0,0,0,0
+1996,South,Riverside,State 837,6/1/1996,6/2/1996,CDF,646,7,GB,Equipment Use,5,2,0,0
+1996,South,San Bernardino,Deep Creek,6/1/1996,6/2/1996,CDF,920,,B,Arson,0,0,0,0
+1996,South,Riverside,Reche,6/2/1996,6/3/1996,CDF,850,,T,Fireworks,0,0,0,0
+1996,South,Riverside,Jack Rabbit,6/7/1996,6/7/1996,CDF,600,,T,Undet.,0,0,0,0
+1996,South,Riverside,Esparenza,6/11/1996,6/12/1996,CDF,380,,B,Arson,0,0,0,0
+1996,South,San Bernardino,Weber,6/16/1996,6/16/1996,CDF,360,,B,Undet.,4,2,0,0
+1996,South,Los Angeles County,Ranch,6/19/1996,6/19/1996,CC,,540,B,NA,NA,NA,0,0
+1996,South,San Diego,Egg Fire,6/19/1996,6/20/1996,CDF,1000,,BG,Arson,0,0,0,0
+1996,South,Riverside,Soboba,6/23/1996,6/23/1996,CDF/BIA,671,,B,Play/W/Fire,0,0,0,0
+1996,South,Riverside,Jack Rabbit,6/23/1996,6/24/1996,CDF,343,,B,Undet.,0,0,0,0
+1996,South,Riverside,Pechanga,6/29/1996,6/29/1996,CDF/BIA,1336,,GB,Undet.,3,1,0,0
+1996,South,Riverside,Dove,6/29/1996,6/30/1996,CDF,930,,GB,Equipment Use,14,4,0,0
+1996,South,Riverside,Circle,6/29/1996,7/1/1996,CDF,1200,,GB,Equipment Use,1,2,0,0
+1996,South,Riverside,Kitching,6/29/1996,6/30/1996,CDF,530,,B,Equipment Use,0,0,0,0
+1996,South,Riverside,State Assist (Bee),6/29/1996,7/5/1996,USFS,,9620,NA,Shooting,NA,NA,0,0
+1996,South,Riverside,Philadelphia,7/20/1996,7/20/1996,LOCAL,,1700,NA,Undet.,0,0,0,0
+1996,South,San Luis Obispo,Suey Creek,7/22/1996,7/23/1996,CDF,676,,B,Equipment Use,0,0,0,0
+1996,South,San Diego,Slaughter House,7/30/1996,7/31/1996,CDF,750,,B,Equipment Use,0,0,0,0
+1996,South,San Diego,Otay #269,7/31/1996,8/1/1996,CDF,750,,B,Campfire,0,0,0,0
+1996,South,Riverside,Wolfskill,8/12/1996,8/18/1996,CDF,12142,,GB,Smoking,0,0,0,0
+1996,South,San Luis Obispo,58' (Hwy 58),8/15/1996,8/22/1996,CDF/USFS,33094,73574,B,Vehicle,13,1,0,0
+1996,South,Riverside,Cabazon,8/15/1996,8/15/1996,CDF,675,127,B,Smoking,0,0,0,0
+1996,South,Los Angeles (DBU),Resevoir Fire,8/23/1996,8/27/1996,USFS,,1426,NA,Arson,NA,NA,0,0
+1996,South,Los Angeles Co./ANF,Assist/Marple,8/26/1996,9/3/1996,CC,6000,15500,NA,Arson,Yes,NA,0,0
+1996,South,Riverside,Double,8/29/1996,8/29/1996,CDF,1210,,G,Arson,6,0,0,0
+1996,South,Riverside,State-Sabina,9/4/1996,9/4/1996,CDF,700,22,WB,Vehicle,0,2,0,0
+1996,South,Riverside,State 1860 (Wesley),9/30/1996,10/1/1996,CDF,500,,GB,Undet.,0,0,0,0
+1996,South,San Diego,Harmony,10/21/1996,10/23/1996,CDF,5000,,B,Undet.,26,18,0,1
+1996,South,San Diego,Rincon #21,10/21/1996,10/22/1996,CDF,1790,,B,Undet.,3,4,0,0
+1996,South,Los Angeles County,Calabasas Fire,10/21/1996,10/26/1996,CC,,13010,NA,NA,6,5,0,0
+1996,South,San Diego,Otay #322,10/22/1996,10/26/1996,CDF,14720,,B,Campfire,0,0,0,0
+1996,South,Ventura,Poli,10/25/1996,10/26/1996,CC,,450,B,Under Inv.,NA,NA,0,0
+1996,Sierra,Fresno-Kings,Panoche,4/15/1996,4/16/1996,CDF/BLM,3000,,G,Arson,0,0,0,0
+1996,Sierra,Fresno-Kings,FKU-15832,4/19/1996,4/19/1996,LOCAL,,920,B,Arson,0,0,0,0
+1996,Sierra,Fresno-Kings,Panoche,4/27/1996,4/28/1996,CDF,18350,,G,Elect. Power,0,0,0,0
+1996,Sierra,Kings County Assist,Skyline,4/27/1996,4/27/1996,CC,,16740,NA,Equip. Use,NA,NA,0,0
+1996,Sierra,Fresno-Kings,Gale,4/27/1996,4/27/1996,CDF,1500,,G,Equipment Use,0,0,0,0
+1996,Sierra,Fresno-Kings,Hwy 33,5/22/1996,5/23/1996,CDF,4000,,G,Arson,0,0,0,0
+1996,Sierra,Madera-Mariposa,Weaver,6/10/1996,6/10/1996,LOCAL,,1500,G,Undet.,0,0,0,0
+1996,Sierra,Madera-Mariposa,Mercy,6/18/1996,6/19/1996,CDF,16820,,G,Vehicle,0,0,0,0
+1996,Sierra,Santa Barbara Co. LPF,Wasioja,7/3/1996,7/5/1996,USFS,,2975,NA,Under Inv.,NA,NA,0,0
+1996,Sierra,Tulare,Castle Complex,7/11/1996,8/4/1996,NPS,,1633,T,Lightning,NA,NA,0,0
+1996,Sierra,Tulare,White Oak,7/23/1996,7/23/1996,CC,,7150,GB,Undet.,2,0,0,0
+1996,Sierra,Madera-Mariposa,Stumpfield,8/1/1996,8/3/1996,CDF,3000,,TGWB,Equip. Use,43,3,0,0
+1996,Sierra,Madera-Mariposa,Cotton,8/1/1996,8/1/1996,CDF,720,,GB,Undet.,1,2,0,0
+1996,Sierra,Amador-El Dorado,CDF Assist (Scott),8/2/1996,8/3/1996,CITY,,9820,G,Arson,0,0,0,0
+1996,Sierra,Tuolumne-Calaveras,Lightning #40,8/12/1996,8/12/1996,CDF,1500,,GB,Lightning,0,0,0,0
+1996,Sierra,Calaveras,Lightning #12 (Bear),8/12/1996,8/15/1996,CDF,1250,,WTGB,Lightning,0,0,0,0
+1996,Sierra,Tuolumne-Calaveras,Lightning #14 (Esperanza),8/12/1996,8/20/1996,CDF,3000,,B,Lightning,0,0,0,0
+1996,Sierra,Tuolumne-Calaveras,Manual,8/12/1996,8/13/1996,CDF,325,,T,Lightning,0,0,0,0
+1996,Sierra,Tuolumne-Calaveras,Lightning #29 (Keystone),8/12/1996,8/12/1996,CDF/BLM,3000,4000,GB,Lightning,20,7,0,0
+1996,Sierra,Tulare,Kaweah,8/13/1996,8/22/1996,CDF/NPS,1220,3259,GB,Vehicle,1,0,0,0
+1996,Sierra,Stanislaus NF,Rogge Fire,8/14/1996,8/24/1996,USFS,,23200,NA,Lightning,2,NA,NA,NA
+1996,Sierra,Yosemite NP,Ackerson Fire,8/14/1996,8/31/1996,USFS,,46030,NA,Lightning,NA,NA,NA,NA
+1996,Sierra,Fresno,Trimmer,8/17/1996,8/19/1996,CDF,5607,,GB,Arson,0,0,0,0
+1996,Sierra,Sequoia NF,Cholollo,8/18/1996,8/23/1996,BIA,,2850,NA,Suspect Arson,NA,NA,0,0
+1996,Sierra,Los Padres NF,Wild,10/7/1996,10/15/1996,USFS,,25590,NA,Suspect Arson,NA,NA,0,0
+1996,Sierra,Tulare,Oak Flat,10/10/1996,10/1/1996,USFS,,1000,NA,NA,NA,NA,0,0
+1996,Sierra,Madera-Mariposa,Banos,10/18/1996,10/19/1996,CDF,4380,,G,Lightning,0,0,0,0
+1996,Sierra,Monterey,Sur,10/18/1996,10/27/1996,USFS,,4430,NA,Under Inv.,NA,NA,0,0

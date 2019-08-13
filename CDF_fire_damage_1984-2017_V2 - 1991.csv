@@ -1,0 +1,6 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+1991,I,Humboldt-Del Norte,Church,10/1/1991,10/2/1991,CDF,300,,TWG,Misc.,0,0,0,0
+1991,I,Sonoma,Geysers,10/20/1991,10/23/1991,CDF,5884,241,BWG,Power,0,0,0,0
+1991,II,Lassen-Modoc,Whitehorse,9/4/1991,9/7/1991,CDF,350,,T,Ltng.,0,0,0,0
+1991,II,Shasta-Trinity,Kutras,4/14/1991,4/15/1991,CDF,360,,TB,Arson,0,0,0,0
+1991,III,San Diego,Barrett,6/17/1991,6/18/1991,CDF,905,746,BG,Equip.,0,0,0,0

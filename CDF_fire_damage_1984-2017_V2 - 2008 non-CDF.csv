@@ -1,0 +1,58 @@
+Year,Incident_number,County,County2,County3,Fire_name,Start,Contained,DPA,DPA2,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2008,LNU-1057,Lake,NA,NA,"Control Burn, Geysers",2/13/2008,2/13/2008,LOCAL,NA,400,G,Debris,0,0,0,0
+2008,YNP-764,Mariposa,NA,NA,Wawona NW,4/9/2008,4/19/2008,NPS,USFS,1130,TB,Human,0,0,0,0
+2008,SMD-0822735,Los Angeles,NA,NA,Santa Anita,4/26/2008,5/2/2008,LOCAL,LAC,584,B,Arson,1,0,0,0
+2008,BDF-5147,Riverside,NA,NA,Apache,4/29/2008,5/4/2008,USFS,NA,769,TBG,Smoking,0,0,0,0
+2008,INF-282,Tulare,NA,NA,Honey Bee,5/6/2008,5/23/2008,USFS,NA,1225,TB,Lightning,0,0,0,0
+2008,ANF-1444,Los Angeles,NA,NA,Bighorn,5/14/2008,5/21/2008,USFS,NA,490,B,Misc.,0,0,0,0
+2008,SQF-967,Tulare,NA,NA,Clover,5/28/2008,7/20/2008,USFS,NA,15300,TB,Lightning,0,0,0,0
+2008,KRN-016886,Kern,NA,NA,Grapevine,6/6/2008,6/8/2008,CC,NA,507,G,Undetermined,0,0,0,0
+2008,CDD-6343,San Bernardino,NA,NA,Acoma,6/7/2008,6/10/2008,BLM,NA,356,G,Undetermined,0,1,0,0
+2008,SQF-1023,Kern,NA,NA,Richbar,6/7/2008,6/8/2008,USFS,NA,312,BG,Arson,0,0,0,0
+2008,LPF-1491,Monterey,NA,NA,Indians,6/8/2008,7/10/2008,USFS,NA,81378,TBG,Campfire,15,1,0,0
+2008,AEU-10884,Sacramento,NA,NA,Jackson,6/10/2008,6/12/2008,LOCAL,NA,6400,,Undetermined,0,0,0,0
+2008,MNF-2009,Tehama,NA,NA,Whiskey,6/12/2008,6/22/2008,USFS,NA,7783,BGW,Misc.,0,0,0,0
+2008,SHF-1041,Trinity,NA,NA,Lime Complex,6/20/2008,8/15/2008,USFS,BLM,98715,T,Lightning,5,0,0,0
+2008,SRF-1036,Humboldt,Trinity,Siskiyou,SRF Lightning Complex,6/20/2008,NA,USFS,NA,900,T,Lightning,0,0,0,0
+2008,SRF-1120,Humboldt,Trinity,NA,Mad Complex,6/20/2008,7/21/2008,USFS,NA,3705,TBG,Lightning,0,0,0,0
+2008,SRF-1123,Humboldt,Trinity,NA,Hells Half Complex,6/20/2008,7/28/2008,USFS,NA,15146,TB,Lightning,1,0,0,0
+2008,SRF-1126,Humboldt,NA,NA,Ukonom-South Complex,6/20/2008,9/15/2008,USFS,NA,29327,T,Lightning,0,0,0,0
+2008,KNF-2975,Siskiyou,NA,NA,Siskiyou / Blue 2 Complex,6/21/2008,NA,USFS,NA,82186,T,Lightning,0,0,1,0
+2008,KNF-3393,Siskiyou,NA,NA,Bear Wallow Complex (Klamath Theater),6/22/2008,9/30/2008,USFS,NA,192038,TB,Lightning,0,0,2,0
+2008,LNF-2713,Lassen,NA,NA,Cub Complex,6/21/2008,7/20/2008,USFS,NA,19718,T,Lightning,0,0,0,0
+2008,LNF-2782,Shasta,Lassen,NA,Peterson Complex,6/21/2008,7/2/2008,USFS,NA,7842,TBG,Lightning,0,0,0,0
+2008,LPF-1649,Monterey,NA,NA,Basin Complex,6/21/2008,7/27/2008,USFS,NA,162818,TB,Lightning,58,9,0,0
+2008,MNF-579,Lake,Mendocino,Tehama,Merged with Yolla Bolly Complex,6/21/2008,6/29/2008,USFS,NA,3000,BGWT,Lightning,2,0,0,0
+2008,MNF-645,Lake,NA,NA,Soda Complex,6/21/2008,7/26/2008,USFS,NA,8632,TG,Lightning,4,0,0,0
+2008,PNF-0539,Plumas,NA,NA,Canyon Complex,6/21/2008,9/30/2008,USFS,NA,47680,T,Lightning,3,0,0,0
+2008,SHF-1057,Trinity,NA,NA,Iron Complex & Alps Complex,6/21/2008,9/9/2008,USFS,NA,105805,TBG,Lightning,2,1,9,0
+2008,SNF-0718,Mariposa,Madera,NA,Silver Knob,6/21/2008,7/2/2008,USFS,NA,1161,T,Lightning,0,0,0,0
+2008,SNF-715,Madera,Mariposa,NA,Oliver Complex (Merged with Oliver),6/21/2008,6/26/2008,USFS,NA,1000,TB,Lightning,0,0,0,0
+2008,STF-1063,Tuolumne,NA,NA,North Mountain,6/21/2008,7/3/2008,USFS,NA,2889,BT,Lightning,0,0,0,0
+2008,TNF-1011,Placer,NA,NA,American River Complex,6/21/2008,7/30/2008,USFS,NA,20541,TB,Lightning,2,0,0,0
+2008,TNF-1015,Yuba,Nevada,Sierra,Yuba River Complex,6/21/2008,7/15/2008,USFS,NA,4254,TB,Lightning,0,0,0,0
+2008,WNP-1095,Shasta,NA,NA,Whiskeytown Complex,6/21/2008,7/19/2008,NPS,NA,6420,TB,Lightning,0,0,0,0
+2008,LNF-2776,Tehama,NA,NA,Antelope,6/22/2008,6/26/2008,USFS,NA,600,T,Lightning,0,0,0,0
+2008,LNF-2781,Tehama,NA,NA,Mill Complex,6/22/2008,6/29/2008,USFS,NA,2100,TG,Lightning,0,0,0,0
+2008,SQF-1356,Kern,NA,NA,Piute,6/28/2008,7/25/2008,USFS,NA,37026,T,Misc.,51,0,0,0
+2008,LPF-1778,Santa Barbara,NA,NA,Gap,7/1/2008,7/28/2008,USFS,NA,9443,T,Misc.,4,0,0,0
+2008,KNP-0020,Fresno,NA,NA,Tehipite,7/19/2008,11/11/2008,NPS,NA,11596,T,Lightning,0,0,0,0
+2008,PNF-0784,Plumas,NA,NA,Rich,7/29/2008,8/10/2008,USFS,NA,6112,T,Railroad,9,0,0,0
+2008,INF-0656,Mono,NA,NA,Sherwin,8/3/2008,8/8/2008,USFS,NA,347,T,Human,0,0,0,0
+2008,BNP-437,Siskiyou,NA,NA,Jack,8/17/2008,8/22/2008,USFS,NA,6900,BG,Lightning,0,0,0,0
+2008,KNF-4096,Siskiyou,NA,NA,Slinkard,8/17/2008,8/21/2008,USFS,NA,374,T,Lightning,0,0,0,0
+2008,SHF-1944,Shasta,NA,NA,Gulch,9/7/2008,9/11/2008,USFS,NA,2847,TB,Equipment Use,0,0,0,0
+2008,SHF-1949,Shasta,NA,NA,Elmore,9/7/2008,9/9/2008,USFS,NA,343,TB,Arson,0,0,0,0
+2008,HIA-220,Humboldt,NA,NA,Deerhorn,9/8/2008,9/14/2008,USFS,NA,381,TBG,Undetermined,0,0,0,0
+2008,KNP-0035,Tulare,NA,NA,Hidden,9/10/2008,9/30/2008,NP,NA,3668,T,Lightning,0,0,0,0
+2008,LPF-2754,Monterey,NA,NA,Chalk,9/25/2008,10/29/2008,USFS,NA,16269,T,Misc.,0,0,0,0
+2008,MCP-08-2515,San Diego,NA,NA,Roblar,9/25/2008,9/29/2008,MIL,NA,400,B,Misc.,0,0,0,0
+2008,STF-2458,Tuolumne,NA,NA,Dome Rock,9/30/2008,11/15/2008,USFS,NA,919,T,Lightning,0,0,0,0
+2008,MCP-2640,San Diego,NA,NA,November,10/8/2008,10/9/2008,MIL,NA,1400,GB,Human,0,0,0,0
+2008,ANF-3833,Los Angeles,NA,NA,Marek,10/12/2008,10/16/2008,USFS,NA,4824,B,Misc.,65,9,0,0
+2008,MRN-2428,Marin,NA,NA,Angel,10/12/2008,10/14/2008,CC,NA,303,B,Undetermined,1,0,0,0
+2008,LAC-8231953,Los Angeles,NA,NA,Sesnon,10/13/2008,10/18/2008,CC,NA,14703,BG,Undetermined,78,15,0,0
+2008,MCP-2699,San Diego,NA,NA,Juliett,10/13/2008,10/17/2008,MIL,NA,4026,BG,Undetermined,0,0,0,0
+2008,YNP-764,Mariposa,NA,NA,Wawona NW,10/14/2008,10/19/2008,NP,NA,450,T,Human,0,0,0,0
+2008,SBC-9981,Santa Barbara,NA,NA,Tea Incident,11/13/2008,11/17/2008,CC,NA,1940,T,Campfire,221,9,0,0
+2008,LFD-1460,Los Angeles,NA,NA,Sayre,11/14/2008,11/21/2008,CC,NA,11262,TB,Misc.,604,147,0,0

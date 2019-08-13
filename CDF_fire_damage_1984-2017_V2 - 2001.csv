@@ -1,0 +1,44 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2001,Coast,Mendocino,Ridge,6/23/2001,6/25/2001,CDF,610,,TGB,Equip. Use,0,0,0,0
+2001,Coast,Mendocino NF/Colusa Glen,Trough,8/8/2001,8/20/2001,USFS,,24970,,Undet.,30,NA,NA,NA
+2001,Cascade,Lassen-Modoc,Hilton,5/20/2001,5/23/2001,CDF,390,,T,Debris,2,0,0,0
+2001,Cascade,Lassen,Devil,5/27/2001,6/1/2001,CDF,4400,,T,Equip. Use,0,0,0,0
+2001,Cascade,Nevada,Martis,6/17/2001,7/1/2001,CDF/USFS,5600,8900,T,Campfire,5,0,0,0
+2001,Cascade,Lassen,Grasshopper,7/25/2001,7/27/2001,CDF,992,,GB,Lightning,0,0,0,0
+2001,Cascade,Lassen,Stream,7/26/2001,7/26/2001,USFS,,3560,NA,Lightning,NA,NA,NA,NA
+2001,Cascade,Shasta,Powerhouse,7/28/2001,8/1/2001,CDF,490,,T,Undet.,1,0,0,0
+2001,Cascade,Modoc,Cowhead/BLM D438,8/8/2001,8/9/2001,BLM,,1670,NA,Lightning,NA,NA,NA,NA
+2001,Cascade,Modoc,Modoc Complex,8/8/2001,8/8/2001,USFS,,5367,NA,Lightning,NA,NA,NA,NA
+2001,Cascade,Shasta,East,8/9/2001,8/10/2001,CDF,624,,TB,Elec. Power,0,0,0,0
+2001,Cascade,Lassen,Observation,8/9/2001,8/15/2001,USFS,,67700,NA,Lightning,NA,NA,NA,NA
+2001,Cascade,Modoc NF,Blue Complex,8/9/2001,8/10/2001,USFS,,37950,NA,Lightning,1,NA,NA,NA
+2001,Cascade,Placer/Tahoe NF,GAP,8/12/2001,8/17/2001,USFS,,2462,NA,Under Invest.,1,NA,NA,NA
+2001,Cascade,Nevada Desert,Buzz,8/12/2001,8/12/2001,BLM,,2206,NA,Lightning,NA,NA,NA,NA
+2001,Cascade,Placer,Ponderosa,8/17/2001,8/23/2001,CDF,2780,,,Vehicle,0,0,0,0
+2001,Cascade,Trinity,Oregon,8/28/2001,8/31/2001,CDF,1680,,,Undetermined,33,0,0,0
+2001,Cascade,Butte,Poe,9/6/2001,9/12/2001,CDF,8333,,T,Elec. Power,133,0,0,0
+2001,Cascade,Siskiyou,Happy Camp Complex,9/14/2001,10/10/2001,USGS,,8500,TW,Lightning,NA,NA,NA,NA
+2001,Cascade,Butte,HWY 70,10/24/2001,10/26/2001,CDF,1711,,T,Arson,0,0,0,0
+2001,South,San Diego,Viejas,1/3/2001,1/8/2001,CDF,2300,8053,B,Smoking,16,13,0,0
+2001,South,Riverside Palm Springs,Tram,6/17/2001,6/18/2001,CDF,393,,B,Arson,0,0,0,0
+2001,South,Inyo NF,McLaughlin,7/2/2001,7/5/2001,USFS,,2900,,Lightning,0,0,0,0
+2001,South,Riverside,Ballinger,7/9/2001,7/9/2001,CDF,350,,B,Undet.,0,0,0,0
+2001,South,Riverside,Silent,7/11/2001,7/12/2001,CDF,548,,B,Equip. Use,0,0,0,0
+2001,South,Riverside,Reche,7/22/2001,7/23/2001,CDF,1798,,B,Vehicle,0,0,0,0
+2001,South,Mariposa/SNF,Briceburg,7/24/2001,7/25/2001,CDF,800,,GWB,Under Invest.,0,0,0,0
+2001,South,Mono,Assist Crater,8/12/2001,8/15/2001,USFS,,5800,,Lightning,0,0,0,0
+2001,South,Cleveland NF/MVU,Orosco,8/14/2001,8/15/2001,CDF/USFS,20,793,B,Under Invest.,0,0,0,0
+2001,South,San Diego,Bell,12/8/2001,12/11/2001,CDF,1204,,B,Undet.,0,0,0,0
+2001,Sierra,Madera-Mariposa,165,6/13/2001,6/13/2001,LOCAL,,1500,G,Undet.,5,0,0,2
+2001,Sierra,Amador,Jackson,6/13/2001,6/13/2001,CDF,2240,,GWB,Welding,0,0,0,0
+2001,Sierra,Merced,Pacheco,6/16/2001,6/17/2001,CDF,1550,,GB,Vehicle,15,1,0,0
+2001,Sierra,Calaveras,Lake,7/3/2001,7/3/2001,CDF,550,,B,Misc.,0,0,0,0
+2001,Sierra,Mariposa/Yosemite NP,Hoover Complex,7/13/2001,,NPS,,8007,,Lightning,0,0,0,0
+2001,Sierra,Mariposa/Tuolumne,Creek,8/18/2001,8/24/2001,CDF,11095,,TGWB,Arson,43,0,0,0
+2001,Sierra,Calaveras,Leonard,8/19/2001,8/25/2001,CDF,5167,,W,Equip. Use,22,0,0,0
+2001,Sierra,Sequoia NF/Fresno,Highway,8/19/2001,8/29/2001,USFS,,4152,,Under Invest.,8,0,0,0
+2001,Sierra,Madera,North Fork,8/20/2001,8/20/2001,CDF,475,2455,,Under Invest.,3,2,0,0
+2001,Sierra,El Dorado,Star,8/25/2001,9/22/2001,USFS,,16761,,Under Invest.,4,0,0,0
+2001,Sierra,Calaveras,Darby,9/5/2001,9/24/2001,CDF,14280,,TWGA,Under Invest.,1,1,0,0
+2001,Sierra,Angeles NF,Stables,10/12/2001,10/15/2001,USFS,,6544,,Under Invest.,4,0,0,0
+2001,Sierra,Calaveras,Moore,10/27/2001,10/31/2001,CDF,580,,T,Undet.,0,0,0,0

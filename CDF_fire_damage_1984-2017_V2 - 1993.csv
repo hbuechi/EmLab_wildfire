@@ -1,0 +1,49 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+1993,I,Humboldt-Del Norte,Hoisington,11/26/1993,11/27/1993,CDF,307,,B,Debris,0,0,0,0
+1993,I,Sonoma,PG&E 27,10/27/1993,10/27/1993,CDF,825,,TWG,Undet.,1,0,0,0
+1993,I,Sonoma,Gerstle,11/27/1993,11/28/1993,CDF,450,,TG,Campfire,1,0,0,0
+1993,II,Lassen-Modoc,Gallatin,6/26/1993,6/28/1993,CDF,291,,T,Campfire,0,0,0,0
+1993,II,Lassen-Modoc,Widow,8/5/1993,8/7/1993,CDF,830,,T,Undet.,0,0,0,0
+1993,II,Tehama-Glenn,Hall,9/12/1993,9/12/1993,LOCAL,,475,G,Debris,3,2,0,0
+1993,III,Riverside,State,5/26/1993,5/26/1993,CDF,500,,B,Equip. Use,0,0,0,0
+1993,III,Riverside,Assist,7/15/1993,7/16/1993,LOCAL,,400,B,Smoking,0,0,0,0
+1993,III,Riverside,Local,7/25/1993,7/25/1993,LOCAL,,410,AGB,Undet.,0,0,0,0
+1993,III,Riverside,California,10/26/1993,10/30/1993,CDF,25100,,BG,Powerlines,107,40,0,0
+1993,III,Riverside,Box,10/27/1993,10/28/1993,CDF,3500,,GB,Arson,0,0,0,0
+1993,III,Riverside,Tribal,10/27/1993,10/28/1993,CDF,2230,,B,Powerlines,0,0,0,0
+1993,III,Riverside,Vail,10/27/1993,10/28/1993,CDF,536,,GB,Arson,0,0,0,0
+1993,III,Riverside,Repplier,11/2/1993,11/4/1993,CDF,5280,671,GB,Arcing Pwrline,3,2,0,0
+1993,III,San Bernardino,Stoddard,7/20/1993,7/20/1993,BLM,,2326,,Fireworks,0,0,0,0
+1993,III,San Bernardino,Opal Mountain,8/27/1993,8/27/1993,LOCAL,,18000,GB,Lightning,0,0,0,0
+1993,III,San Bernardino,Mill Creek,10/27/1993,10/28/1993,CDF,4680,,B,Powerline,6,2,0,0
+1993,III,San Diego,Outside Origin #1,5/9/1993,5/13/1993,CDF,4600,,B,Campfire,0,0,0,0
+1993,III,San Diego,Grade,6/16/1993,6/18/1993,CDF,1500,,GB,Undet.,0,0,0,0
+1993,III,San Diego,Otay #18,7/29/1993,7/29/1993,CDF,2000,,GB,Escape,0,0,0,0
+1993,III,San Diego,Clevenger,9/8/1993,9/9/1993,CDF,409,,B,Arson,0,0,0,0
+1993,III,San Diego,Bell,9/22/1993,9/23/1993,CDF,300,,B,Campfire,0,0,0,0
+1993,III,San Diego,Guejito,10/26/1993,11/2/1993,CDF,20722,,B,Powerlines,9,1,0,0
+1993,III,San Diego,Assist/Old Coach,11/2/1993,11/3/1993,CITY,157,1982,B,Campfire,36,0,0,0
+1993,III,San Luis Obispo,Assist #31,6/15/1993,6/15/1993,CC,,400,B,Undet.,0,0,0,0
+1993,III,Cleveland NF,Eagle Fire,5/9/1993,5/9/1993,USFS,,3000,,NA,0,0,0,0
+1993,III,Inyo NF,Assist,8/4/1993,8/4/1993,USFS,,1000,,Lightning,0,0,0,0
+1993,III,Los Padres NF,Marre,9/26/1993,,USFS,3400,27100,,Smoking,0,0,0,0
+1993,III,Orange County,Stagecoach,10/26/1993,10/27/1993,CC,,546,,Arson,8,0,0,0
+1993,III,Orange County,Laguna Canyon,10/27/1993,10/28/1993,CC,,16682,,Arson,366,17,0,0
+1993,III,Ventura County,Greenmeadow,10/26/1993,11/4/1993,CC,,40051,B,Arson,1,2,0,0
+1993,III,Ventura County,Steckle Park,10/27/1993,10/31/1993,CC,,26741,,Arson,0,0,0,0
+1993,III,Los Padres NF,Wheel,10/27/1993,10/30/1993,USFS,,1384,,Arson,149,100,0,1
+1993,III,Angeles NF,Kinneloa,10/27/1993,11/1/1993,CC,,5715,,Campfire,15,5,0,0
+1993,III,Cleveland NF,Ortega,10/27/1993,11/1/1993,USFS,,21392,,Arson,1,0,0,0
+1993,III,Los Angeles/Ventura,Rocky,10/27/1993,10/27/1993,CC,,1906,,Arson,323,0,0,3
+1993,III,Los Angeles County,Old Topanga,11/2/1993,11/5/1993,CC,,18000,B,Arson,0,0,0,0
+1993,IV,Fresno-Kings,Chevron USA,5/10/1993,5/10/1993,LOCAL,,3000,GB,Electrical Pwr,0,0,0,0
+1993,IV,Fresno-Kings,Sycamore,7/14/1993,7/14/1993,CDF,1500,,G,Arson,0,0,0,0
+1993,IV,Madera Mariposa,PG&E #4,6/1/1993,6/2/1993,CDF,5500,,G,Electrical Pwr,0,0,0,0
+1993,IV,San Benito-Monterey,Guerrero,6/10/1993,6/12/1993,CDF,1513,,G,Equipment Use,0,0,0,0
+1993,IV,San Benito-Monterey,Rancho,8/1/1993,8/3/1993,CDF,6000,,GB,Equipment Use,2,0,0,0
+1993,IV,San Benito-Monterey,Rancho,8/1/1993,8/3/1993,CDF,380,,GB,Exposure Fire,0,0,0,0
+1993,IV,San Benito-Monterey,Rancho,8/1/1993,8/3/1993,CDF,550,,B,Exposure Fire,0,0,0,0
+1993,IV,San benito-Monterey,Rancho,8/1/1993,8/3/1993,CDF,470,,GB,Exposure Fire,0,0,0,0
+1993,IV,San benito-Monterey,Rancho,8/1/1993,8/3/1993,CDF,320,,B,Exposure Fire,0,0,0,0
+1993,IV,San benito-Monterey,Duck,8/15/1993,8/15/1993,CDF,480,,G,Bird/Powerline,3,0,0,0
+1993,IV,Kern County,Orchard,6/20/1993,6/21/1993,CC,,20000,,Lightning,0,0,0,0

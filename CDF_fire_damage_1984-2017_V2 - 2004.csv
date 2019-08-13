@@ -1,0 +1,31 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+2004,Coast,Mendocino,Creek,8/8/2004,8/11/2004,CDF,328,,GTB,Equip. Use,NA,NA,NA,NA
+2004,Coast,Santa Clara,Kincaid,8/8/2004,8/10/2004,CDF,1246,,W,Equip. Use,NA,NA,NA,NA
+2004,Coast,Sonoma-Lake-Napa,Geysers,9/3/2004,9/8/2004,CDF,12525,,TWB,Equip. Use,7,NA,NA,NA
+2004,Coast,Sonoma-Lake-Napa,Rumsey,10/10/2004,10/16/2004,CDF,39138,,B,Undet.,6,1,NA,NA
+2004,Cascade,Butte,Oregon,8/11/2004,8/13/2004,OTHER,,2030,GWB,Equip. Use,5,NA,NA,NA
+2004,Cascade,Lassen-Modoc,Straylor,7/22/2004,7/29/2004,CDF,3422,,T,Equip. Use,NA,NA,NA,NA
+2004,Cascade,Lassen-Modoc,Nod BBT4,8/13/2004,8/16/2004,OTHER,,500,B,Lightning,NA,NA,NA,NA
+2004,Cascade,Nevada-Yuba-Placer,Stevens,8/8/2004,8/12/2004,CDF,934,,B,Equip. Use,2,NA,NA,NA
+2004,Cascade,Shasta-Trinity,Bear,8/11/2004,8/16/2004,CDF,10848,,TW,Equip. Use,86,28,NA,NA
+2004,Cascade,Shasta-Trinity,French,8/14/2004,8/20/2004,CDF,13005,,TB,Undet.,30,15,NA,NA
+2004,Cascade,Siskiyou,Irongate,7/24/2004,7/26/2004,CDF,2400,,W,Lightning,NA,NA,NA,NA
+2004,South,Riverside,Pleasure Fire,4/25/2004,4/16/2004,OTHER,,2464,B,Vehicle,9,NA,NA,NA
+2004,South,Riverside,Eagle,5/2/2004,5/7/2004,CDF,8831,,B,Equip. Use,41,NA,NA,NA
+2004,South,Riverside,Gafford,5/2/2004,5/3/2004,CDF,450,,B,Misc.,NA,NA,NA,NA
+2004,South,Riverside,Cerrito Fire 681,5/3/2004,5/7/2004,CDF,16460,,B,Equip. Use,28,NA,NA,NA
+2004,South,Riverside,Cottonwood,5/12/2004,5/15/2004,BLM,,1845,GTB,Equip. Use,NA,NA,NA,NA
+2004,South,Riverside,Verbenia,7/11/2004,7/16/2004,CDF,3833,,GTB,Equip. Use,NA,NA,NA,NA
+2004,South,Riverside,Lakeview,7/13/2004,7/13/2004,CDF,350,,B,Misc.,2,NA,NA,NA
+2004,South,Riverside,Melton,7/17/2004,7/20/2004,OTHER,,3667,B,Misc.,20,NA,NA,NA
+2004,South,San Diego,Warner,7/1/2004,7/1/2004,CDF,600,,B,Undet.,NA,NA,NA,NA
+2004,South,San Diego,Mataguay,7/13/2004,7/15/2004,CDF,8649,,GB,Arson,3,NA,NA,NA
+2004,South,San Diego,Border #16,9/13/2004,9/13/2004,CDF,965,,B,Undet.,1,NA,NA,NA
+2004,Sierra,Fresno-Kings,FKU 7654,6/26/2004,6/26/2004,LOC,,5000,A,Debris Burning,NA,NA,NA,NA
+2004,Sierra,Fresno-Kings,Gatos,7/11/2004,7/13/2004,CDF,1307,,GB,Equip. Use,8,1,NA,NA
+2004,Sierra,Madera-Mariposa,Bear,9/2/2004,9/4/2004,CDF,400,,B,Undet.,5,10,NA,NA
+2004,Sierra,Madera-Mariposa,Old Highway,9/12/2004,9/15/2004,CDF,1347,,B,Arson,NA,NA,NA,NA
+2004,Sierra,Tuolumne-Calaveras,Armstrong #2,8/6/2004,8/14/2004,CDF,879,,B,Arson,2,NA,NA,NA
+2004,Sierra,Tuolumne-Calaveras,HWY 4 #2,8/6/2004,8/9/2004,CDF,3443,,GWB,Undet.,NA,NA,NA,NA
+2004,Sierra,Tuolumne-Calaveras,Hunt,8/10/2004,8/12/2004,CDF,600,,B,Equip. Use,1,NA,NA,NA
+2004,Sierra,Tuolumne-Calaveras,Pattison,9/3/2004,9/5/2004,CDF,2476,,GB,Vehicle,62,4,NA,NA

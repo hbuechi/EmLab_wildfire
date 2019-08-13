@@ -1,0 +1,39 @@
+Year,Region,Ranger_unit,Ranger_unit2,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities
+1995,Coast,Lake-Napa,,Priest,10/22/1995,10/23/1995,CDF,515,,BG,Equipment,0,0,0,0
+1995,Coast,Mendocino,,Guntley,10/4/1995,10/5/1995,CDF,2540,,BG,Arson,0,0,0,0
+1995,Coast,Santa Clara,,Orestima,10/22/1995,10/26/1995,CDF,1755,,BG,Debris,0,0,0,0
+1995,Coast,Marin County,,Vision,10/4/1995,10/7/1995,NPS,,12354,,Campfire,45,12,0,0
+1995,South,Riverside,,State,6/23/1995,6/25/1995,CDF,1963,,BG,Undet.,0,0,0,0
+1995,South,Riverside,,Lost Lake,6/23/1995,6/24/1995,USFS,,2000,B,NA,0,0,0,0
+1995,South,Riverside,,State #1030 (Dawson),7/20/1995,7/22/1995,CDF,4900,,BG,PWF,0,0,0,0
+1995,South,Riverside,,State,7/22/1995,7/23/1995,CDF,1335,,B,Arson,0,0,0,0
+1995,South,Riverside,,Moreno-S-1046,7/23/1995,7/23/1995,CDF,762,,B,Smoking,0,0,0,0
+1995,South,Riverside,,State (Stanley),7/27/1995,7/27/1995,CDF,5000,,B,Vehicle,6,0,0,0
+1995,South,Riverside,,State 1102 (Reche),7/27/1995,7/28/1995,CDF,984,165,BG,Misc.,1,2,0,0
+1995,South,Riverside,,Maywood Fire,7/30/1995,8/1/1995,CDF,1100,,B,Undet.,0,0,0,0
+1995,South,Riverside,,Benton,7/30/1995,7/30/1995,CDF,430,,B,Arson,0,0,0,0
+1995,South,Riverside,,Verbenia,8/4/1995,8/10/1995,CDF,23851,,B,Equipment,2,1,0,0
+1995,South,Riverside,,Lincoln,9/24/1995,9/24/1995,LOCAL,,540,B,Undet.,0,0,0,0
+1995,South,Riverside,,State,9/26/1995,9/26/1995,CDF,3500,,B,Arson,0,0,0,0
+1995,South,Riverside,,Bluff,10/13/1995,10/16/1995,CDF,2624,,BG,Campfire,3,2,0,0
+1995,South,Riverside,,Esperanza,11/25/1995,11/26/1995,CDF,660,,G,Equipment,0,0,0,0
+1995,South,San Bernardino,,Pole,6/14/1995,6/15/1995,CDF,4800,,B,Equipment,0,0,0,0
+1995,South,San Bernardino,,Pilgrim,7/21/1995,7/24/1995,CDF,2236,,G,Equipment,0,0,0,0
+1995,South,San Bernardino,,Jenny,7/31/1995,7/31/1995,CDF,420,,B,Lightning,6,0,0,0
+1995,South,San Bernardino,,City,10/22/1995,10/23/1995,CITY,,2500,BG,Vehicle,0,0,0,0
+1995,South,San Diego,,Butterfield,6/19/1995,6/24/1995,CDF,7083,,B,Misc.,0,0,3,0
+1995,South,San Diego,,Marron #4,7/11/1995,7/11/1995,CDF,645,,BAP,Arson,0,0,0,0
+1995,South,San Diego,,Forest Gate,7/29/1995,7/30/1995,CDF,1650,,B,Smoking,0,0,0,0
+1995,South,San Diego,,El Monte,8/27/1995,8/27/1995,CDF,512,7588,B,Equipment,0,0,0,0
+1995,South,San Diego,,Sycamore,8/29/1995,9/2/1995,CDF,10000,,B,Undet.,3,3,0,0
+1995,South,San Diego,,Poway,8/31/1995,9/2/1995,CDF,1637,,B,Arson,0,0,0,0
+1995,South,San Diego,,Warners,10/13/1995,10/14/1995,CDF,2400,,B,Misc.,20,0,0,0
+1995,South,San Diego,,Springs,10/20/1995,10/20/1995,CDF,307,,B,Equipment,0,0,0,0
+1995,South,San Diego,,Tecate #30,11/28/1995,11/30/1995,CDF,500,,B,Campfire,0,0,0,0
+1995,South,San Luis Obispo,Ventura,Assist #51,10/18/1995,10/18/1995,CC,,1525,B,Arson,0,0,0,0
+1995,South,San Luis Obispo,,Bald,10/26/1995,10/26/1995,CDF,2900,,GWB,Escape,0,0,0,0
+1995,South,Fresno-Kings,,Powerhouse,8/23/1995,8/24/1995,CDF,500,,B,Arson,0,0,0,0
+1995,South,Madera-Mariposa,,Nees Fire,5/8/1995,5/8/1995,CDF,1820,,G,Vehicle,0,0,0,0
+1995,South,Tulare,,Lopez/Kern Co #8,7/30/1995,8/1/1995,CC,,1985,W,Lightning,4,1,0,0
+1995,South,Tuolumne-Calaveras,,PG&E 13,7/16/1995,7/17/1995,CDF,3212,,G,Equipment,0,0,0,0
+1995,South,Tuolumne-Calaveras,,Murray,10/6/1995,10/8/1995,CDF,500,,BW,Misc.,0,0,0,0
