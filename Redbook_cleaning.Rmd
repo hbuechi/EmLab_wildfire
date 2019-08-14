@@ -293,11 +293,16 @@ write_csv(calfire_data, path = "calfire_data.csv")
 calfire_data$Start <- as.Date(calfire_data$Start, "%m/%d/%Y")
 calfire_data$Contained <- as.Date(calfire_data$Contained, "%m/%d/%Y")
 
+# new column with numeric month
+
+Month <- format(calfire_data$Start, "%m")
+calfire_data <- dplyr::mutate(calfire_data, Month = Month)
+
 # concatenate into a fire name / year column AND fire name / year / month column
 
 calfire_conc <- calfire_data %>% 
-  unite(Fire_name_year, FIRE_NAME, Year, remove = F) %>% 
-  unite()
+  unite(Fire_year, FIRE_NAME, Year, remove = F) %>% 
+  unite(Fire_year_month, FIRE_NAME, Year, Month, remove = F)
 
 #write_csv(calfire_conc, path = "calfire_conc.csv")
 
