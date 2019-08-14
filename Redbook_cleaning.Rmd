@@ -212,30 +212,32 @@ calfire_data <- calfire_data %>%
 
 # Check out the common fires.
 
-cdf_fire_perimeters_1984 <- cdf_fire_perimeters %>% # attribute table from USGS Historic Fires shapefiles
-  filter(YEAR_ >= 1984) %>% # filtered to make it more similar to my Cal Fire dataset
-  filter(GIS_ACRES >= 30)
+#cdf_fire_perimeters_1984 <- cdf_fire_perimeters %>% # attribute table from USGS Historic Fires shapefiles
+ # filter(YEAR_ >= 1984) %>% # filtered to make it more similar to my Cal Fire dataset
+  #filter(GIS_ACRES >= 30)
 
-cdf_fire_names <- calfire_data$Fire_name # 1764 obs
-cdf_perim_fire_names <- cdf_fire_perimeters_1984$FIRE_NAME # 6101 obs
+#cdf_fire_names <- calfire_data$Fire_name # 1764 obs
+#cdf_perim_fire_names <- cdf_fire_perimeters_1984$FIRE_NAME # 6101 obs
 
-cdf_perim_fire_names <- toupper(cdf_perim_fire_names) # make both upper case in order to do joins and comparisons
-cdf_fire_names <- toupper(cdf_fire_names)
+#cdf_perim_fire_names <- toupper(cdf_perim_fire_names) # make both upper case in order to do joins and comparisons
+#cdf_fire_names <- toupper(cdf_fire_names)
 
 # print list of differences by comparing each dataset to the other separately
 
-cdf_fire_diff <- setdiff(cdf_fire_names, cdf_perim_fire_names) # 551 in CDF that are not in USGS (20%: 551/1764)
-cdf_perim_fire_diff <- setdiff(cdf_perim_fire_names, cdf_fire_names) # 2782 in USGS that are not in CDF (45%: 2782/6101)
+#cdf_fire_diff <- setdiff(cdf_fire_names, cdf_perim_fire_names) # 551 in CDF that are not in USGS (20%: 551/1764)
+#cdf_perim_fire_diff <- setdiff(cdf_perim_fire_names, cdf_fire_names) # 2782 in USGS that are not in CDF (45%: 2782/6101)
 
-cdf_fire_diff <- as.data.frame(cdf_fire_diff) # make the vectors into dataframes so that I can write to csv
-cdf_perim_fire_diff <- as.data.frame(cdf_perim_fire_diff)
+#cdf_fire_diff <- as.data.frame(cdf_fire_diff) # make the vectors into dataframes so that I can write to csv
+#cdf_perim_fire_diff <- as.data.frame(cdf_perim_fire_diff)
 
-write_csv(cdf_fire_diff, path = "cdf_fire_diff.csv")
-write_csv(cdf_perim_fire_diff, path = "cdf_perim_fire_diff.csv")
+#write_csv(cdf_fire_diff, path = "cdf_fire_diff.csv")
+#write_csv(cdf_perim_fire_diff, path = "cdf_perim_fire_diff.csv")
 
 # don't worry about matching more fires right now...
 
 # git stuff: https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
+
+# this is much easier to just do during the join in Arc because I can view the attribute table after the join and the common fires are highlighted, then I export that table and can play way more with it in R.
 
 ```
 
@@ -254,7 +256,7 @@ write_csv(calfire_data, path = "calfire_data.csv")
 
 # I've done the join, now I want to explore *that* dataset a little bit
 
-perimeters_with_damage_v1 <- read_csv("CDF_perimeters_with_damage_1984-2018.csv") # two parsing failures 2204, 2286
+#perimeters_with_damage_v1 <- read_csv("CDF_perimeters_with_damage_1984-2018.csv") # two parsing failures 2204, 2286
 
 # column names (mostly from damage data) were shortened during join
 # whatever for now
@@ -274,8 +276,8 @@ perimeters_with_damage_v1 <- read_csv("CDF_perimeters_with_damage_1984-2018.csv"
 
 # total acres burned
 
-sum(perimeters_with_damage_v1$GIS_ACRES) # 11,194,626 acres
-sum(perimeters_with_damage_v1$Damaged_st)
+#sum(perimeters_with_damage_v1$GIS_ACRES) # 11,194,626 acres
+#sum(perimeters_with_damage_v1$Damaged_st)
 
 # GAAAAHHHHHHHHHHHHH THERE ARE DUPLICATE FIRE NAMES FROM THE SPATIAL DATA
 # Can I join based on fire name and year?
@@ -286,9 +288,18 @@ sum(perimeters_with_damage_v1$Damaged_st)
 
 ```{r concatenating_calfire}
 
-calfire_conc <- unite(calfire_data, Fire_name_year, FIRE_NAME, Year, remove = F)
-write_csv(calfire_conc, path = "calfire_conc.csv")
+# classify Start and Contained columns as dates - my issue earlier in the code was that I wasn't specifying the format so R turned all of the dates to NA)
 
+calfire_data$Start <- as.Date(calfire_data$Start, "%m/%d/%Y")
+calfire_data$Contained <- as.Date(calfire_data$Contained, "%m/%d/%Y")
+
+# concatenate into a fire name / year column AND fire name / year / month column
+
+calfire_conc <- calfire_data %>% 
+  unite(Fire_name_year, FIRE_NAME, Year, remove = F) %>% 
+  unite()
+
+#write_csv(calfire_conc, path = "calfire_conc.csv")
 
 ```
 
