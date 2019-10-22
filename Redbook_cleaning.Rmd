@@ -36,6 +36,11 @@ library(plyr) # for rbind.fill()
 library(readr)
 library(lubridate)
 
+redbook_1979 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1979.csv")
+redbook_1980 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1980.csv")
+redbook_1981 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1981.csv")
+redbook_1982 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1982.csv")
+redbook_1983 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1983.csv")
 redbook_1984 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1984.csv")
 redbook_1985 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1985.csv")
 redbook_1986 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1986.csv")
@@ -81,7 +86,7 @@ cdf_fire_perimeters <- read_csv("CDF_fire_perimeters_atttable.csv")
 
 # I need to add columns to most, if not all, of the Cal Fire dataframes so that they can be bound together into a single dataframe
 
-list <- list(redbook_1984, redbook_1985, redbook_1986, redbook_1987, redbook_1988, redbook_1989, redbook_1990, redbook_1991, redbook_1992, redbook_1993, redbook_1994, redbook_1995, redbook_1996, redbook_1997, redbook_1998, redbook_1999, redbook_2000, redbook_2001, redbook_2002, redbook_2003, redbook_2004, redbook_2005, redbook_2006, redbook_2007, redbook_2008a, redbook_2008b, redbook_2009a, redbook_2009b, redbook_2010, redbook_2011, redbook_2012, redbook_2013, redbook_2014, redbook_2015, redbook_2016, redbook_2017) # list of dfs for the for loop
+list <- list(redbook_1979, redbook_1980, redbook_1981, redbook_1982, redbook_1983, redbook_1984, redbook_1985, redbook_1986, redbook_1987, redbook_1988, redbook_1989, redbook_1990, redbook_1991, redbook_1992, redbook_1993, redbook_1994, redbook_1995, redbook_1996, redbook_1997, redbook_1998, redbook_1999, redbook_2000, redbook_2001, redbook_2002, redbook_2003, redbook_2004, redbook_2005, redbook_2006, redbook_2007, redbook_2008a, redbook_2008b, redbook_2009a, redbook_2009b, redbook_2010, redbook_2011, redbook_2012, redbook_2013, redbook_2014, redbook_2015, redbook_2016, redbook_2017) # list of dfs for the for loop
 
 cols <- c(Incident_number = NA_real_, Region = NA_real_, Ranger_unit = NA_real_, Ranger_unit2 = NA_real_, National_forest = NA_character_, County = NA_real_, County2 = NA_real_, County3 = NA_real_, Fire_name2 = NA_real_, DPA = NA_real_, DPA2 = NA_real_, CDF_acres_burned = NA_real_, Other_acres_burned = NA_real_, Veg_type = NA_real_, Cause = NA_real_, Destroyed_structures = NA_integer_, Damaged_structures = NA_integer_, Firefighter_fatalities = NA_real_, Civilian_fatalities = NA_real_, Start = NA_real_, Contained = NA_real_) # vector of column headings to be populated with NAs if they are being added
 
@@ -295,16 +300,19 @@ calfire_data$Contained <- as.Date(calfire_data$Contained, "%m/%d/%Y")
 
 # new column with numeric month
 
-Month <- format(calfire_data$Start, "%m")
-calfire_data <- dplyr::mutate(calfire_data, Month = Month)
+Start_month <- format(calfire_data$Start, "%m")
+calfire_data <- mutate(calfire_data, Start_month = Start_month)
+calfire_data$Start_month <- as.integer(calfire_data$Start_month) # get rid of leading 0's
+calfire_data <- calfire_data %>% 
+  dplyr::rename(Fire_year=Year)
 
 # concatenate into a fire name / year column AND fire name / year / month column
 
-calfire_conc <- calfire_data %>% 
-  unite(Fire_year, FIRE_NAME, Year, remove = F) %>% 
-  unite(Fire_year_month, FIRE_NAME, Year, Month, remove = F)
+calfire_concat <- calfire_data %>% 
+  unite(Firename_year, FIRE_NAME, Fire_year, remove = F) %>% 
+  unite(Fire_year_month, FIRE_NAME, Fire_year, Start_month, remove = F)
 
-#write_csv(calfire_conc, path = "calfire_conc.csv")
+write_csv(calfire_concat, path = "calfire_concat.csv")
 
 ```
 

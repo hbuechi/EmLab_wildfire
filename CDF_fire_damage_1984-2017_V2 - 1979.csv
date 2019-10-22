@@ -1,0 +1,89 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Firefighter_fatalities,Damaged_structures,Civilian_fatalities,Incident_number,Ranger_unit2,National_forest,County,County2,County3,DPA2,Fire_name2
+1979,I,Humboldt-Del Norte,Blue Creek,06/08/1979,06/10/1979,CDF,363,0,T,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,I,Humboldt-Del Norte,Sylvandale,8/10/1979,8/11/1979,CDF,1616,0,TWG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,I,Lake-Napa,Rockwell Gap,9/11/1979,9/12/1979,CDF,2500,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,I,Lake-Napa,Seigler,9/17/1979,9/18/1979,CDF,1029,0,TWB,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,I,Mendocino,Hanes #2,9/12/1979,9/14/1979,CDF,370,0,TWBG,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,I,Mendocino,Woodruff,9/16/1979,9/18/1979,CDF,520,0,TBG,Arson,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Butte,Bidwell Park,7/25/1979,7/26/1979,CITY,1220,80,WB,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Plumas NF,Will,9/18/1979,9/21/1979,USFS,720,2460,T,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Modoc NF,Happy,7/19/1979,7/22/1979,USFS,0,2473,T,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Nevada-Yuba-Placer,Roadside #70-77,7/10/1979,7/10/1979,CDF,1700,0,WG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Shasta-Trinity,Rim,5/15/1979,5/16/1979,CDF,310,0,T,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Tehama-Glenn,Little Antelope,6/7/1979,6/7/1979,CDF,2550,0,BG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,II,Tehama-Glenn,Squaw Ridge,7/13/1979,7/14/1979,CDF,9400,0,GAP,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Amador-El Dorado,Kiefer,6/13/1979,6/13/1979,CDF,1500,0,G,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Amador-El Dorado,Chili Bar,9/16/1979,9/21/1979,CDF,6884,140,TWBGAP,Campfire,7,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Fresno-Kings,Ciervo,6/7/1979,6/8/1979,CDF,57540,0,G,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Fresno-Kings,Valerie,6/13/1979,6/15/1979,CDF,5250,0,WBG,Smoking,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Fresno-Kings,State of Calif.,7/1/1979,7/1/1979,CDF,1600,280,G,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tulare,Taylor,6/20/1979,6/20/1979,CDF,2100,0,G,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tulare,Woodlake Mtn.,7/9/1979,7/9/1979,CDF,1900,0,G,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Sequoia NF,Cow,8/7/1979,8/9/1979,USFS,0,1510,G,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tuolumne-Calaveras,Brunswick,6/8/1979,6/8/1979,CDF,1295,0,WBG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tuolumne-Calaveras,Fowler Peak,6/11/1979,6/13/1979,CDF,4123,45,WB,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tuolumne-Calaveras,Golden Gate,6/12/1979,6/13/1979,CDF,1310,0,BG,Smoking,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tuolumne-Calaveras,Peoria Mtn.,6/16/1979,6/16/1979,CDF,450,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tuolumne-Calaveras,Parker #2,9/14/1979,9/16/1979,CDF,2075,0,WB,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,IV,Tuolumne-Calaveras,Ltng. Strike #2,9/24/1979,9/27/1979,CDF,425,0,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Kaupp,5/18/1979,5/19/1979,CDF,1788,0,BG,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Llanda,5/30/1979,5/31/1979,CDF,587,0,WBG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Maggini,7/3/1979,7/3/1979,CDF,580,0,WBG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,P.G. & E. #10,7/16/1979,7/17/1979,CDF,2184,0,WBAP,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Thomason #2,7/18/1979,7/18/1979,CDF,1580,0,WGAP,Equip. Use,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Morazolli,7/18/1979,7/18/1979,CDF,469,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Hernandez,8/3/1979,8/3/1979,CDF,765,0,WB,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Benito-Monterey,Oil Well Canyon,10/29/1979,10/29/1979,CDF,584,0,BG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,Elkhorn Rd.,6/5/1979,6/5/1979,CDF,1578,0,G,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,Crocker,7/28/1979,7/28/1979,CDF,2262,0,G,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,Silver Spur,8/7/1979,8/7/1979,CDF,300,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,Spanish Ranch,8/15/1979,8/16/1979,CDF,930,0,B,Equip. Use,,4,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,Parkhill,8/27/1979,8/29/1979,CDF,1985,240,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,River Road,9/9/1979,9/10/1979,CDF,625,125,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,San Luis Obispo,Tar Springs #2,9/15/1979,9/17/1979,CDF,1500,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,V,Santa Clara,Langdon,5/14/1979,5/14/1979,CDF,2872,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Orange,Ortega #2,9/15/1979,9/16/1979,CDF,750,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Orange,Laguna,12/11/1979,12/12/1979,CDF,400,150,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Truelson,5/12/1979,5/13/1979,CDF,946,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Morongo #14,5/31/1979,5/31/1979,CDF,1279,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Morongo #21,6/3/1979,6/9/1979,CDF,3205,245,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Joshua Tree,6/4/1979,6/4/1979,NPS,0,600,BG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Whitewater,6/9/1979,6/10/1979,CDF,1664,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Double Butte #2,6/13/1979,6/13/1979,CDF,850,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Brown,6/26/1979,6/26/1979,CDF,718,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,North,6/26/1979,6/28/1979,CDF,3200,0,B,Arson,7,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Bautista,6/26/1979,6/28/1979,CDF,600,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Reche,6/28/1979,6/29/1979,CDF,300,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Russell,7/3/1979,7/4/1979,CDF,465,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Skinner,7/6/1979,7/6/1979,CDF,495,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Sage,7/8/1979,7/9/1979,CDF,320,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Steele,7/9/1979,7/10/1979,CDF,300,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Calvert,7/9/1979,7/9/1979,CDF,576,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Cleveland NF,Randolph,7/17/1979,7/17/1979,USFS,0,400,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Butte,7/29/1979,7/29/1979,CDF,686,0,BG,Arson,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Morongo #54,8/2/1979,8/2/1979,CDF,550,0,B,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Rawson,8/18/1979,8/19/1979,CDF,794,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Burro/Moe 59,8/23/1979,8/23/1979,CDF,1545,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Hall,8/25/1979,8/25/1979,CDF,350,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Olive,9/3/1979,9/3/1979,CDF,603,0,B,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Rancho,9/13/1979,9/13/1979,CDF,500,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Paseo,9/15/1979,9/15/1979,CDF,3700,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Riverside,Cherry,9/15/1979,9/15/1979,CDF,625,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Sierra,6/9/1979,6/10/1979,CDF,300,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Hesperia,6/14/1979,6/14/1979,CDF,1525,0,BG,Arson,20,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Sierra Series,6/27/1979,6/27/1979,CDF,1500,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Oak Springs,7/9/1979,7/10/1979,CDF,6066,0,WBG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Live Oak,7/12/1979,7/12/0197,CDF,350,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino NF,Ruddell,7/26/1979,7/26/1979,USFS,0,750,TBG,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Santa Ana,9/16/1979,9/16/1979,CDF,1864,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Bernardino,Yucca Loma,11/5/1979,11/6/1979,BLM,3000,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Vesper,6/9/1979,6/10/1979,CDF,450,0,BAP,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Assist #61,6/28/1979,6/28/1979,MIL,0,15000,G,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Cottonwood,6/29/1979,7/2/1979,CDF,485,0,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Hanson,7/26/1979,7/26/1979,CDF,580,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Campo,9/10/1979,9/11/1979,CDF,320,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Highland,9/11/1979,9/11/1979,CDF,340,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Bernardo,9/15/1979,9/15/1979,CDF,1050,7050,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,San Diego,Otay #20,9/19/1979,9/22/1979,CDF,5550,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Cleveland NF,Hauser,7/10/1979,7/15/1979,USFS,0,681,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1979,VI,Los Angeles County,Wayside,7/18/1979,7/18/1979,CC,0,2530,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA

@@ -1,0 +1,61 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Damaged_structures,Firefighter_fatalities,Civilian_fatalities,Incident_number,Ranger_unit2,National_forest,County,County2,County3,DPA2,Fire_name2
+1983,I,Lake-Napa,Basalt,6/13/1981,6/14/1981,CDF,700,0,WBG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,Atlas Peak,6/22/1981,6/23/1981,CDF,23000,0,TWBGAP,Arson,69,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,Grizzly,7/26/1981,7/28/1981,CDF,4392,0,WBG,Arson,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Mendocino NF,Hunter,8/9/1981,8/11/1981,USFS,1810,130,TBW,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,Sulphur Bank,8/9/1981,8/11/1981,CDF,2300,0,WBG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,Langs Peak,8/9/1981,8/12/1981,CDF,14660,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,School Teacher Hill,9/20/1981,9/20/1981,CDF,493,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Mendocino,Cow Mountain,8/8/1981,8/12/1981,CDF,25534,0,WBG,Arson,4,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Mendocino,Cooley,9/4/1981,9/5/1981,CDF,500,0,BG,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Plumas NF,Sloat,7/21/1981,7/21/1981,USFS,0,850,T,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Plumas NF,Ingalls,9/17/1981,9/24/1981,USFS,0,5995,T,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Lassen-Modoc,Rice Canyon Road,8/12/1981,8/13/1981,CDF,8,292,TBG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Lassen-Modoc,Lightning #6,8/17/1981,8/18/1981,CDF,750,0,WBG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Lassen-Modoc,Lightning #25,8/17/1981,8/18/1981,CDF,690,0,BG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Lassen-Modoc,Webber,8/18/1981,8/18/1981,CDF,1290,0,BG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Modoc NF,East,9/17/1981,9/20/1981,USFS,0,540,T,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Modoc NF,Likely,9/18/1981,9/22/1981,USFS,0,525,T,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Amador-El Dorado,Meiss,6/14/1981,6/14/1981,CDF,13200,0,WBG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Amador-El Dorado,Joerger Series,6/18/1981,6/18/1981,CDF,2305,0,WG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,El Dorado NF,Wrights,8/8/1981,8/12/1981,USFS,0,3600,T,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Sierra NF,USFS #5,8/28/1981,8/30/1981,USFS,0,1300,BG,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Madera-Mariposa,Yosemite Lakes,7/4/1981,7/5/1981,CDF,400,0,W,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Madera-Mariposa,Granite Springs,7/15/1981,7/15/1981,CDF,590,0,TBG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Tulare,Round Valley,6/19/1981,6/20/1981,CDF,3600,0,G,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Kern CC,Nellie Dent,7/15/1981,7/16/1981,CC,0,1441,BG,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Kern CC,St. Elmo,8/24/1981,8/25/1981,CC,0,400,BG,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Kern CC,Flat,8/27/1981,8/30/1981,CC,0,1500,G,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Kern CC,Young,9/1/1981,9/3/1981,CC,0,1400,BG,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Tuolumne-Calaveras,Buchanan,8/8/1981,8/10/1981,CDF,706,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,San Benito-Monterey,Horse Valley,6/16/1981,6/16/1981,CDF,3755,0,WBGAP,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Los Padres NF,Gamboa #1,6/25/1981,7/1/1981,USFS,0,3620,BG,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Los Padres NF,Herbert,7/14/1981,7/14/1981,CDF,2045,15,GAP,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,San Luis Obispo,Washburn Ranch,6/11/1981,6/11/1981,CDF,2880,0,BGAP,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Santa Barbara,Rey Fire,9/22/1981,9/25/1981,CDF,0,1818,BG,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Los Padres NF,Gay,10/21/1981,10/24/1981,USFS,1015,375,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Santa Clara,Black Hawk,7/14/1981,7/16/1981,CDF,2400,0,WBG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Owens Valley,Springs,2/24/1981,2/25/1981,CDF,1200,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Inyo NF,Swall,8/9/1981,8/12/1681,USFS,80,1820,TB,Play W/Fire,3,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Spruce,6/4/1981,6/4/1981,CDF,1030,0,B,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Cottonwood,6/15/1981,6/16/1981,CDF,1300,0,B,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Barber,6/15/1981,6/17/1981,CDF,11460,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Murrieta,6/15/1981,6/17/1981,CDF,8544,0,BGAP,Arson,2,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Reche,6/17/1981,6/18/1981,CDF,2000,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Dawson,6/17/1981,6/17/1981,CDF,6400,0,B,Smoking,2,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Dawson #2,6/28/1981,6/28/1981,CDF,450,0,B,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Goetz,7/4/1981,7/4/1981,CDF,1000,0,BAP,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Morongo #28 & 29,8/4/1981,8/5/1981,CDF,300,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Rancho,8/22/1981,8/22/1981,CDF,1440,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Bernardino NF,Center,8/28/1981,8/29/1981,USFS,0,1700,BG,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Cawston,9/13/1981,9/13/1981,CDF,475,20,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Bernardino,Colton,6/4/1981,6/5/1981,CDF,2500,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Bernardino,Euclid,10/31/1981,10/31/1981,CDF,700,0,G,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Los Angeles & Ventura,Oat Mountain,10/31/1981,11/1/1981,CC,0,17500,BGW,Equip. Use,9,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Montezuma,5/2/1981,5/3/1981,CDF,400,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Outside Origin #1,6/15/1981,6/17/1981,CITY,3025,850,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Proctor #1,6/21/1981,6/21/1981,CDF,355,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Otay #4,6/25/1981,6/27/1981,CDF,400,0,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Moreno,7/3/1981,7/3/1981,CDF,3108,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Culp,7/28/1981,7/28/1981,CDF,1045,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Featherstone,9/14/1981,9/15/1981,CDF,403,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA

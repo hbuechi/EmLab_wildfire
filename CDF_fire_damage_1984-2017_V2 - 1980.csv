@@ -1,0 +1,70 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Firefighter_fatalities,Damaged_structures,Civilian_fatalities,Incident_number,Ranger_unit2,National_forest,County,County2,County3,DPA2,Fire_name2
+1980,I,Humboldt-Del Norte,Mann,8/2/1980,8/2/1980,CDF,950,0,TBG,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,I,Humboldt-Del Norte,Jaunarena,10/2/1980,10/3/1980,CDF,347,0,TBG,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,I,Humboldt-Del Norte,Capetown Series,10/8/1980,10/8/1980,CDF,505,0,TBG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,I,Lake-Napa,Highland Springs,10/7/1980,10/8/1980,CDF,650,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,I,Mendocino,Whipple,10/7/1980,10/7/1980,CDF,450,0,TWBG,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,I,Sonoma,Gehricke,10/3/1980,10/4/1980,CDF,644,0,TWBG,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Nevada-Yuba-Placer,Dog Bar,10/7/1980,10/7/1980,CDF,360,0,TWB,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Shasta-Trinity,Towerhouse,8/13/1980,8/15/1980,CDF,2349,0,B,Arson,3,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Siskiyou,Andesite,4/13/1980,4/14/1980,CDF,590,0,TB,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Siskiyou,Lightning Series,7/28/1980,7/30/1980,CDF,540,0,TBG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Tehama-Glenn,Big Antelope,6/27/1980,6/28/1980,CDF,600,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Tehama-Glenn,Rockwall,7/28/1980,7/28/1980,CDF,1670,0,W,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,II,Tehama-Glenn,Campo Airstrip,7/28/1980,7/28/1980,CDF,300,0,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,IV,Amador-El Dorado,Michigan Bar,7/29/1980,7/30/1980,CDF,755,0,BG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,San Benito-Monterey,Buckridge,8/8/1980,8/9/1980,CDF,560,40,WBG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,San Benito-Monterey,Reasons,8/21/1980,8/21/1980,CDF,585,0,WBAP,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,San Benito-Monterey,Shirtail,9/23/1980,9/24/1980,CDF,2060,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,San Mateo-Santa Cruz,Big Basin #7,11/16/1980,11/19/1980,CDF,335,0,TB,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,Santa Clara,Del Puerto Canyon,7/30/1980,7/31/1980,CDF,1400,0,WBG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,Santa Clara,Alhambra Series 1-7,8/8/1980,8/8/1980,CDF,523,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,V,Santa Clara,Wheel,10/10/1980,10/10/1980,CDF,1500,0,BGAP,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Link,6/21/1980,6/22/1980,CDF,725,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Scenic,6/29/1980,6/30/1980,CDF,650,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Box,7/13/1980,7/14/1980,CDF,800,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Dell,7/20/1980,7/20/1980,CDF,496,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Lavida,7/27/1980,7/29/1980,USFS,300,8000,B,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Riverside,7/28/1980,7/29/1980,CDF,500,0,B,Lightning,5,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Mission Creek,7/28/1980,7/31/1980,CDF,1250,0,BG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Dry Falls,8/26/1980,9/6/1980,CITY,22820,5835,B,Play W/Fire,6,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Horse,9/16/1980,9/18/1980,USFS,20,600,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Railroad,9/29/1980,9/29/1980,CDF,1200,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Tremont 1-4,10/2/1980,10/2/1980,CDF,309,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Owl,10/28/1980,10/30/1980,CDF,13293,0,G,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Turner,11/16/1980,11/20/1980,CDF,7500,20500,BGAP,Arson,7,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Lakeland Fire,11/25/1980,11/28/1980,CDF,8400,0,B,Arson,4,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,Riverside,Indian,11/24/1980,12/2/1980,CDF,1280,36920,BG,Arson,7,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Dagger,4/11/1980,4/14/1980,USFS,0,750,B,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Monroe,4/11/1980,4/14/1980,USFS,0,3000,B,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Providence,6/29/1980,6/29/1980,BLM,0,1200,TBG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Little Rock,7/4/1980,7/6/1980,USFS,0,1060,B,Fireworks,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Quarry,7/7/1980,7/7/1980,BLM,0,900,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Eaby,7/12/1980,7/12/1980,CDF,366,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Pipes,7/20/1980,7/22/1980,CDF,2070,0,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Kiowa,7/24/1980,7/25/1980,CDF,640,1600,B,Lightning,11,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Fairview,7/27/1980,7/30/1980,BLM,0,11140,G,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Almond,7/27/1980,7/29/1980,BLM,0,8250,G,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Coxey,7/28/1980,7/29/1980,USFS,0,355,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Powerline,7/30/1980,7/30/1980,CDF,700,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Skyline,8/29/1980,8/29/1980,CDF,570,0,B,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Dam,9/27/1980,9/29/1980,NF,0,5800,B,Other Rec.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Stoddard Series,9/28/1980,9/28/1980,CDF,350,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Jones,10/19/1980,10/20/1980,USFS,0,780,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Prado,10/27/1980,10/28/1980,CDF,1500,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Hill,10/28/1980,10/29/1980,CC,0,8700,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,South Mountain,10/29/1980,10/30/1980,CC,0,3600,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Stable,11/15/1980,11/19/1980,USFS,0,6066,B,Cooking Fire,65,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Windy,11/16/1980,11/17/1980,USFS,0,335,BT,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Thunder,11/24/1980,11/30/1980,USFS,0,11500,B,Equip. Use,29,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Panorama,11/24/1980,11/30/1980,USFS,125,23475,B,Arson,325,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Sycamore,11/24/1980,11/27/1980,CDF,195,2160,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Bernardino,Summit,11/25/1980,11/29/1980,CDF,2191,1406,B,Arson,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Salvador,7/4/1980,7/6/1980,CDF,2800,0,B,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Otay #6,7/19/1980,7/20/1980,CDF,3210,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Lightning Series,7/28/1980,8/3/1980,CDF,7436,0,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Assist #69,8/5/1980,8/5/1980,CITY,0,615,N/A,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Assist #73,8/10/1980,8/10/1980,CITY,0,350,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Assist #85,9/1/1980,9/2/1980,USFS,0,685,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Assist #138,11/25/1980,11/25/1980,CITY,0,800,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1980,VI,San Diego,Proctor,11/28/1980,11/30/1980,CDF,2434,0,BG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA

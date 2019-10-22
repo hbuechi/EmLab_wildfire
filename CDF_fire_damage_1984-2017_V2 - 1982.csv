@@ -1,0 +1,31 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Firefighter_fatalities,Damaged_structures,Civilian_fatalities,Incident_number,Ranger_unit2,National_forest,County,County2,County3,DPA2,Fire_name2
+1982,I,Six Rivers NF,Duzen,9/11/1982,9/13/1982,USFS,0,415,TB,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,I,Lake-Napa,Steele Canyon,9/11/1982,9/12/1982,CDF,600,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,I,Lake-Napa,Silverado,9/11/1982,9/14/1982,CDF,4130,0,TBGW,Misc.,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,II,Lassen-Modoc,Rave,9/9/1982,9/9/1982,BLM,0,3500,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,II,Shasta-Trinity,Chalk Reservoir,8/24/1982,8/26/1982,CDF,3800,0,WGB,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,II,Klamath NF,Five,7/21/1982,7/26/1982,NF,0,1800,TB,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Fresno-Kings,Johnson,5/16/1982,5/16/1982,CDF,1760,0,G,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Madera-Mariposa,Temperance Flat,7/31/1982,8/3/1982,CDF,7770,0,GB,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Kern County,Sheep's Trail,6/7/1982,N/A,CC,0,3029,N/A,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Tulare,Roble Lomas,9/13/1982,9/13/1982,CDF,725,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Kern County,Jury,7/25/1982,7/25/1982,CC,0,640,N/A,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Tulare,Oak Flat,8/23/1982,8/24/1982,CDF,310,0,G,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,IV,Tuolumne-Calaveras,Keystone,7/27/1982,7/29/1982,CDF,2778,0,GAP,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,V,San Benito-Monterey,P. G. & E. #13,7/27/1982,7/27/1982,CDF,825,0,WB,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,V,San Benito-Monterey,Cognina,9/8/1982,9/8/1982,CDF,2450,0,WBG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,V,San Benito-Monterey,Diablo Canyon,10/16/1982,10/18/1982,CDF,2200,0,GB,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,V,Santa Clara,Sweeny,9/6/1982,9/7/1982,CDF,1282,0,GB,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Riverside,Fox,8/9/1982,8/9/1982,CDF,550,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Riverside,Rawson,8/9/1982,8/10/1982,CDF,1277,0,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Riverside,Blaine,8/18/1982,8/19/1982,CDF,320,0,BG,Play W/Fire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Riverside,Village,8/20/1982,8/22/1982,USFS,2055,1295,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Orange County,Gypsum,10/9/1982,10/11/1982,CC,0,16800,B,Misc.,14,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,San Bernardino NF,Yuma,9/2/1982,9/3/1982,USFS,0,800,BG,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,San Bernardino,Stockton,9/23/1982,9/24/1982,USFS,0,450,BG,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Ventura County,Haul,10/8/1982,10/9/1982,CC,0,3000,BG,Arson,65,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,Ventura & Los Angeles,Dayton,10/9/1982,10/11/1982,CC,0,54000,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,San Diego,Tule,6/10/1982,6/12/1982,CDF,4321,0,BG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,San Diego,Bell Valley,8/19/1982,8/20/1982,CDF,562,31,B,Campfire,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,San Diego,Otay #9,10/11/1982,10/11/1982,CDF,782,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1982,VI,San Diego,Dulzura,10/23/1982,10/25/1982,CDF,5019,0,B,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA

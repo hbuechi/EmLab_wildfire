@@ -1,0 +1,32 @@
+Year,Region,Ranger_unit,Fire_name,Start,Contained,DPA,CDF_acres_burned,Other_acres_burned,Veg_type,Cause,Destroyed_structures,Firefighter_fatalities,Damaged_structures,Civilian_fatalities,Incident_number,Ranger_unit2,National_forest,County,County2,County3,DPA2,Fire_name2
+1983,I,Lake-Napa,Pope Canyon,7/10/1983,7/12/1983,CDF,1200,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,March #2,9/11/1983,9/12/1983,CDF,600,0,B,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,I,Lake-Napa,Morgan Valley,9/19/1983,9/20/1983,CDF,500,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Butte,Munjar,6/17/1983,6/17/1983,CDF,4220,0,GAP,Debris,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Butte,Skyway #3,7/14/1983,7/15/1983,CDF,502,0,B,Smoking,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,II,Butte,Hamlin Canyon,9/3/1983,9/4/1983,CDF,1860,0,BG,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Fresno-Kings,Lightning #4,8/30/1983,9/1/1983,CDF,7800,0,BG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Madera-Mariposa,Old Toll,7/12/1983,7/12/1983,CDF,600,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Madera-Mariposa,Lightning #7,8/31/1983,9/1/1983,CDF,750,0,WBG,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Tulare,Dry Creek,6/20/1983,6/21/1983,CDF,600,0,BG,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Kern County,Kern County #13,7/12/1983,7/12/1983,CC,0,3000,BG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,IV,Kern County,Kern County #18,7/22/1983,7/23/1983,CC,0,330,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,San Luis Obispo,Rotta,7/9/1983,7/9/1983,CDF,350,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Santa Clara,Del Valle P.G. & E.,7/12/1983,7/16/1983,CDF,4650,0,WBG,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,V,Santa Clara,Port Costa Series,8/7/1983,8/7/1983,CDF,325,0,WBG,Arson,10,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Owens Valley,Rovana,7/1/1983,7/1/1983,CDF,320,0,B,P/W/F,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Snow Creek Assist,5/25/1983,5/26/1983,CITY,75,4000,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Morongo #3,6/6/1983,6/6/1983,CDF,316,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Canyon,6/16/1983,6/16/1983,CDF,1160,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Fresno #2,7/12/1983,7/13/1983,CDF,700,0,B,Arson,1,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Fresno #3,7/13/1983,7/14/1983,CDF,900,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,McKinley,7/18/1983,7/18/1983,CDF,1612,0,G,P/W/F,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Banning,7/23/1983,7/25/1983,CDF,2990,0,B,Arson,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Riverside,Bedford,8/13/1983,8/13/1983,CDF,310,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,Los Padres NF,Matilija,7/9/1983,7/15/1983,USFS,0,4600,B,N/A,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Bernardino,Summit,9/4/1983,9/4/1983,CDF,1147,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Bernardino,White,9/24/1983,9/24/1983,CDF,530,0,B,Misc.,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Bernardino,Stoddard Series,7/7/1983,7/7/1983,LOCAL,0,1500,N/A,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Carrizo,6/18/1983,6/19/1983,CDF,647,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Euclid,7/13/1983,7/14/1983,CDF,517,0,B,Equip. Use,,,,,NA,NA,NA,NA,NA,NA,NA,NA
+1983,VI,San Diego,Marron,8/6/1983,8/7/1983,CDF,300,0,B,Lightning,,,,,NA,NA,NA,NA,NA,NA,NA,NA
