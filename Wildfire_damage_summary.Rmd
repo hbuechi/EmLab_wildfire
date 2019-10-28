@@ -1,0 +1,38 @@
+---
+title: "Wildfire Damage Summaries"
+author: "Hanna Buechi"
+date: "10/28/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r data_packages}
+
+library(tidyverse)
+library(readr)
+
+wildfire_damages <- read_csv("fire17_1_1979-2017_damage_TableToExcel.csv")
+
+```
+
+Descriptive statistics
+
+```{r sum_by_year}
+
+annual_damages <- wildfire_damages %>% 
+  group_by(YEAR_) %>% 
+  summarise(Structures = sum(Total_dama))
+
+annual_acres_survey <- wildfire_damages %>% 
+  group_by(YEAR_) %>% 
+  summarise(Acres = sum(Total_acre))
+
+annual_acres_shape <- wildfire_damages %>% 
+  group_by(YEAR_) %>% 
+  summarise(Acres = round(sum(GIS_ACRES), digits = 0))
+
+```
+
