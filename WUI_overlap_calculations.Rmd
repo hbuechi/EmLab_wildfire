@@ -83,5 +83,18 @@ structures_WUI10 <- WUI_fires_2010 %>%
 acres_WUI10 <- WUI_fires_2010 %>% 
   group_by(YEAR1) %>% 
   summarise(WUI_acres = sum(WUI_area))
+
+GIS_acres90 <- WUI_fires_1990 %>% 
+  group_by(YEAR1) %>% 
+  summarise(GIS_acres = sum(GIS_ACRES))
+
+GIS_acres00 <- WUI_fires_2000 %>% 
+  group_by(YEAR1) %>% 
+  summarise(GIS_acres = sum(GIS_ACRES))
+
+GIS_acres10 <- WUI_fires_2010 %>% 
+  group_by(YEAR1) %>% 
+  summarise(GIS_acres = sum(GIS_ACRES))
+
 ```
 
