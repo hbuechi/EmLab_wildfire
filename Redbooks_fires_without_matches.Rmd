@@ -1,0 +1,70 @@
+---
+title: "Finding Redbook fires without a match"
+author: "Hanna Buechi"
+date: "11/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Task: Identify fires from the Redbooks that I could not find a match for in the historical perimeter spatial data.
+
+```{r data_and_packages}
+
+library(tidyverse)
+calfire_data <- read_csv("calfire_data.csv",
+                         col_types = cols(
+                           National_forest = col_character() # specify how to classify National Forest column
+                         ))
+
+wildfire_damage <- read_csv(
+  "fire17_1_1979-2017_damage_final_AMENDED.csv",
+  col_types = cols(
+    DPA2_rb = col_character(), # specify how to classify these columns to avoid parsing errors
+    Inci_rb = col_character(),
+    County2_rb = col_character(),
+    CONT_DATE = col_date()
+  )
+)
+
+```
+
+###Step 1: Concatenate columns in the two datasets.
+This is better than matching by fire name because there are duplicate names for different fires. I tried a few combinations. Fire name, year, and ranger unit got me closest to the 508 fires I knew didn't match. Fire name and start date would have been the most specific, but the dates were in different formats between the two datasets and I was too lazy to deal with it.
+
+###Step 2: Subset the fires with Redbook matches from the historical perimeter dataset; check the number of fires in each "new" dataset.
+Total Redbook fires: 2,044
+Total spatial fires with RB match: 1,536 --> 508 RB fires didn't make it into the final, matched dataset
+
+###Step 3: Convert the concatenated column from wildfire_subset_cat into a list and filter the calfire_cat with that list.
+This is just one possibility for accomplishing my task. It makes a subsetted dataframe of calfire_cat of fires that matched. (I can think of a lot of other possibilities now, including removing the spatial data-related columns from wildfire_subset_cat and then performing an anti-join, but ¯\_(ツ)_/¯.)
+
+###Step 4: Compare the "fires that matched" dataframe against calfire_data
+My fires anti-join! This makes the dataframe of un-matched Redbook fires that will be my final CSV to upload to TNC_wildfire Box, just for future reference.
+
+```{r redbook_spatial_match}
+
+# Steps 1 & 2: Concatenate columns and subset spatial data
+calfire_cat <- calfire_data %>%
+  unite(Firename_year, FIRE_NAME, Year, Ranger_unit, remove = F)
+  
+wildfire_subset_cat <- wildfire_damage %>%
+  filter(!is.na(Fire_rb)) %>% # new dataframe with fires that matched, aka. *have* a Redbook fire name =)
+  unite(Firename_year, Fire_rb, Year, Ranger_rb, remove = F)
+
+# Step 3
+spatial_fires <- c(wildfire_subset_cat$Firename_year) # use this to select from calfire_data
+
+fires_that_match <- calfire_cat %>% 
+  filter(Firename_year %in% spatial_fires) # Which "Firename_year" is in "spatial_fires"?
+
+#Step 4
+fires_that_dont_match <- anti_join(calfire_cat, fires_that_match)
+
+write_csv(fires_that_dont_match, path = "fires_that_dont_match.csv")
+
+```
+
+

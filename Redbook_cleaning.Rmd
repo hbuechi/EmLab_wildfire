@@ -9,24 +9,22 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-See Google document for notes and more details.
+See Google document for notes and more details: https://docs.google.com/document/d/1FLUtA51ho4nW5CKgt4DMQCBJFIL3fUAzCFjL5bojCOE/edit
 
-Plan:
+###Plan:
 
-1) Standardize column names by hand via in Google Drive
-3) Upload each csv to github folder
-2) Write for loop to add new columns (https://stackoverflow.com/questions/45857787/adding-column-if-it-does-not-exist)
-4) Bind all csv's together into a single dataframe (https://stackoverflow.com/questions/2851327/convert-a-list-of-data-frames-into-one-data-frame)
+1) Standardize column names by hand via in Google Drive: https://drive.google.com/open?id=1uph0UONuYxq34WErMYA9C2FJ8zHDI1FT1ltEbFn2VBY
+2) Upload CSV for each year to github folder: EmLab_wildfire
+3) Wrangle stuff
+4) Write for loop to add new columns (https://stackoverflow.com/questions/45857787/adding-column-if-it-does-not-exist)
+5) Bind all CSV's together into a single dataframe (https://stackoverflow.com/questions/2851327/convert-a-list-of-data-frames-into-one-data-frame)
 
-Wrangling single large dataframe:
+##Wrangling my single dataframe with all of the years:
 
 1) Change "Cal Fire" to "CDF" with recode()
 2) Standardize Veg_type
 3) Standardize Cause
       Tabulate "Cause" possibilities --> little table function (ESM 244 HW on my laptop) OR count(dataframe, "column heading")
-4)** Add column indicating (1) for Destroyed_structures may include damaged structures (ex. 2007, 2008a) - if/then by year
-5)** Add column indicating (1) for Firefighter_fatalities includes all known fatalities (only 1987)
-
 
 ```{r data_packages, message=FALSE}
 
@@ -36,75 +34,75 @@ library(plyr) # for rbind.fill()
 library(readr)
 library(lubridate)
 
-redbook_1979 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1979.csv")
-redbook_1980 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1980.csv")
-redbook_1981 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1981.csv")
-redbook_1982 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1982.csv")
-redbook_1983 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1983.csv")
-redbook_1984 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1984.csv")
-redbook_1985 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1985.csv")
-redbook_1986 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1986.csv")
-redbook_1987 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1987.csv")
-redbook_1988 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1988.csv")
-redbook_1989 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1989.csv")
-redbook_1990 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1990.csv")
-redbook_1991 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1991.csv")
-redbook_1992 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1992.csv")
-redbook_1993 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1993.csv")
-redbook_1994 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1994.csv")
-redbook_1995 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1995.csv")
-redbook_1996 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1996.csv")
-redbook_1997 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1997.csv")
-redbook_1998 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1998.csv")
-redbook_1999 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1999.csv")
-redbook_2000 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2000.csv")
-redbook_2001 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2001.csv")
-redbook_2002 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2002.csv")
-redbook_2003 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2003.csv")
-redbook_2004 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2004.csv")
-redbook_2005 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2005.csv")
-redbook_2006 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2006.csv")
-redbook_2007 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2007.csv")
-redbook_2008a <- read_csv("CDF_fire_damage_1984-2017_V2 - 2008.csv")
-redbook_2008b <- read_csv("CDF_fire_damage_1984-2017_V2 - 2008 non-CDF.csv")
-redbook_2009a <- read_csv("CDF_fire_damage_1984-2017_V2 - 2009.csv")
-redbook_2009b <- read_csv("CDF_fire_damage_1984-2017_V2 - 2009 non-CDF.csv")
-redbook_2010 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2010.csv")
-redbook_2011 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2011.csv")
-redbook_2012 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2012.csv")
-redbook_2013 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2013.csv")
-redbook_2014 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2014.csv")
-redbook_2015 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2015.csv")
-redbook_2016 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2016.csv")
-redbook_2017 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2017.csv")
-
-cdf_fire_perimeters <- read_csv("CDF_fire_perimeters_atttable.csv")
+rb1979 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1979.csv")
+rb1980 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1980.csv")
+rb1981 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1981.csv")
+rb1982 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1982.csv")
+rb1983 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1983.csv")
+rb1984 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1984.csv")
+rb1985 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1985.csv")
+rb1986 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1986.csv")
+rb1987 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1987.csv")
+rb1988 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1988.csv")
+rb1989 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1989.csv")
+rb1990 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1990.csv")
+rb1991 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1991.csv")
+rb1992 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1992.csv")
+rb1993 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1993.csv")
+rb1994 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1994.csv")
+rb1995 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1995.csv")
+rb1996 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1996.csv")
+rb1997 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1997.csv")
+rb1998 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1998.csv")
+rb1999 <- read_csv("CDF_fire_damage_1984-2017_V2 - 1999.csv")
+rb2000 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2000.csv")
+rb2001 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2001.csv")
+rb2002 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2002.csv")
+rb2003 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2003.csv")
+rb2004 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2004.csv")
+rb2005 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2005.csv")
+rb2006 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2006.csv")
+rb2007 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2007.csv")
+rb2008a <- read_csv("CDF_fire_damage_1984-2017_V2 - 2008.csv")
+rb2008b <- read_csv("CDF_fire_damage_1984-2017_V2 - 2008 non-CDF.csv")
+rb2009a <- read_csv("CDF_fire_damage_1984-2017_V2 - 2009.csv")
+rb2009b <- read_csv("CDF_fire_damage_1984-2017_V2 - 2009 non-CDF.csv")
+rb2010 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2010.csv")
+rb2011 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2011.csv")
+rb2012 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2012.csv")
+rb2013 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2013.csv")
+rb2014 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2014.csv")
+rb2015 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2015.csv")
+rb2016 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2016.csv")
+rb2017 <- read_csv("CDF_fire_damage_1984-2017_V2 - 2017.csv")
 
 ```
 
+###Add columns where needed
 ```{r add_column_loop}
 
-# I need to add columns to most, if not all, of the Cal Fire dataframes so that they can be bound together into a single dataframe
+# I need to add columns to most, if not all, of the Cal Fire dataframes so that they can be bound together into a single dataframe. Thanks, Stack Overflow, for the code!
 
-list <- list(redbook_1979, redbook_1980, redbook_1981, redbook_1982, redbook_1983, redbook_1984, redbook_1985, redbook_1986, redbook_1987, redbook_1988, redbook_1989, redbook_1990, redbook_1991, redbook_1992, redbook_1993, redbook_1994, redbook_1995, redbook_1996, redbook_1997, redbook_1998, redbook_1999, redbook_2000, redbook_2001, redbook_2002, redbook_2003, redbook_2004, redbook_2005, redbook_2006, redbook_2007, redbook_2008a, redbook_2008b, redbook_2009a, redbook_2009b, redbook_2010, redbook_2011, redbook_2012, redbook_2013, redbook_2014, redbook_2015, redbook_2016, redbook_2017) # list of dfs for the for loop
+list <- list(redbook_1979, redbook_1980, redbook_1981, redbook_1982, redbook_1983, redbook_1984, redbook_1985, redbook_1986, redbook_1987, redbook_1988, redbook_1989, redbook_1990, redbook_1991, redbook_1992, redbook_1993, redbook_1994, redbook_1995, redbook_1996, redbook_1997, redbook_1998, redbook_1999, redbook_2000, redbook_2001, redbook_2002, redbook_2003, redbook_2004, redbook_2005, redbook_2006, redbook_2007, redbook_2008a, redbook_2008b, redbook_2009a, redbook_2009b, redbook_2010, redbook_2011, redbook_2012, redbook_2013, redbook_2014, redbook_2015, redbook_2016, redbook_2017) # list of dfs for the forloop
 
-cols <- c(Incident_number = NA_real_, Region = NA_real_, Ranger_unit = NA_real_, Ranger_unit2 = NA_real_, National_forest = NA_character_, County = NA_real_, County2 = NA_real_, County3 = NA_real_, Fire_name2 = NA_real_, DPA = NA_real_, DPA2 = NA_real_, CDF_acres_burned = NA_real_, Other_acres_burned = NA_real_, Veg_type = NA_real_, Cause = NA_real_, Destroyed_structures = NA_integer_, Damaged_structures = NA_integer_, Firefighter_fatalities = NA_real_, Civilian_fatalities = NA_real_, Start = NA_real_, Contained = NA_real_) # vector of column headings to be populated with NAs if they are being added
+cols <- c(Incident_number = NA_real_, Region = NA_real_, Ranger_unit = NA_real_, Ranger_unit2 = NA_real_, National_forest = NA_character_, County = NA_real_, County2 = NA_real_, County3 = NA_real_, Fire_name2 = NA_real_, DPA = NA_real_, DPA2 = NA_real_, CDF_acres_burned = NA_real_, Other_acres_burned = NA_real_, Veg_type = NA_real_, Cause = NA_real_, Destroyed_structures = NA_integer_, Damaged_structures = NA_integer_, Firefighter_fatalities = NA_real_, Civilian_fatalities = NA_real_, Start = NA_real_, Contained = NA_real_) 
+# vector of column headings to be populated with NAs if they are being added
 
 for (i in 1:length(list)){
  list[[i]] <- add_column(list[[i]], !!!cols[!names(cols) %in% names(list[[i]])])
-}
+} # looped-de-loop!
 
 calfire_data <- rbind.fill(list) # binds the list of dataframes together
 
-#write_csv(calfire_data, path = "calfire_data.csv") # check to make sure it looks good in Excel (easier to scroll quickly)
-
 ```
 
-```{r classes}
+###Wrangle stuff
+```{r check_classes_of_columns}
 
 #lapply(calfire_data, class) # check the class of each column in the dataframe and change as needed
+# belows are the changes that needed to be made
 
-calfire_data$Cause <- as.character(calfire_data$Cause) # this vector was logical...
+calfire_data$Cause <- as.character(calfire_data$Cause)
 calfire_data$CDF_acres_burned <- as.numeric(calfire_data$CDF_acres_burned)
 calfire_data$Other_acres_burned <- as.numeric(calfire_data$Other_acres_burned)
 calfire_data$Destroyed_structures <- as.numeric(calfire_data$Destroyed_structures)
@@ -119,13 +117,12 @@ calfire_data$Civilian_fatalities <- as.numeric(calfire_data$Civilian_fatalities)
 
 ```
 
-
-
+###Standardize vegetation type, cause
 ```{r standardize_veg_CDF}
 
-# check out all of the values for Veg_type and DPA, standardize as needed. I'm sure this could be made into shorter code, but I didn't now how. See Google Drive for metadata.
+# check out all of the values for Veg_type and DPA, standardize as needed. I'm sure this could be made into shorter code, but I didn't now how. See Google Drive for the veg type codes: https://drive.google.com/open?id=1XVDiNHeqq2jxiQqYmb657MMfjK9UIYU6PorzYV_QubY
 
-#unique(calfire_data$Veg_type)
+#unique(calfire_data$Veg_type) # shows me all of the possibilities so that I can copy and paste...
 #unique(calfire_data$DPA2)
 
 calfire_data <- calfire_data %>% 
@@ -154,13 +151,11 @@ calfire_data <- calfire_data %>%
   mutate(Veg_type=recode(Veg_type, "TGWAPB"="TGWAB")) %>%
   mutate(Veg_type=recode(Veg_type, "GAPB"="GAB"))
 
-# Figure out a way to do this by "connecting" two dfs
-
 ```
 
 ```{r standardize_cause}
 
-# same notes as above, but there are some causes that I haven't standardized yet. See list at the bottom of this chunk.
+# same notes as above, but there are some causes that I haven't standardized yet. See list at the bottom of this chunk...
 
 #unique(calfire_data$Cause)
 
@@ -208,111 +203,6 @@ calfire_data <- calfire_data %>%
   mutate(Cause=recode(Cause, "Playing with Fire"="Playing with fire"))
 
 # Rekindle debris? Equip. RR? Exposure? VMP Burn? UL? Rekindle? Control Burn? Hostile Fire? Escape Control? Debris Burning? Human? Structure? Debris, veg burn? Incediary? Open Outdoors? Miscellaneous Human? Misuse of Fire?
-  
-# Figure out a way to do this by "connecting" two dfs
-
-```
-
-```{r fire_names}
-
-# Check out the common fires.
-
-#cdf_fire_perimeters_1984 <- cdf_fire_perimeters %>% # attribute table from USGS Historic Fires shapefiles
- # filter(YEAR_ >= 1984) %>% # filtered to make it more similar to my Cal Fire dataset
-  #filter(GIS_ACRES >= 30)
-
-#cdf_fire_names <- calfire_data$Fire_name # 1764 obs
-#cdf_perim_fire_names <- cdf_fire_perimeters_1984$FIRE_NAME # 6101 obs
-
-#cdf_perim_fire_names <- toupper(cdf_perim_fire_names) # make both upper case in order to do joins and comparisons
-#cdf_fire_names <- toupper(cdf_fire_names)
-
-# print list of differences by comparing each dataset to the other separately
-
-#cdf_fire_diff <- setdiff(cdf_fire_names, cdf_perim_fire_names) # 551 in CDF that are not in USGS (20%: 551/1764)
-#cdf_perim_fire_diff <- setdiff(cdf_perim_fire_names, cdf_fire_names) # 2782 in USGS that are not in CDF (45%: 2782/6101)
-
-#cdf_fire_diff <- as.data.frame(cdf_fire_diff) # make the vectors into dataframes so that I can write to csv
-#cdf_perim_fire_diff <- as.data.frame(cdf_perim_fire_diff)
-
-#write_csv(cdf_fire_diff, path = "cdf_fire_diff.csv")
-#write_csv(cdf_perim_fire_diff, path = "cdf_perim_fire_diff.csv")
-
-# don't worry about matching more fires right now...
-
-# git stuff: https://jennybc.github.io/2014-05-12-ubc/ubc-r/session03_git.html
-
-# this is much easier to just do during the join in Arc because I can view the attribute table after the join and the common fires are highlighted, then I export that table and can play way more with it in R.
-
-```
-
-```{r prep_join}
-
-# upper case fire name to do join in Arc
-
-calfire_data$Fire_name <- toupper(calfire_data$Fire_name)
-calfire_data <- dplyr::rename(calfire_data, FIRE_NAME = Fire_name) # this didn't stay capitalized once I imported it to Arc, so I manually changed and saved it in Excel... Weird.
-
-write_csv(calfire_data, path = "calfire_data.csv")
-
-```
-
-```{r after_join}
-
-# I've done the join, now I want to explore *that* dataset a little bit
-
-#perimeters_with_damage_v1 <- read_csv("CDF_perimeters_with_damage_1984-2018.csv") # two parsing failures 2204, 2286
-
-# column names (mostly from damage data) were shortened during join
-# whatever for now
-
-# colnames(perimeters_with_damage_v1)
-
-#[1] "FID"        "OBJECTID"   "YEAR_"      "STATE"      "AGENCY"     "UNIT_ID"    "FIRE_NAME"  "INC_NUM"   
-#[9] "ALARM_DATE" "CONT_DATE"  "CAUSE"      "COMMENTS"   "REPORT_AC"  "GIS_ACRES"  "C_METHOD"   "OBJECTIVE" 
-#[17] "FIRE_NUM"   "Shape_Leng" "Shape_Area" "Year"       "Region"     "Ranger_uni" "Ranger_u_1" "FIRE_NAM_1"
-#[25] "Start"      "Contained"  "DPA"        "CDF_acres_" "Other_acre" "Veg_type"   "Cause_1"    "Destroyed_"
-#[33] "Incident_n" "National_f" "County"     "County2"    "County3"    "Fire_name2" "DPA2"       "Damaged_st"
-#[41] "Firefighte" "Civilian_f"
-
-```
-
-```{r data_explore}
-
-# total acres burned
-
-#sum(perimeters_with_damage_v1$GIS_ACRES) # 11,194,626 acres
-#sum(perimeters_with_damage_v1$Damaged_st)
-
-# GAAAAHHHHHHHHHHHHH THERE ARE DUPLICATE FIRE NAMES FROM THE SPATIAL DATA
-# Can I join based on fire name and year?
-# Possible solutions: https://community.esri.com/thread/7223
-# Concatenating fire name and year is probably the best...
-
-```
-
-```{r concatenating_calfire}
-
-# classify Start and Contained columns as dates - my issue earlier in the code was that I wasn't specifying the format so R turned all of the dates to NA)
-
-calfire_data$Start <- as.Date(calfire_data$Start, "%m/%d/%Y")
-calfire_data$Contained <- as.Date(calfire_data$Contained, "%m/%d/%Y")
-
-# new column with numeric month
-
-Start_month <- format(calfire_data$Start, "%m")
-calfire_data <- mutate(calfire_data, Start_month = Start_month)
-calfire_data$Start_month <- as.integer(calfire_data$Start_month) # get rid of leading 0's
-calfire_data <- calfire_data %>% 
-  dplyr::rename(Fire_year=Year)
-
-# concatenate into a fire name / year column AND fire name / year / month column
-
-calfire_concat <- calfire_data %>% 
-  unite(Firename_year, FIRE_NAME, Fire_year, remove = F) %>% 
-  unite(Fire_year_month, FIRE_NAME, Fire_year, Start_month, remove = F)
-
-write_csv(calfire_concat, path = "calfire_concat.csv")
 
 ```
 

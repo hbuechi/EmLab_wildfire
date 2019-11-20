@@ -15,48 +15,80 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(readr)
 
-wildfire_damages <- read_csv("fire17_1_1979-2017_damage_TableToExcel.csv")
-calfire_data <- read_csv("calfire_data.csv")
+wildfire_damage <- read_csv(
+  "fire17_1_1979-2017_damage_final_AMENDED.csv",
+  col_types = cols(
+    DPA2_rb = col_character(), # specify how to classify these columns to avoid parsing errors
+    Inci_rb = col_character(),
+    County2_rb = col_character(),
+    CONT_DATE = col_date()
+  )
+)
+
+calfire_data <- read_csv("calfire_data.csv",
+                         col_types = cols(
+                           National_forest = col_character(), # specify how to classify National Forest column
+                         County3 = col_character()
+                           ))
 
 ```
 
+This is just some data wrangling and calculation that I did to see how WUI acres burned have changed over time. The tables are on Google Drive: https://docs.google.com/spreadsheets/d/15gW4gl94YGtVGiYUpVTYFNVTwTKAsKfYnXu8cpIGpKQ/edit?usp=sharing.
+
 ```{r WUI_overlap_data}
 
+# These are the attribute tables from the shape files of WUI/fire overlap that I made in ArcGis. This includes *all* historic perimeter fires, not just the Redbook fires.
+
+# Fires from 1979 - 1995 overlapped with 1990 WUI
 WUI_fires_1990 <- read_csv("WUI90_7995_fires_TabletoExcel.csv")
 
+# Fires from 1996 - 2006 overlapped with 2000 WUI
 WUI_fires_2000 <- read_csv("WUI00_9606_fires_TabletoExcel.csv")
 
+# Fires from 2007 - 2017 overlapped with 2010 WUI
 WUI_fires_2010 <- read_csv("WUI10_0717_fires_TabletoExcel.csv")
 
 ```
 
+###WUI from 1979-1995: How many WUI acres burned by how many fires, and how much structural damage.
+Note that this includes the WUI acres burned of *all* fires in the spatial dataset, but we don't know the damage that comes from all of those, and we don't know if the damage happens in the WUI. And in retrospect, I don't know if all of these fires burned WUI...
+
+WUI acres burned: 313,047 acres
+Fires: 1,259
+Structures damaged: 3,097
 ```{r WUI_1990}
 
 sum(WUI_fires_1990$WUI_area) # 313,047 acres
-nrow(WUI_fires_1990) # 1259 fires
-
+nrow(WUI_fires_1990) # 1,259 fires
 sum(WUI_fires_1990$Total_dama) #3,097
-
 
 ```
 
+###WUI from 1996-2006:
+WUI acres burned: 219,926 acres
+Fires: 772
+Structures damaged: 8,740
 ```{r WUI_2000}
 
 sum(WUI_fires_2000$WUI_area) # 219,926 acres
 nrow(WUI_fires_2000) # 772 fires
-
 sum(WUI_fires_2000$Total_dama) # 8,740 structures
 
 ```
 
+###WUI in 2007-2017:
+WUI acres burned: 1,046,894 acres
+Fires: 3,181
+Structures damaged: 35,503
 ```{r WUI_2010}
 
 sum(WUI_fires_2010$WUI_area) # 1,046,894 acres
 nrow(WUI_fires_2010) # 3,181 fires
-
 sum(WUI_fires_2010$Total_dama) # 35,503 structures
 
 ```
+
+###Separate WUI stuff by year
 
 ```{r yearly_WUI}
 
