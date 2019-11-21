@@ -24,21 +24,65 @@ recent_damage <- read_csv(
     FIRENAME = col_character()
   ))
 
-recent_damage$INCIDENTST <- as.Date(recent_damage$INCIDENTST,'%m/%d/%y')
+recent_damage$INCIDENTST <- as.Date(recent_damage$INCIDENTST,'%m/%d/%Y') # captial Y means four-digit year
 
 ```
 
 ###Step 1: Filter out 2018
 ```{r filter_2018}
 
-YEAR <- year(recent_damage$INCIDENTST) # I know that this works...
-recent_damage <- recent_damage %>% # but this doesn't work
-  mutate(YEAR = YEAR)
-
-recent_damage <- recent_damage %>% # this doesn't work...
+recent_damage <- recent_damage %>% 
   mutate(YEAR = year(recent_damage$INCIDENTST))
 
-recent_damage$YEAR <- format(as.Date(recent_damage$INCIDENTST), formate = "%Y") # this doesn't work
+subset_2018 <- recent_damage %>% 
+  filter(YEAR == 2018)
 
 ```
+
+###Step 2: Figure out how many structures were damaged or destroyed
+
+####Step 2.1: How many structures are there total? How many fires and what are their names?
+
+Each row is a separate structure, and there are 17 types of structures that include things like single family homes, commercial multi-story, commercial single-story, mobile homes, schools, "miscellaneous utility structures", and hospital buildings. By far, the most damaged (in number) were single family single story (12,160 out of 28,388 total).
+
+There were 36 fires.
+```{r}
+
+# type of structures damaged in 2018
+
+types_2018 <- as.data.frame(table(subset_2018$STRUCTURET))
+total_2018 <- sum(types_2018$Freq) # 28,388 structures
+
+# the fires
+
+fires_2018 <- as.data.frame(table(subset_2018$INCIDENTNA)) # this tells me how many times each fire shows up, which actually means the number of buildings destroyed and damaged! But I need to separate into damaged and destroyed
+
+```
+
+####Step 2.2: Classify structures (aka. rows) as damaged or destroyed
+
+The "DAMAGE" column has XXX options: Affected (1-9%), Destroyed (>50%), Major (26-50%), Minor (10-25%), and No Damage. My gut says to classify Affected, Major, and Minor as "Damaged," Destroyed (duh) as "Destroyed," and to remove No Damage. Then, I should group by Incident Name and count the number of destroyed and damaged structures.
+
+```{r}
+
+# type of damage
+damtype_2018 <- as.data.frame(table(subset_2018$DAMAGE))
+
+# classify damage and destruction
+damage_2018 <- subset_2018 %>%
+  filter(DAMAGE != "No Damage") %>% 
+  mutate(DAMAGE_CLASS = ifelse(DAMAGE == "Affected (1-9%)", "Damaged",
+                               ifelse(DAMAGE == "Major (26-50%)", "Damaged",
+                                      ifelse(DAMAGE == "Minor (10-25%)", "Damaged", "Destroyed"))))
+
+```
+
+```{r}
+
+structures_2018 <- damage_2018 %>% # GOOD ENOUGH
+  group_by(INCIDENTNA) %>%
+  count(DAMAGE_CLASS)
+
+```
+
 
