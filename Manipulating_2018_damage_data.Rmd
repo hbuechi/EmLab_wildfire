@@ -1,0 +1,44 @@
+---
+title: "Manipulating 2018 Cal Fire damage data"
+author: "Hanna Buechi"
+date: "11/20/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is the data that Steve XXX at Cal Fire sent to me and Dick. It includes information about *each house* (!!!), down to the street number, that was damaged or destroyed in wildfires between 2013 and 2018. I just need the 2018 stuff.
+
+```{r data_packages}
+
+library(tidyverse)
+library(lubridate)
+
+recent_damage <- read_csv(
+  "DINS2013_2018_attributes.csv",
+  col_types = cols(
+    REPORTED = col_character(),
+    BATTALION = col_character(),
+    FIRENAME = col_character()
+  ))
+
+recent_damage$INCIDENTST <- as.Date(recent_damage$INCIDENTST,'%m/%d/%y')
+
+```
+
+###Step 1: Filter out 2018
+```{r filter_2018}
+
+YEAR <- year(recent_damage$INCIDENTST) # I know that this works...
+recent_damage <- recent_damage %>% # but this doesn't work
+  mutate(YEAR = YEAR)
+
+recent_damage <- recent_damage %>% # this doesn't work...
+  mutate(YEAR = year(recent_damage$INCIDENTST))
+
+recent_damage$YEAR <- format(as.Date(recent_damage$INCIDENTST), formate = "%Y") # this doesn't work
+
+```
+
