@@ -85,4 +85,36 @@ structures_2018 <- damage_2018 %>% # GOOD ENOUGH
 
 ```
 
+Any other data that I should add for the final CSV that's available in DINS?
+```{r}
+
+# Cal Fire Unit, County, Incident Number, Incident start date
+
+units_2018 <- damage_2018 %>% 
+  group_by(INCIDENTNA) %>%
+  summarize(unit = paste(sort(unique(CALFIREUNI)),collapse=", "))
+
+counties_2018 <- damage_2018 %>% 
+  group_by(INCIDENTNA) %>%
+  summarize(unit = paste(sort(unique(COUNTY)),collapse=", "))
+
+incinumber_2018 <- damage_2018 %>% 
+  group_by(INCIDENTNA) %>%
+  summarize(unit = paste(sort(unique(INCIDENTNU)),collapse=", "))
+
+start_2018 <- damage_2018 %>% 
+  group_by(INCIDENTNA) %>%
+  summarize(unit = paste(sort(unique(INCIDENTST)),collapse=", "))
+
+```
+
+
+###Step 3: Format like the other Redbook data
+
+I want to add this 2018 damage data to my final CSV (that will eventually be attached to the 2018 fire shapefiles), but first I need to run it through the same wrangling code to add columns, NAs, etc.
+```{r}
+
+
+
+```
 
