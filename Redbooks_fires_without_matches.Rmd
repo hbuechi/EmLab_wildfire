@@ -65,6 +65,8 @@ fires_that_dont_match <- anti_join(calfire_cat, fires_that_match)
 
 write_csv(fires_that_dont_match, path = "fires_that_dont_match.csv")
 
+# manually adding 2018 DINS fires that didn't match! Yay!
+
 ```
 
 
