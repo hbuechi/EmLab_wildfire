@@ -204,6 +204,8 @@ calfire_data <- calfire_data %>%
 
 # Rekindle debris? Equip. RR? Exposure? VMP Burn? UL? Rekindle? Control Burn? Hostile Fire? Escape Control? Debris Burning? Human? Structure? Debris, veg burn? Incediary? Open Outdoors? Miscellaneous Human? Misuse of Fire?
 
+write_csv(calfire_data, path = "calfire_data.csv")
+
 ```
 
 
